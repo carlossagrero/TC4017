@@ -1,5 +1,5 @@
 # TC4017 - Pruebas de Software y Aseguramiento de la Calidad
-## Tarea 4.2 - Programas Python con Análisis Estático
+## Tarea 4.2 - Ejercicio de programación 1
 
 **Autor:** Carlos Isaac Sagrero Campos - A01796826  
 **Fecha:** 7 de febrero de 2026
