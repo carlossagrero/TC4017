@@ -1,0 +1,3 @@
+Para construir software seguro es necesario comenzar desde la etapa de análisis. La definición de requisitos debe incluir objetivos claros relacionados con la protección de la información, el control de accesos y la resistencia ante ataques. Un error común es enfocarse únicamente en las funcionalidades visibles para el usuario y dejar la seguridad para después. Sin embargo, corregir vulnerabilidades al final suele ser más costoso y riesgoso que prevenirlas desde el inicio.
+
+Palabras finales de prueba a a a b b á ú ú

@@ -1,0 +1,3825 @@
+===== sábado,  7 de febrero de 2026, 13:02:56 CST =====
+>>> Ejecutando programa Python...
+
+>>> Ejecutando pylint...
+************* Module computeStatistics.py
+computeStatistics.py:1:0: F0001: No module named computeStatistics.py (fatal)
+===== sábado,  7 de febrero de 2026, 13:03:47 CST =====
+>>> Ejecutando programa Python...
+Error: caracter invalido en linea 1 posicion 74: 'á'
+Error: caracter invalido en linea 1 posicion 80: '.'
+Error: caracter invalido en linea 1 posicion 93: 'ó'
+Error: caracter invalido en linea 1 posicion 168: 'ó'
+Error: caracter invalido en linea 1 posicion 186: 'ó'
+Error: caracter invalido en linea 1 posicion 188: ','
+Error: caracter invalido en linea 1 posicion 241: '.'
+Error: caracter invalido en linea 1 posicion 255: 'ú'
+Error: caracter invalido en linea 1 posicion 271: 'ú'
+Error: caracter invalido en linea 1 posicion 361: 'é'
+Error: caracter invalido en linea 1 posicion 363: '.'
+Error: caracter invalido en linea 1 posicion 376: ','
+Error: caracter invalido en linea 1 posicion 424: 'á'
+Error: caracter invalido en linea 1 posicion 477: '.'
+Error: caracter invalido en linea 2 posicion 1: ' '
+Error: caracter invalido en linea 3 posicion 24: 'á'
+Error: caracter invalido en linea 3 posicion 49: 'í'
+Error: caracter invalido en linea 3 posicion 65: '.'
+Error: caracter invalido en linea 3 posicion 131: 'ú'
+Error: caracter invalido en linea 3 posicion 188: '.'
+Error: caracter invalido en linea 3 posicion 327: '.'
+Error: caracter invalido en linea 3 posicion 340: ','
+Error: caracter invalido en linea 3 posicion 394: ','
+Error: caracter invalido en linea 3 posicion 419: 'ó'
+Error: caracter invalido en linea 3 posicion 467: 'í'
+Error: caracter invalido en linea 3 posicion 499: 'ó'
+Error: caracter invalido en linea 3 posicion 501: '.'
+Error: caracter invalido en linea 3 posicion 568: '.'
+Error: caracter invalido en linea 4 posicion 1: ' '
+Error: caracter invalido en linea 5 posicion 15: 'ó'
+Error: caracter invalido en linea 5 posicion 40: '.'
+Error: caracter invalido en linea 5 posicion 143: '.'
+Error: caracter invalido en linea 5 posicion 188: 'ñ'
+Error: caracter invalido en linea 5 posicion 191: ','
+Error: caracter invalido en linea 5 posicion 233: '.'
+Error: caracter invalido en linea 5 posicion 255: 'í'
+Error: caracter invalido en linea 5 posicion 281: 'ñ'
+Error: caracter invalido en linea 5 posicion 291: ','
+Error: caracter invalido en linea 5 posicion 346: '.'
+Error: caracter invalido en linea 5 posicion 352: 'á'
+Error: caracter invalido en linea 5 posicion 354: ','
+Error: caracter invalido en linea 5 posicion 388: 'ó'
+Error: caracter invalido en linea 5 posicion 402: ','
+Error: caracter invalido en linea 5 posicion 453: '.'
+Error: caracter invalido en linea 5 posicion 469: 'ó'
+Error: caracter invalido en linea 5 posicion 516: ','
+Error: caracter invalido en linea 5 posicion 568: ','
+Error: caracter invalido en linea 5 posicion 579: 'ó'
+Error: caracter invalido en linea 5 posicion 614: '.'
+Error: caracter invalido en linea 6 posicion 1: ' '
+Error: caracter invalido en linea 7 posicion 14: 'ó'
+Error: caracter invalido en linea 7 posicion 65: 'é'
+Error: caracter invalido en linea 7 posicion 83: '.'
+Error: caracter invalido en linea 7 posicion 123: 'á'
+Error: caracter invalido en linea 7 posicion 128: ','
+Error: caracter invalido en linea 7 posicion 188: 'ó'
+Error: caracter invalido en linea 7 posicion 190: '.'
+Error: caracter invalido en linea 7 posicion 249: 'ó'
+Error: caracter invalido en linea 7 posicion 262: '.'
+Error: caracter invalido en linea 7 posicion 304: 'ó'
+Error: caracter invalido en linea 7 posicion 311: 'í'
+Error: caracter invalido en linea 7 posicion 337: '.'
+Error: caracter invalido en linea 7 posicion 370: 'á'
+Error: caracter invalido en linea 7 posicion 429: '.'
+Error: caracter invalido en linea 7 posicion 450: 'ó'
+Error: caracter invalido en linea 7 posicion 540: '.'
+Error: caracter invalido en linea 8 posicion 1: ' '
+Error: caracter invalido en linea 9 posicion 38: 'ó'
+Error: caracter invalido en linea 9 posicion 52: '.'
+Error: caracter invalido en linea 9 posicion 133: '.'
+Error: caracter invalido en linea 9 posicion 200: 'ñ'
+Error: caracter invalido en linea 9 posicion 230: '.'
+Error: caracter invalido en linea 9 posicion 272: 'ó'
+Error: caracter invalido en linea 9 posicion 278: ','
+Error: caracter invalido en linea 9 posicion 287: 'ó'
+Error: caracter invalido en linea 9 posicion 311: 'ó'
+Error: caracter invalido en linea 9 posicion 322: '.'
+Error: caracter invalido en linea 9 posicion 350: ','
+Error: caracter invalido en linea 9 posicion 400: 'ó'
+Error: caracter invalido en linea 9 posicion 402: ','
+Error: caracter invalido en linea 9 posicion 416: 'í'
+Error: caracter invalido en linea 9 posicion 515: '.'
+Error: caracter invalido en linea 9 posicion 522: 'é'
+Error: caracter invalido en linea 9 posicion 593: 'á'
+Error: caracter invalido en linea 9 posicion 635: '.'
+Error: caracter invalido en linea 10 posicion 1: ' '
+Error: caracter invalido en linea 11 posicion 47: 'ó'
+Error: caracter invalido en linea 11 posicion 70: 'á'
+Error: caracter invalido en linea 11 posicion 99: '.'
+Error: caracter invalido en linea 11 posicion 186: '.'
+Error: caracter invalido en linea 11 posicion 208: ','
+Error: caracter invalido en linea 11 posicion 219: 'ó'
+Error: caracter invalido en linea 11 posicion 235: 'ñ'
+Error: caracter invalido en linea 11 posicion 274: '.'
+Error: caracter invalido en linea 11 posicion 324: 'é'
+Error: caracter invalido en linea 11 posicion 379: '.'
+Error: caracter invalido en linea 11 posicion 385: 'á'
+Error: caracter invalido en linea 11 posicion 387: ','
+Error: caracter invalido en linea 11 posicion 503: '.'
+Error: caracter invalido en linea 12 posicion 1: ' '
+Error: caracter invalido en linea 13 posicion 9: 'ó'
+Error: caracter invalido en linea 13 posicion 28: 'é'
+Error: caracter invalido en linea 13 posicion 54: '.'
+Error: caracter invalido en linea 13 posicion 122: 'ó'
+Error: caracter invalido en linea 13 posicion 156: '.'
+Error: caracter invalido en linea 13 posicion 169: ','
+Error: caracter invalido en linea 13 posicion 298: '.'
+Error: caracter invalido en linea 13 posicion 344: 'é'
+Error: caracter invalido en linea 13 posicion 384: 'é'
+Error: caracter invalido en linea 13 posicion 398: 'á'
+Error: caracter invalido en linea 13 posicion 413: '.'
+Error: caracter invalido en linea 13 posicion 422: 'á'
+Error: caracter invalido en linea 13 posicion 445: ','
+Error: caracter invalido en linea 13 posicion 517: '.'
+Error: caracter invalido en linea 14 posicion 1: ' '
+Error: caracter invalido en linea 15 posicion 106: '.'
+Error: caracter invalido en linea 15 posicion 148: ','
+Error: caracter invalido en linea 15 posicion 167: ','
+Error: caracter invalido en linea 15 posicion 205: 'í'
+Error: caracter invalido en linea 15 posicion 211: '.'
+Error: caracter invalido en linea 15 posicion 224: ','
+Error: caracter invalido en linea 15 posicion 291: 'ó'
+Error: caracter invalido en linea 15 posicion 318: '.'
+Error: caracter invalido en linea 15 posicion 325: 'é'
+Error: caracter invalido en linea 15 posicion 388: ','
+Error: caracter invalido en linea 15 posicion 396: 'ú'
+Error: caracter invalido en linea 15 posicion 431: 'ó'
+Error: caracter invalido en linea 15 posicion 457: 'ó'
+Error: caracter invalido en linea 15 posicion 491: '.'
+Error: caracter invalido en linea 16 posicion 1: ' '
+Error: caracter invalido en linea 17 posicion 15: 'ó'
+Error: caracter invalido en linea 17 posicion 38: 'á'
+Error: caracter invalido en linea 17 posicion 54: '.'
+Error: caracter invalido en linea 17 posicion 101: 'í'
+Error: caracter invalido en linea 17 posicion 139: '.'
+Error: caracter invalido en linea 17 posicion 223: 'ó'
+Error: caracter invalido en linea 17 posicion 233: '.'
+Error: caracter invalido en linea 17 posicion 239: 'á'
+Error: caracter invalido en linea 17 posicion 241: ','
+Error: caracter invalido en linea 17 posicion 288: ','
+Error: caracter invalido en linea 17 posicion 297: 'á'
+Error: caracter invalido en linea 17 posicion 307: 'á'
+Error: caracter invalido en linea 17 posicion 317: 'ó'
+Error: caracter invalido en linea 17 posicion 322: ','
+Error: caracter invalido en linea 17 posicion 366: 'ó'
+Error: caracter invalido en linea 17 posicion 368: '.'
+Error: caracter invalido en linea 17 posicion 442: '.'
+Error: caracter invalido en linea 18 posicion 1: ' '
+Error: caracter invalido en linea 19 posicion 11: ','
+Error: caracter invalido en linea 19 posicion 62: '.'
+Error: caracter invalido en linea 19 posicion 111: ','
+Error: caracter invalido en linea 19 posicion 162: 'á'
+Error: caracter invalido en linea 19 posicion 169: ','
+Error: caracter invalido en linea 19 posicion 175: 'ñ'
+Error: caracter invalido en linea 19 posicion 212: 'ó'
+Error: caracter invalido en linea 19 posicion 214: '.'
+Error: caracter invalido en linea 19 posicion 271: ':'
+Error: caracter invalido en linea 19 posicion 282: ','
+Error: caracter invalido en linea 19 posicion 299: ','
+Error: caracter invalido en linea 19 posicion 326: '.'
+Error: caracter invalido en linea 19 posicion 368: ','
+Error: caracter invalido en linea 19 posicion 389: 'á'
+Error: caracter invalido en linea 19 posicion 401: ','
+Error: caracter invalido en linea 19 posicion 482: 'á'
+Error: caracter invalido en linea 19 posicion 493: '.'
+Word Count Results
+------------------
+para 13
+construir 1
+software 3
+seguro 3
+es 14
+necesario 1
+comenzar 1
+desde 4
+la 25
+etapa 1
+de 36
+anlisis 2
+definicin 1
+requisitos 1
+debe 9
+incluir 1
+objetivos 1
+claros 1
+relacionados 1
+con 6
+proteccin 1
+informacin 8
+el 20
+control 2
+accesos 3
+y 19
+resistencia 1
+ante 1
+ataques 4
+un 19
+error 3
+comn 1
+enfocarse 1
+nicamente 2
+en 18
+las 3
+funcionalidades 1
+visibles 1
+usuario 8
+dejar 1
+seguridad 5
+despus 2
+sin 3
+embargo 2
+corregir 1
+vulnerabilidades 3
+al 2
+final 1
+suele 1
+ser 3
+ms 4
+costoso 1
+riesgoso 1
+que 16
+prevenirlas 1
+inicio 2
+uno 1
+los 5
+principios 1
+importantes 2
+mnimo 1
+privilegio 1
+este 2
+principio 1
+establece 1
+o 12
+componente 1
+tener 2
+permisos 5
+necesarios 1
+realizar 2
+su 2
+tarea 1
+cuando 4
+se 14
+asignan 1
+excesivos 1
+incrementa 1
+superficie 1
+ataque 1
+facilita 1
+atacante 4
+obtenga 1
+sobre 3
+sistema 7
+por 7
+ejemplo 2
+si 2
+una 9
+cuenta 1
+normal 1
+tiene 2
+administrador 1
+aplicacin 2
+puede 8
+permitir 1
+alguien 1
+modifique 1
+datos 7
+crticos 1
+incluso 1
+borre 1
+eso 4
+recomendable 4
+definir 1
+roles 1
+separar 1
+responsabilidades 1
+autenticacin 3
+otro 2
+elemento 1
+clave 2
+proceso 1
+permite 1
+verificar 2
+identidad 2
+persona 1
+intenta 1
+acceder 3
+a 8
+recurso 1
+muchas 3
+aplicaciones 1
+utilizan 1
+contraseas 3
+pero 3
+no 6
+basta 1
+pedir 1
+simple 1
+deben 8
+aplicar 1
+polticas 1
+exijan 1
+largas 1
+combinaciones 1
+caracteres 2
+evitar 3
+palabras 1
+comunes 1
+adems 3
+usar 1
+multifactor 2
+ya 2
+reduce 1
+riesgo 1
+autorizados 1
+combina 1
+algo 3
+sabe 1
+como 7
+cdigo 2
+temporal 1
+huella 1
+digital 2
+autorizacin 1
+refiere 1
+lo 1
+hacer 1
+autenticarse 1
+vlida 1
+significa 1
+deba 1
+toda 1
+cada 2
+operacin 1
+importante 2
+fallas 2
+ocurren 1
+confa 1
+demasiado 1
+cliente 1
+modificar 1
+parmetros 1
+solicitud 1
+funciones 1
+restringidas 1
+validacin 2
+realizarse 2
+siempre 1
+del 4
+lado 1
+servidor 1
+depender 1
+controles 1
+interfaz 1
+punto 1
+fundamental 1
+entradas 1
+todo 2
+dato 1
+recibido 1
+exterior 1
+considerarse 1
+potencialmente 1
+peligroso 1
+enviar 1
+especiales 1
+estructuras 1
+diseadas 1
+manipular 1
+consultas 1
+esto 1
+provocar 1
+inyeccin 1
+sql 1
+ejecucin 1
+scripts 1
+corrupcin 1
+reducir 3
+estos 1
+riesgos 2
+recomienda 1
+validar 1
+formato 1
+establecer 2
+lmites 1
+longitud 1
+utilizar 2
+listas 2
+valores 2
+permitidos 1
+lugar 1
+prohibidos 1
+tambin 3
+codificar 1
+correctamente 1
+muestran 1
+pginas 1
+web 1
+tipo 1
+xss 1
+cifrado 1
+esencial 1
+proteger 1
+sensible 1
+tanto 1
+trnsito 1
+almacenamiento 2
+viajan 1
+internet 1
+protegerse 2
+protocolos 1
+seguros 2
+tls 1
+nunca 1
+guardarse 1
+texto 1
+plano 1
+algoritmos 1
+hash 1
+tcnicas 1
+salting 1
+fuerza 1
+bruta 1
+personales 1
+financieros 1
+cifrarse 1
+impacto 1
+base 1
+llega 1
+comprometida 1
+gestin 1
+errores 1
+influye 1
+muestra 1
+mensajes 2
+detallados 1
+revelar 1
+interna 1
+funcionamiento 1
+mostrar 2
+nombre 1
+exacto 1
+tabla 1
+archivo 1
+ayudar 1
+entender 1
+estructura 1
+genricos 1
+registrar 2
+detalles 1
+tcnicos 1
+bitcoras 2
+internas 1
+pueden 2
+contener 1
+sensibles 1
+pistas 1
+monitoreo 1
+registro 2
+eventos 1
+permiten 1
+detectar 2
+incidentes 1
+analizar 1
+comportamientos 1
+sospechosos 1
+intentos 2
+fallidos 1
+cambios 2
+operaciones 1
+crticas 1
+cuidado 1
+guardar 1
+confidencial 1
+innecesaria 1
+alertas 1
+patrones 1
+anormales 1
+mltiples 1
+sesin 1
+misma 1
+direccin 1
+repetidos 1
+actualizacin 1
+constante 1
+otra 1
+prctica 1
+necesaria 1
+originan 1
+libreras 1
+antiguas 1
+componentes 1
+soporte 1
+sistemas 1
+mantenerse 1
+actualizados 1
+dependencias 1
+revisarse 1
+peridicamente 1
+pruebas 2
+esttico 1
+revisiones 1
+manuales 1
+penetracin 1
+estas 1
+actividades 1
+ayudan 1
+descubrir 1
+antes 1
+sean 1
+explotadas 1
+finalmente 1
+esfuerzo 1
+continuo 1
+existe 1
+completamente 1
+invulnerable 1
+mediante 1
+buenas 1
+prcticas 1
+diseo 1
+adecuado 1
+cultura 1
+prevencin 1
+responsabilidad 1
+equipo 1
+analistas 1
+desarrolladores 1
+testers 1
+administradores 1
+trabaja 1
+enfoque 1
+preventivo 1
+logra 1
+confiable 1
+resistente 1
+preparado 1
+enfrentar 1
+amenazas 1
+entorno 1
+vez 1
+complejo 1
+------------------
+Tiempo_transcurrido_segundos 0.004677040968090296
+
+>>> Ejecutando pylint...
+************* Module wordCount
+wordCount.py:23:0: C0303: Trailing whitespace (trailing-whitespace)
+wordCount.py:230:0: C0304: Final newline missing (missing-final-newline)
+wordCount.py:52:7: R1714: Consider merging these comparisons with 'in' by using 'caracter in ('-', '_')'. Use a set instead if elements are hashable. (consider-using-in)
+
+-----------------------------------
+Your code has been rated at 9.75/10
+
+===== sábado,  7 de febrero de 2026, 13:07:53 CST =====
+>>> Ejecutando programa Python...
+Error: caracter invalido en linea 1 posicion 74: 'á'
+Error: caracter invalido en linea 1 posicion 80: '.'
+Error: caracter invalido en linea 1 posicion 93: 'ó'
+Error: caracter invalido en linea 1 posicion 168: 'ó'
+Error: caracter invalido en linea 1 posicion 186: 'ó'
+Error: caracter invalido en linea 1 posicion 188: ','
+Error: caracter invalido en linea 1 posicion 241: '.'
+Error: caracter invalido en linea 1 posicion 255: 'ú'
+Error: caracter invalido en linea 1 posicion 271: 'ú'
+Error: caracter invalido en linea 1 posicion 361: 'é'
+Error: caracter invalido en linea 1 posicion 363: '.'
+Error: caracter invalido en linea 1 posicion 376: ','
+Error: caracter invalido en linea 1 posicion 424: 'á'
+Error: caracter invalido en linea 1 posicion 477: '.'
+Error: caracter invalido en linea 2 posicion 1: ' '
+Error: caracter invalido en linea 3 posicion 24: 'á'
+Error: caracter invalido en linea 3 posicion 49: 'í'
+Error: caracter invalido en linea 3 posicion 65: '.'
+Error: caracter invalido en linea 3 posicion 131: 'ú'
+Error: caracter invalido en linea 3 posicion 188: '.'
+Error: caracter invalido en linea 3 posicion 327: '.'
+Error: caracter invalido en linea 3 posicion 340: ','
+Error: caracter invalido en linea 3 posicion 394: ','
+Error: caracter invalido en linea 3 posicion 419: 'ó'
+Error: caracter invalido en linea 3 posicion 467: 'í'
+Error: caracter invalido en linea 3 posicion 499: 'ó'
+Error: caracter invalido en linea 3 posicion 501: '.'
+Error: caracter invalido en linea 3 posicion 568: '.'
+Error: caracter invalido en linea 4 posicion 1: ' '
+Error: caracter invalido en linea 5 posicion 15: 'ó'
+Error: caracter invalido en linea 5 posicion 40: '.'
+Error: caracter invalido en linea 5 posicion 143: '.'
+Error: caracter invalido en linea 5 posicion 188: 'ñ'
+Error: caracter invalido en linea 5 posicion 191: ','
+Error: caracter invalido en linea 5 posicion 233: '.'
+Error: caracter invalido en linea 5 posicion 255: 'í'
+Error: caracter invalido en linea 5 posicion 281: 'ñ'
+Error: caracter invalido en linea 5 posicion 291: ','
+Error: caracter invalido en linea 5 posicion 346: '.'
+Error: caracter invalido en linea 5 posicion 352: 'á'
+Error: caracter invalido en linea 5 posicion 354: ','
+Error: caracter invalido en linea 5 posicion 388: 'ó'
+Error: caracter invalido en linea 5 posicion 402: ','
+Error: caracter invalido en linea 5 posicion 453: '.'
+Error: caracter invalido en linea 5 posicion 469: 'ó'
+Error: caracter invalido en linea 5 posicion 516: ','
+Error: caracter invalido en linea 5 posicion 568: ','
+Error: caracter invalido en linea 5 posicion 579: 'ó'
+Error: caracter invalido en linea 5 posicion 614: '.'
+Error: caracter invalido en linea 6 posicion 1: ' '
+Error: caracter invalido en linea 7 posicion 14: 'ó'
+Error: caracter invalido en linea 7 posicion 65: 'é'
+Error: caracter invalido en linea 7 posicion 83: '.'
+Error: caracter invalido en linea 7 posicion 123: 'á'
+Error: caracter invalido en linea 7 posicion 128: ','
+Error: caracter invalido en linea 7 posicion 188: 'ó'
+Error: caracter invalido en linea 7 posicion 190: '.'
+Error: caracter invalido en linea 7 posicion 249: 'ó'
+Error: caracter invalido en linea 7 posicion 262: '.'
+Error: caracter invalido en linea 7 posicion 304: 'ó'
+Error: caracter invalido en linea 7 posicion 311: 'í'
+Error: caracter invalido en linea 7 posicion 337: '.'
+Error: caracter invalido en linea 7 posicion 370: 'á'
+Error: caracter invalido en linea 7 posicion 429: '.'
+Error: caracter invalido en linea 7 posicion 450: 'ó'
+Error: caracter invalido en linea 7 posicion 540: '.'
+Error: caracter invalido en linea 8 posicion 1: ' '
+Error: caracter invalido en linea 9 posicion 38: 'ó'
+Error: caracter invalido en linea 9 posicion 52: '.'
+Error: caracter invalido en linea 9 posicion 133: '.'
+Error: caracter invalido en linea 9 posicion 200: 'ñ'
+Error: caracter invalido en linea 9 posicion 230: '.'
+Error: caracter invalido en linea 9 posicion 272: 'ó'
+Error: caracter invalido en linea 9 posicion 278: ','
+Error: caracter invalido en linea 9 posicion 287: 'ó'
+Error: caracter invalido en linea 9 posicion 311: 'ó'
+Error: caracter invalido en linea 9 posicion 322: '.'
+Error: caracter invalido en linea 9 posicion 350: ','
+Error: caracter invalido en linea 9 posicion 400: 'ó'
+Error: caracter invalido en linea 9 posicion 402: ','
+Error: caracter invalido en linea 9 posicion 416: 'í'
+Error: caracter invalido en linea 9 posicion 515: '.'
+Error: caracter invalido en linea 9 posicion 522: 'é'
+Error: caracter invalido en linea 9 posicion 593: 'á'
+Error: caracter invalido en linea 9 posicion 635: '.'
+Error: caracter invalido en linea 10 posicion 1: ' '
+Error: caracter invalido en linea 11 posicion 47: 'ó'
+Error: caracter invalido en linea 11 posicion 70: 'á'
+Error: caracter invalido en linea 11 posicion 99: '.'
+Error: caracter invalido en linea 11 posicion 186: '.'
+Error: caracter invalido en linea 11 posicion 208: ','
+Error: caracter invalido en linea 11 posicion 219: 'ó'
+Error: caracter invalido en linea 11 posicion 235: 'ñ'
+Error: caracter invalido en linea 11 posicion 274: '.'
+Error: caracter invalido en linea 11 posicion 324: 'é'
+Error: caracter invalido en linea 11 posicion 379: '.'
+Error: caracter invalido en linea 11 posicion 385: 'á'
+Error: caracter invalido en linea 11 posicion 387: ','
+Error: caracter invalido en linea 11 posicion 503: '.'
+Error: caracter invalido en linea 12 posicion 1: ' '
+Error: caracter invalido en linea 13 posicion 9: 'ó'
+Error: caracter invalido en linea 13 posicion 28: 'é'
+Error: caracter invalido en linea 13 posicion 54: '.'
+Error: caracter invalido en linea 13 posicion 122: 'ó'
+Error: caracter invalido en linea 13 posicion 156: '.'
+Error: caracter invalido en linea 13 posicion 169: ','
+Error: caracter invalido en linea 13 posicion 298: '.'
+Error: caracter invalido en linea 13 posicion 344: 'é'
+Error: caracter invalido en linea 13 posicion 384: 'é'
+Error: caracter invalido en linea 13 posicion 398: 'á'
+Error: caracter invalido en linea 13 posicion 413: '.'
+Error: caracter invalido en linea 13 posicion 422: 'á'
+Error: caracter invalido en linea 13 posicion 445: ','
+Error: caracter invalido en linea 13 posicion 517: '.'
+Error: caracter invalido en linea 14 posicion 1: ' '
+Error: caracter invalido en linea 15 posicion 106: '.'
+Error: caracter invalido en linea 15 posicion 148: ','
+Error: caracter invalido en linea 15 posicion 167: ','
+Error: caracter invalido en linea 15 posicion 205: 'í'
+Error: caracter invalido en linea 15 posicion 211: '.'
+Error: caracter invalido en linea 15 posicion 224: ','
+Error: caracter invalido en linea 15 posicion 291: 'ó'
+Error: caracter invalido en linea 15 posicion 318: '.'
+Error: caracter invalido en linea 15 posicion 325: 'é'
+Error: caracter invalido en linea 15 posicion 388: ','
+Error: caracter invalido en linea 15 posicion 396: 'ú'
+Error: caracter invalido en linea 15 posicion 431: 'ó'
+Error: caracter invalido en linea 15 posicion 457: 'ó'
+Error: caracter invalido en linea 15 posicion 491: '.'
+Error: caracter invalido en linea 16 posicion 1: ' '
+Error: caracter invalido en linea 17 posicion 15: 'ó'
+Error: caracter invalido en linea 17 posicion 38: 'á'
+Error: caracter invalido en linea 17 posicion 54: '.'
+Error: caracter invalido en linea 17 posicion 101: 'í'
+Error: caracter invalido en linea 17 posicion 139: '.'
+Error: caracter invalido en linea 17 posicion 223: 'ó'
+Error: caracter invalido en linea 17 posicion 233: '.'
+Error: caracter invalido en linea 17 posicion 239: 'á'
+Error: caracter invalido en linea 17 posicion 241: ','
+Error: caracter invalido en linea 17 posicion 288: ','
+Error: caracter invalido en linea 17 posicion 297: 'á'
+Error: caracter invalido en linea 17 posicion 307: 'á'
+Error: caracter invalido en linea 17 posicion 317: 'ó'
+Error: caracter invalido en linea 17 posicion 322: ','
+Error: caracter invalido en linea 17 posicion 366: 'ó'
+Error: caracter invalido en linea 17 posicion 368: '.'
+Error: caracter invalido en linea 17 posicion 442: '.'
+Error: caracter invalido en linea 18 posicion 1: ' '
+Error: caracter invalido en linea 19 posicion 11: ','
+Error: caracter invalido en linea 19 posicion 62: '.'
+Error: caracter invalido en linea 19 posicion 111: ','
+Error: caracter invalido en linea 19 posicion 162: 'á'
+Error: caracter invalido en linea 19 posicion 169: ','
+Error: caracter invalido en linea 19 posicion 175: 'ñ'
+Error: caracter invalido en linea 19 posicion 212: 'ó'
+Error: caracter invalido en linea 19 posicion 214: '.'
+Error: caracter invalido en linea 19 posicion 271: ':'
+Error: caracter invalido en linea 19 posicion 282: ','
+Error: caracter invalido en linea 19 posicion 299: ','
+Error: caracter invalido en linea 19 posicion 326: '.'
+Error: caracter invalido en linea 19 posicion 368: ','
+Error: caracter invalido en linea 19 posicion 389: 'á'
+Error: caracter invalido en linea 19 posicion 401: ','
+Error: caracter invalido en linea 19 posicion 482: 'á'
+Error: caracter invalido en linea 19 posicion 493: '.'
+Word Count Results
+------------------
+para 13
+construir 1
+software 3
+seguro 3
+es 14
+necesario 1
+comenzar 1
+desde 4
+la 25
+etapa 1
+de 36
+anlisis 2
+definicin 1
+requisitos 1
+debe 9
+incluir 1
+objetivos 1
+claros 1
+relacionados 1
+con 6
+proteccin 1
+informacin 8
+el 20
+control 2
+accesos 3
+y 19
+resistencia 1
+ante 1
+ataques 4
+un 19
+error 3
+comn 1
+enfocarse 1
+nicamente 2
+en 18
+las 3
+funcionalidades 1
+visibles 1
+usuario 8
+dejar 1
+seguridad 5
+despus 2
+sin 3
+embargo 2
+corregir 1
+vulnerabilidades 3
+al 2
+final 1
+suele 1
+ser 3
+ms 4
+costoso 1
+riesgoso 1
+que 16
+prevenirlas 1
+inicio 2
+uno 1
+los 5
+principios 1
+importantes 2
+mnimo 1
+privilegio 1
+este 2
+principio 1
+establece 1
+o 12
+componente 1
+tener 2
+permisos 5
+necesarios 1
+realizar 2
+su 2
+tarea 1
+cuando 4
+se 14
+asignan 1
+excesivos 1
+incrementa 1
+superficie 1
+ataque 1
+facilita 1
+atacante 4
+obtenga 1
+sobre 3
+sistema 7
+por 7
+ejemplo 2
+si 2
+una 9
+cuenta 1
+normal 1
+tiene 2
+administrador 1
+aplicacin 2
+puede 8
+permitir 1
+alguien 1
+modifique 1
+datos 7
+crticos 1
+incluso 1
+borre 1
+eso 4
+recomendable 4
+definir 1
+roles 1
+separar 1
+responsabilidades 1
+autenticacin 3
+otro 2
+elemento 1
+clave 2
+proceso 1
+permite 1
+verificar 2
+identidad 2
+persona 1
+intenta 1
+acceder 3
+a 8
+recurso 1
+muchas 3
+aplicaciones 1
+utilizan 1
+contraseas 3
+pero 3
+no 6
+basta 1
+pedir 1
+simple 1
+deben 8
+aplicar 1
+polticas 1
+exijan 1
+largas 1
+combinaciones 1
+caracteres 2
+evitar 3
+palabras 1
+comunes 1
+adems 3
+usar 1
+multifactor 2
+ya 2
+reduce 1
+riesgo 1
+autorizados 1
+combina 1
+algo 3
+sabe 1
+como 7
+cdigo 2
+temporal 1
+huella 1
+digital 2
+autorizacin 1
+refiere 1
+lo 1
+hacer 1
+autenticarse 1
+vlida 1
+significa 1
+deba 1
+toda 1
+cada 2
+operacin 1
+importante 2
+fallas 2
+ocurren 1
+confa 1
+demasiado 1
+cliente 1
+modificar 1
+parmetros 1
+solicitud 1
+funciones 1
+restringidas 1
+validacin 2
+realizarse 2
+siempre 1
+del 4
+lado 1
+servidor 1
+depender 1
+controles 1
+interfaz 1
+punto 1
+fundamental 1
+entradas 1
+todo 2
+dato 1
+recibido 1
+exterior 1
+considerarse 1
+potencialmente 1
+peligroso 1
+enviar 1
+especiales 1
+estructuras 1
+diseadas 1
+manipular 1
+consultas 1
+esto 1
+provocar 1
+inyeccin 1
+sql 1
+ejecucin 1
+scripts 1
+corrupcin 1
+reducir 3
+estos 1
+riesgos 2
+recomienda 1
+validar 1
+formato 1
+establecer 2
+lmites 1
+longitud 1
+utilizar 2
+listas 2
+valores 2
+permitidos 1
+lugar 1
+prohibidos 1
+tambin 3
+codificar 1
+correctamente 1
+muestran 1
+pginas 1
+web 1
+tipo 1
+xss 1
+cifrado 1
+esencial 1
+proteger 1
+sensible 1
+tanto 1
+trnsito 1
+almacenamiento 2
+viajan 1
+internet 1
+protegerse 2
+protocolos 1
+seguros 2
+tls 1
+nunca 1
+guardarse 1
+texto 1
+plano 1
+algoritmos 1
+hash 1
+tcnicas 1
+salting 1
+fuerza 1
+bruta 1
+personales 1
+financieros 1
+cifrarse 1
+impacto 1
+base 1
+llega 1
+comprometida 1
+gestin 1
+errores 1
+influye 1
+muestra 1
+mensajes 2
+detallados 1
+revelar 1
+interna 1
+funcionamiento 1
+mostrar 2
+nombre 1
+exacto 1
+tabla 1
+archivo 1
+ayudar 1
+entender 1
+estructura 1
+genricos 1
+registrar 2
+detalles 1
+tcnicos 1
+bitcoras 2
+internas 1
+pueden 2
+contener 1
+sensibles 1
+pistas 1
+monitoreo 1
+registro 2
+eventos 1
+permiten 1
+detectar 2
+incidentes 1
+analizar 1
+comportamientos 1
+sospechosos 1
+intentos 2
+fallidos 1
+cambios 2
+operaciones 1
+crticas 1
+cuidado 1
+guardar 1
+confidencial 1
+innecesaria 1
+alertas 1
+patrones 1
+anormales 1
+mltiples 1
+sesin 1
+misma 1
+direccin 1
+repetidos 1
+actualizacin 1
+constante 1
+otra 1
+prctica 1
+necesaria 1
+originan 1
+libreras 1
+antiguas 1
+componentes 1
+soporte 1
+sistemas 1
+mantenerse 1
+actualizados 1
+dependencias 1
+revisarse 1
+peridicamente 1
+pruebas 2
+esttico 1
+revisiones 1
+manuales 1
+penetracin 1
+estas 1
+actividades 1
+ayudan 1
+descubrir 1
+antes 1
+sean 1
+explotadas 1
+finalmente 1
+esfuerzo 1
+continuo 1
+existe 1
+completamente 1
+invulnerable 1
+mediante 1
+buenas 1
+prcticas 1
+diseo 1
+adecuado 1
+cultura 1
+prevencin 1
+responsabilidad 1
+equipo 1
+analistas 1
+desarrolladores 1
+testers 1
+administradores 1
+trabaja 1
+enfoque 1
+preventivo 1
+logra 1
+confiable 1
+resistente 1
+preparado 1
+enfrentar 1
+amenazas 1
+entorno 1
+vez 1
+complejo 1
+------------------
+Tiempo_transcurrido_segundos 0.0049154580337926745
+
+>>> Ejecutando pylint...
+************* Module wordCount
+wordCount.py:52:7: R1714: Consider merging these comparisons with 'in' by using 'caracter in ('-', '_')'. Use a set instead if elements are hashable. (consider-using-in)
+
+------------------------------------------------------------------
+Your code has been rated at 9.92/10 (previous run: 9.75/10, +0.16)
+
+===== sábado,  7 de febrero de 2026, 13:09:46 CST =====
+>>> Ejecutando programa Python...
+Error: caracter invalido en linea 1 posicion 74: 'á'
+Error: caracter invalido en linea 1 posicion 80: '.'
+Error: caracter invalido en linea 1 posicion 93: 'ó'
+Error: caracter invalido en linea 1 posicion 168: 'ó'
+Error: caracter invalido en linea 1 posicion 186: 'ó'
+Error: caracter invalido en linea 1 posicion 188: ','
+Error: caracter invalido en linea 1 posicion 241: '.'
+Error: caracter invalido en linea 1 posicion 255: 'ú'
+Error: caracter invalido en linea 1 posicion 271: 'ú'
+Error: caracter invalido en linea 1 posicion 361: 'é'
+Error: caracter invalido en linea 1 posicion 363: '.'
+Error: caracter invalido en linea 1 posicion 376: ','
+Error: caracter invalido en linea 1 posicion 424: 'á'
+Error: caracter invalido en linea 1 posicion 477: '.'
+Error: caracter invalido en linea 2 posicion 1: ' '
+Error: caracter invalido en linea 3 posicion 24: 'á'
+Error: caracter invalido en linea 3 posicion 49: 'í'
+Error: caracter invalido en linea 3 posicion 65: '.'
+Error: caracter invalido en linea 3 posicion 131: 'ú'
+Error: caracter invalido en linea 3 posicion 188: '.'
+Error: caracter invalido en linea 3 posicion 327: '.'
+Error: caracter invalido en linea 3 posicion 340: ','
+Error: caracter invalido en linea 3 posicion 394: ','
+Error: caracter invalido en linea 3 posicion 419: 'ó'
+Error: caracter invalido en linea 3 posicion 467: 'í'
+Error: caracter invalido en linea 3 posicion 499: 'ó'
+Error: caracter invalido en linea 3 posicion 501: '.'
+Error: caracter invalido en linea 3 posicion 568: '.'
+Error: caracter invalido en linea 4 posicion 1: ' '
+Error: caracter invalido en linea 5 posicion 15: 'ó'
+Error: caracter invalido en linea 5 posicion 40: '.'
+Error: caracter invalido en linea 5 posicion 143: '.'
+Error: caracter invalido en linea 5 posicion 188: 'ñ'
+Error: caracter invalido en linea 5 posicion 191: ','
+Error: caracter invalido en linea 5 posicion 233: '.'
+Error: caracter invalido en linea 5 posicion 255: 'í'
+Error: caracter invalido en linea 5 posicion 281: 'ñ'
+Error: caracter invalido en linea 5 posicion 291: ','
+Error: caracter invalido en linea 5 posicion 346: '.'
+Error: caracter invalido en linea 5 posicion 352: 'á'
+Error: caracter invalido en linea 5 posicion 354: ','
+Error: caracter invalido en linea 5 posicion 388: 'ó'
+Error: caracter invalido en linea 5 posicion 402: ','
+Error: caracter invalido en linea 5 posicion 453: '.'
+Error: caracter invalido en linea 5 posicion 469: 'ó'
+Error: caracter invalido en linea 5 posicion 516: ','
+Error: caracter invalido en linea 5 posicion 568: ','
+Error: caracter invalido en linea 5 posicion 579: 'ó'
+Error: caracter invalido en linea 5 posicion 614: '.'
+Error: caracter invalido en linea 6 posicion 1: ' '
+Error: caracter invalido en linea 7 posicion 14: 'ó'
+Error: caracter invalido en linea 7 posicion 65: 'é'
+Error: caracter invalido en linea 7 posicion 83: '.'
+Error: caracter invalido en linea 7 posicion 123: 'á'
+Error: caracter invalido en linea 7 posicion 128: ','
+Error: caracter invalido en linea 7 posicion 188: 'ó'
+Error: caracter invalido en linea 7 posicion 190: '.'
+Error: caracter invalido en linea 7 posicion 249: 'ó'
+Error: caracter invalido en linea 7 posicion 262: '.'
+Error: caracter invalido en linea 7 posicion 304: 'ó'
+Error: caracter invalido en linea 7 posicion 311: 'í'
+Error: caracter invalido en linea 7 posicion 337: '.'
+Error: caracter invalido en linea 7 posicion 370: 'á'
+Error: caracter invalido en linea 7 posicion 429: '.'
+Error: caracter invalido en linea 7 posicion 450: 'ó'
+Error: caracter invalido en linea 7 posicion 540: '.'
+Error: caracter invalido en linea 8 posicion 1: ' '
+Error: caracter invalido en linea 9 posicion 38: 'ó'
+Error: caracter invalido en linea 9 posicion 52: '.'
+Error: caracter invalido en linea 9 posicion 133: '.'
+Error: caracter invalido en linea 9 posicion 200: 'ñ'
+Error: caracter invalido en linea 9 posicion 230: '.'
+Error: caracter invalido en linea 9 posicion 272: 'ó'
+Error: caracter invalido en linea 9 posicion 278: ','
+Error: caracter invalido en linea 9 posicion 287: 'ó'
+Error: caracter invalido en linea 9 posicion 311: 'ó'
+Error: caracter invalido en linea 9 posicion 322: '.'
+Error: caracter invalido en linea 9 posicion 350: ','
+Error: caracter invalido en linea 9 posicion 400: 'ó'
+Error: caracter invalido en linea 9 posicion 402: ','
+Error: caracter invalido en linea 9 posicion 416: 'í'
+Error: caracter invalido en linea 9 posicion 515: '.'
+Error: caracter invalido en linea 9 posicion 522: 'é'
+Error: caracter invalido en linea 9 posicion 593: 'á'
+Error: caracter invalido en linea 9 posicion 635: '.'
+Error: caracter invalido en linea 10 posicion 1: ' '
+Error: caracter invalido en linea 11 posicion 47: 'ó'
+Error: caracter invalido en linea 11 posicion 70: 'á'
+Error: caracter invalido en linea 11 posicion 99: '.'
+Error: caracter invalido en linea 11 posicion 186: '.'
+Error: caracter invalido en linea 11 posicion 208: ','
+Error: caracter invalido en linea 11 posicion 219: 'ó'
+Error: caracter invalido en linea 11 posicion 235: 'ñ'
+Error: caracter invalido en linea 11 posicion 274: '.'
+Error: caracter invalido en linea 11 posicion 324: 'é'
+Error: caracter invalido en linea 11 posicion 379: '.'
+Error: caracter invalido en linea 11 posicion 385: 'á'
+Error: caracter invalido en linea 11 posicion 387: ','
+Error: caracter invalido en linea 11 posicion 503: '.'
+Error: caracter invalido en linea 12 posicion 1: ' '
+Error: caracter invalido en linea 13 posicion 9: 'ó'
+Error: caracter invalido en linea 13 posicion 28: 'é'
+Error: caracter invalido en linea 13 posicion 54: '.'
+Error: caracter invalido en linea 13 posicion 122: 'ó'
+Error: caracter invalido en linea 13 posicion 156: '.'
+Error: caracter invalido en linea 13 posicion 169: ','
+Error: caracter invalido en linea 13 posicion 298: '.'
+Error: caracter invalido en linea 13 posicion 344: 'é'
+Error: caracter invalido en linea 13 posicion 384: 'é'
+Error: caracter invalido en linea 13 posicion 398: 'á'
+Error: caracter invalido en linea 13 posicion 413: '.'
+Error: caracter invalido en linea 13 posicion 422: 'á'
+Error: caracter invalido en linea 13 posicion 445: ','
+Error: caracter invalido en linea 13 posicion 517: '.'
+Error: caracter invalido en linea 14 posicion 1: ' '
+Error: caracter invalido en linea 15 posicion 106: '.'
+Error: caracter invalido en linea 15 posicion 148: ','
+Error: caracter invalido en linea 15 posicion 167: ','
+Error: caracter invalido en linea 15 posicion 205: 'í'
+Error: caracter invalido en linea 15 posicion 211: '.'
+Error: caracter invalido en linea 15 posicion 224: ','
+Error: caracter invalido en linea 15 posicion 291: 'ó'
+Error: caracter invalido en linea 15 posicion 318: '.'
+Error: caracter invalido en linea 15 posicion 325: 'é'
+Error: caracter invalido en linea 15 posicion 388: ','
+Error: caracter invalido en linea 15 posicion 396: 'ú'
+Error: caracter invalido en linea 15 posicion 431: 'ó'
+Error: caracter invalido en linea 15 posicion 457: 'ó'
+Error: caracter invalido en linea 15 posicion 491: '.'
+Error: caracter invalido en linea 16 posicion 1: ' '
+Error: caracter invalido en linea 17 posicion 15: 'ó'
+Error: caracter invalido en linea 17 posicion 38: 'á'
+Error: caracter invalido en linea 17 posicion 54: '.'
+Error: caracter invalido en linea 17 posicion 101: 'í'
+Error: caracter invalido en linea 17 posicion 139: '.'
+Error: caracter invalido en linea 17 posicion 223: 'ó'
+Error: caracter invalido en linea 17 posicion 233: '.'
+Error: caracter invalido en linea 17 posicion 239: 'á'
+Error: caracter invalido en linea 17 posicion 241: ','
+Error: caracter invalido en linea 17 posicion 288: ','
+Error: caracter invalido en linea 17 posicion 297: 'á'
+Error: caracter invalido en linea 17 posicion 307: 'á'
+Error: caracter invalido en linea 17 posicion 317: 'ó'
+Error: caracter invalido en linea 17 posicion 322: ','
+Error: caracter invalido en linea 17 posicion 366: 'ó'
+Error: caracter invalido en linea 17 posicion 368: '.'
+Error: caracter invalido en linea 17 posicion 442: '.'
+Error: caracter invalido en linea 18 posicion 1: ' '
+Error: caracter invalido en linea 19 posicion 11: ','
+Error: caracter invalido en linea 19 posicion 62: '.'
+Error: caracter invalido en linea 19 posicion 111: ','
+Error: caracter invalido en linea 19 posicion 162: 'á'
+Error: caracter invalido en linea 19 posicion 169: ','
+Error: caracter invalido en linea 19 posicion 175: 'ñ'
+Error: caracter invalido en linea 19 posicion 212: 'ó'
+Error: caracter invalido en linea 19 posicion 214: '.'
+Error: caracter invalido en linea 19 posicion 271: ':'
+Error: caracter invalido en linea 19 posicion 282: ','
+Error: caracter invalido en linea 19 posicion 299: ','
+Error: caracter invalido en linea 19 posicion 326: '.'
+Error: caracter invalido en linea 19 posicion 368: ','
+Error: caracter invalido en linea 19 posicion 389: 'á'
+Error: caracter invalido en linea 19 posicion 401: ','
+Error: caracter invalido en linea 19 posicion 482: 'á'
+Error: caracter invalido en linea 19 posicion 493: '.'
+Word Count Results
+------------------
+para 13
+construir 1
+software 3
+seguro 3
+es 14
+necesario 1
+comenzar 1
+desde 4
+la 25
+etapa 1
+de 36
+anlisis 2
+definicin 1
+requisitos 1
+debe 9
+incluir 1
+objetivos 1
+claros 1
+relacionados 1
+con 6
+proteccin 1
+informacin 8
+el 20
+control 2
+accesos 3
+y 19
+resistencia 1
+ante 1
+ataques 4
+un 19
+error 3
+comn 1
+enfocarse 1
+nicamente 2
+en 18
+las 3
+funcionalidades 1
+visibles 1
+usuario 8
+dejar 1
+seguridad 5
+despus 2
+sin 3
+embargo 2
+corregir 1
+vulnerabilidades 3
+al 2
+final 1
+suele 1
+ser 3
+ms 4
+costoso 1
+riesgoso 1
+que 16
+prevenirlas 1
+inicio 2
+uno 1
+los 5
+principios 1
+importantes 2
+mnimo 1
+privilegio 1
+este 2
+principio 1
+establece 1
+o 12
+componente 1
+tener 2
+permisos 5
+necesarios 1
+realizar 2
+su 2
+tarea 1
+cuando 4
+se 14
+asignan 1
+excesivos 1
+incrementa 1
+superficie 1
+ataque 1
+facilita 1
+atacante 4
+obtenga 1
+sobre 3
+sistema 7
+por 7
+ejemplo 2
+si 2
+una 9
+cuenta 1
+normal 1
+tiene 2
+administrador 1
+aplicacin 2
+puede 8
+permitir 1
+alguien 1
+modifique 1
+datos 7
+crticos 1
+incluso 1
+borre 1
+eso 4
+recomendable 4
+definir 1
+roles 1
+separar 1
+responsabilidades 1
+autenticacin 3
+otro 2
+elemento 1
+clave 2
+proceso 1
+permite 1
+verificar 2
+identidad 2
+persona 1
+intenta 1
+acceder 3
+a 8
+recurso 1
+muchas 3
+aplicaciones 1
+utilizan 1
+contraseas 3
+pero 3
+no 6
+basta 1
+pedir 1
+simple 1
+deben 8
+aplicar 1
+polticas 1
+exijan 1
+largas 1
+combinaciones 1
+caracteres 2
+evitar 3
+palabras 1
+comunes 1
+adems 3
+usar 1
+multifactor 2
+ya 2
+reduce 1
+riesgo 1
+autorizados 1
+combina 1
+algo 3
+sabe 1
+como 7
+cdigo 2
+temporal 1
+huella 1
+digital 2
+autorizacin 1
+refiere 1
+lo 1
+hacer 1
+autenticarse 1
+vlida 1
+significa 1
+deba 1
+toda 1
+cada 2
+operacin 1
+importante 2
+fallas 2
+ocurren 1
+confa 1
+demasiado 1
+cliente 1
+modificar 1
+parmetros 1
+solicitud 1
+funciones 1
+restringidas 1
+validacin 2
+realizarse 2
+siempre 1
+del 4
+lado 1
+servidor 1
+depender 1
+controles 1
+interfaz 1
+punto 1
+fundamental 1
+entradas 1
+todo 2
+dato 1
+recibido 1
+exterior 1
+considerarse 1
+potencialmente 1
+peligroso 1
+enviar 1
+especiales 1
+estructuras 1
+diseadas 1
+manipular 1
+consultas 1
+esto 1
+provocar 1
+inyeccin 1
+sql 1
+ejecucin 1
+scripts 1
+corrupcin 1
+reducir 3
+estos 1
+riesgos 2
+recomienda 1
+validar 1
+formato 1
+establecer 2
+lmites 1
+longitud 1
+utilizar 2
+listas 2
+valores 2
+permitidos 1
+lugar 1
+prohibidos 1
+tambin 3
+codificar 1
+correctamente 1
+muestran 1
+pginas 1
+web 1
+tipo 1
+xss 1
+cifrado 1
+esencial 1
+proteger 1
+sensible 1
+tanto 1
+trnsito 1
+almacenamiento 2
+viajan 1
+internet 1
+protegerse 2
+protocolos 1
+seguros 2
+tls 1
+nunca 1
+guardarse 1
+texto 1
+plano 1
+algoritmos 1
+hash 1
+tcnicas 1
+salting 1
+fuerza 1
+bruta 1
+personales 1
+financieros 1
+cifrarse 1
+impacto 1
+base 1
+llega 1
+comprometida 1
+gestin 1
+errores 1
+influye 1
+muestra 1
+mensajes 2
+detallados 1
+revelar 1
+interna 1
+funcionamiento 1
+mostrar 2
+nombre 1
+exacto 1
+tabla 1
+archivo 1
+ayudar 1
+entender 1
+estructura 1
+genricos 1
+registrar 2
+detalles 1
+tcnicos 1
+bitcoras 2
+internas 1
+pueden 2
+contener 1
+sensibles 1
+pistas 1
+monitoreo 1
+registro 2
+eventos 1
+permiten 1
+detectar 2
+incidentes 1
+analizar 1
+comportamientos 1
+sospechosos 1
+intentos 2
+fallidos 1
+cambios 2
+operaciones 1
+crticas 1
+cuidado 1
+guardar 1
+confidencial 1
+innecesaria 1
+alertas 1
+patrones 1
+anormales 1
+mltiples 1
+sesin 1
+misma 1
+direccin 1
+repetidos 1
+actualizacin 1
+constante 1
+otra 1
+prctica 1
+necesaria 1
+originan 1
+libreras 1
+antiguas 1
+componentes 1
+soporte 1
+sistemas 1
+mantenerse 1
+actualizados 1
+dependencias 1
+revisarse 1
+peridicamente 1
+pruebas 2
+esttico 1
+revisiones 1
+manuales 1
+penetracin 1
+estas 1
+actividades 1
+ayudan 1
+descubrir 1
+antes 1
+sean 1
+explotadas 1
+finalmente 1
+esfuerzo 1
+continuo 1
+existe 1
+completamente 1
+invulnerable 1
+mediante 1
+buenas 1
+prcticas 1
+diseo 1
+adecuado 1
+cultura 1
+prevencin 1
+responsabilidad 1
+equipo 1
+analistas 1
+desarrolladores 1
+testers 1
+administradores 1
+trabaja 1
+enfoque 1
+preventivo 1
+logra 1
+confiable 1
+resistente 1
+preparado 1
+enfrentar 1
+amenazas 1
+entorno 1
+vez 1
+complejo 1
+------------------
+Tiempo_transcurrido_segundos 0.004960582940839231
+
+>>> Ejecutando pylint...
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.92/10, +0.08)
+
+===== sábado,  7 de febrero de 2026, 13:12:32 CST =====
+>>> Ejecutando programa Python...
+Error: caracter invalido en linea 1 posicion 74: 'á'
+Error: caracter invalido en linea 1 posicion 80: '.'
+Error: caracter invalido en linea 1 posicion 93: 'ó'
+Error: caracter invalido en linea 1 posicion 168: 'ó'
+Error: caracter invalido en linea 1 posicion 186: 'ó'
+Error: caracter invalido en linea 1 posicion 188: ','
+Error: caracter invalido en linea 1 posicion 241: '.'
+Error: caracter invalido en linea 1 posicion 255: 'ú'
+Error: caracter invalido en linea 1 posicion 271: 'ú'
+Error: caracter invalido en linea 1 posicion 361: 'é'
+Error: caracter invalido en linea 1 posicion 363: '.'
+Error: caracter invalido en linea 1 posicion 376: ','
+Error: caracter invalido en linea 1 posicion 424: 'á'
+Error: caracter invalido en linea 1 posicion 477: '.'
+Error: caracter invalido en linea 2 posicion 1: ' '
+Error: caracter invalido en linea 3 posicion 24: 'á'
+Error: caracter invalido en linea 3 posicion 49: 'í'
+Error: caracter invalido en linea 3 posicion 65: '.'
+Error: caracter invalido en linea 3 posicion 131: 'ú'
+Error: caracter invalido en linea 3 posicion 188: '.'
+Error: caracter invalido en linea 3 posicion 327: '.'
+Error: caracter invalido en linea 3 posicion 340: ','
+Error: caracter invalido en linea 3 posicion 394: ','
+Error: caracter invalido en linea 3 posicion 419: 'ó'
+Error: caracter invalido en linea 3 posicion 467: 'í'
+Error: caracter invalido en linea 3 posicion 499: 'ó'
+Error: caracter invalido en linea 3 posicion 501: '.'
+Error: caracter invalido en linea 3 posicion 568: '.'
+Error: caracter invalido en linea 4 posicion 1: ' '
+Error: caracter invalido en linea 5 posicion 15: 'ó'
+Error: caracter invalido en linea 5 posicion 40: '.'
+Error: caracter invalido en linea 5 posicion 143: '.'
+Error: caracter invalido en linea 5 posicion 188: 'ñ'
+Error: caracter invalido en linea 5 posicion 191: ','
+Error: caracter invalido en linea 5 posicion 233: '.'
+Error: caracter invalido en linea 5 posicion 255: 'í'
+Error: caracter invalido en linea 5 posicion 281: 'ñ'
+Error: caracter invalido en linea 5 posicion 291: ','
+Error: caracter invalido en linea 5 posicion 346: '.'
+Error: caracter invalido en linea 5 posicion 352: 'á'
+Error: caracter invalido en linea 5 posicion 354: ','
+Error: caracter invalido en linea 5 posicion 388: 'ó'
+Error: caracter invalido en linea 5 posicion 402: ','
+Error: caracter invalido en linea 5 posicion 453: '.'
+Error: caracter invalido en linea 5 posicion 469: 'ó'
+Error: caracter invalido en linea 5 posicion 516: ','
+Error: caracter invalido en linea 5 posicion 568: ','
+Error: caracter invalido en linea 5 posicion 579: 'ó'
+Error: caracter invalido en linea 5 posicion 614: '.'
+Error: caracter invalido en linea 6 posicion 1: ' '
+Error: caracter invalido en linea 7 posicion 14: 'ó'
+Error: caracter invalido en linea 7 posicion 65: 'é'
+Error: caracter invalido en linea 7 posicion 83: '.'
+Error: caracter invalido en linea 7 posicion 123: 'á'
+Error: caracter invalido en linea 7 posicion 128: ','
+Error: caracter invalido en linea 7 posicion 188: 'ó'
+Error: caracter invalido en linea 7 posicion 190: '.'
+Error: caracter invalido en linea 7 posicion 249: 'ó'
+Error: caracter invalido en linea 7 posicion 262: '.'
+Error: caracter invalido en linea 7 posicion 304: 'ó'
+Error: caracter invalido en linea 7 posicion 311: 'í'
+Error: caracter invalido en linea 7 posicion 337: '.'
+Error: caracter invalido en linea 7 posicion 370: 'á'
+Error: caracter invalido en linea 7 posicion 429: '.'
+Error: caracter invalido en linea 7 posicion 450: 'ó'
+Error: caracter invalido en linea 7 posicion 540: '.'
+Error: caracter invalido en linea 8 posicion 1: ' '
+Error: caracter invalido en linea 9 posicion 38: 'ó'
+Error: caracter invalido en linea 9 posicion 52: '.'
+Error: caracter invalido en linea 9 posicion 133: '.'
+Error: caracter invalido en linea 9 posicion 200: 'ñ'
+Error: caracter invalido en linea 9 posicion 230: '.'
+Error: caracter invalido en linea 9 posicion 272: 'ó'
+Error: caracter invalido en linea 9 posicion 278: ','
+Error: caracter invalido en linea 9 posicion 287: 'ó'
+Error: caracter invalido en linea 9 posicion 311: 'ó'
+Error: caracter invalido en linea 9 posicion 322: '.'
+Error: caracter invalido en linea 9 posicion 350: ','
+Error: caracter invalido en linea 9 posicion 400: 'ó'
+Error: caracter invalido en linea 9 posicion 402: ','
+Error: caracter invalido en linea 9 posicion 416: 'í'
+Error: caracter invalido en linea 9 posicion 515: '.'
+Error: caracter invalido en linea 9 posicion 522: 'é'
+Error: caracter invalido en linea 9 posicion 593: 'á'
+Error: caracter invalido en linea 9 posicion 635: '.'
+Error: caracter invalido en linea 10 posicion 1: ' '
+Error: caracter invalido en linea 11 posicion 47: 'ó'
+Error: caracter invalido en linea 11 posicion 70: 'á'
+Error: caracter invalido en linea 11 posicion 99: '.'
+Error: caracter invalido en linea 11 posicion 186: '.'
+Error: caracter invalido en linea 11 posicion 208: ','
+Error: caracter invalido en linea 11 posicion 219: 'ó'
+Error: caracter invalido en linea 11 posicion 235: 'ñ'
+Error: caracter invalido en linea 11 posicion 274: '.'
+Error: caracter invalido en linea 11 posicion 324: 'é'
+Error: caracter invalido en linea 11 posicion 379: '.'
+Error: caracter invalido en linea 11 posicion 385: 'á'
+Error: caracter invalido en linea 11 posicion 387: ','
+Error: caracter invalido en linea 11 posicion 503: '.'
+Error: caracter invalido en linea 12 posicion 1: ' '
+Error: caracter invalido en linea 13 posicion 9: 'ó'
+Error: caracter invalido en linea 13 posicion 28: 'é'
+Error: caracter invalido en linea 13 posicion 54: '.'
+Error: caracter invalido en linea 13 posicion 122: 'ó'
+Error: caracter invalido en linea 13 posicion 156: '.'
+Error: caracter invalido en linea 13 posicion 169: ','
+Error: caracter invalido en linea 13 posicion 298: '.'
+Error: caracter invalido en linea 13 posicion 344: 'é'
+Error: caracter invalido en linea 13 posicion 384: 'é'
+Error: caracter invalido en linea 13 posicion 398: 'á'
+Error: caracter invalido en linea 13 posicion 413: '.'
+Error: caracter invalido en linea 13 posicion 422: 'á'
+Error: caracter invalido en linea 13 posicion 445: ','
+Error: caracter invalido en linea 13 posicion 517: '.'
+Error: caracter invalido en linea 14 posicion 1: ' '
+Error: caracter invalido en linea 15 posicion 106: '.'
+Error: caracter invalido en linea 15 posicion 148: ','
+Error: caracter invalido en linea 15 posicion 167: ','
+Error: caracter invalido en linea 15 posicion 205: 'í'
+Error: caracter invalido en linea 15 posicion 211: '.'
+Error: caracter invalido en linea 15 posicion 224: ','
+Error: caracter invalido en linea 15 posicion 291: 'ó'
+Error: caracter invalido en linea 15 posicion 318: '.'
+Error: caracter invalido en linea 15 posicion 325: 'é'
+Error: caracter invalido en linea 15 posicion 388: ','
+Error: caracter invalido en linea 15 posicion 396: 'ú'
+Error: caracter invalido en linea 15 posicion 431: 'ó'
+Error: caracter invalido en linea 15 posicion 457: 'ó'
+Error: caracter invalido en linea 15 posicion 491: '.'
+Error: caracter invalido en linea 16 posicion 1: ' '
+Error: caracter invalido en linea 17 posicion 15: 'ó'
+Error: caracter invalido en linea 17 posicion 38: 'á'
+Error: caracter invalido en linea 17 posicion 54: '.'
+Error: caracter invalido en linea 17 posicion 101: 'í'
+Error: caracter invalido en linea 17 posicion 139: '.'
+Error: caracter invalido en linea 17 posicion 223: 'ó'
+Error: caracter invalido en linea 17 posicion 233: '.'
+Error: caracter invalido en linea 17 posicion 239: 'á'
+Error: caracter invalido en linea 17 posicion 241: ','
+Error: caracter invalido en linea 17 posicion 288: ','
+Error: caracter invalido en linea 17 posicion 297: 'á'
+Error: caracter invalido en linea 17 posicion 307: 'á'
+Error: caracter invalido en linea 17 posicion 317: 'ó'
+Error: caracter invalido en linea 17 posicion 322: ','
+Error: caracter invalido en linea 17 posicion 366: 'ó'
+Error: caracter invalido en linea 17 posicion 368: '.'
+Error: caracter invalido en linea 17 posicion 442: '.'
+Error: caracter invalido en linea 18 posicion 1: ' '
+Error: caracter invalido en linea 19 posicion 11: ','
+Error: caracter invalido en linea 19 posicion 62: '.'
+Error: caracter invalido en linea 19 posicion 111: ','
+Error: caracter invalido en linea 19 posicion 162: 'á'
+Error: caracter invalido en linea 19 posicion 169: ','
+Error: caracter invalido en linea 19 posicion 175: 'ñ'
+Error: caracter invalido en linea 19 posicion 212: 'ó'
+Error: caracter invalido en linea 19 posicion 214: '.'
+Error: caracter invalido en linea 19 posicion 271: ':'
+Error: caracter invalido en linea 19 posicion 282: ','
+Error: caracter invalido en linea 19 posicion 299: ','
+Error: caracter invalido en linea 19 posicion 326: '.'
+Error: caracter invalido en linea 19 posicion 368: ','
+Error: caracter invalido en linea 19 posicion 389: 'á'
+Error: caracter invalido en linea 19 posicion 401: ','
+Error: caracter invalido en linea 19 posicion 482: 'á'
+Error: caracter invalido en linea 19 posicion 493: '.'
+Word Count Results
+------------------
+para 13
+construir 1
+software 3
+seguro 3
+es 14
+necesario 1
+comenzar 1
+desde 4
+la 25
+etapa 1
+de 37
+anlisis 2
+definicin 1
+requisitos 1
+debe 9
+incluir 1
+objetivos 1
+claros 1
+relacionados 1
+con 6
+proteccin 1
+informacin 8
+el 20
+control 2
+accesos 3
+y 19
+resistencia 1
+ante 1
+ataques 4
+un 19
+error 3
+comn 1
+enfocarse 1
+nicamente 2
+en 18
+las 3
+funcionalidades 1
+visibles 1
+usuario 8
+dejar 1
+seguridad 5
+despus 2
+sin 3
+embargo 2
+corregir 1
+vulnerabilidades 3
+al 2
+final 1
+suele 1
+ser 3
+ms 4
+costoso 1
+riesgoso 1
+que 16
+prevenirlas 1
+inicio 2
+uno 1
+los 5
+principios 1
+importantes 2
+mnimo 1
+privilegio 1
+este 2
+principio 1
+establece 1
+o 12
+componente 1
+tener 2
+permisos 5
+necesarios 1
+realizar 2
+su 2
+tarea 1
+cuando 4
+se 14
+asignan 1
+excesivos 1
+incrementa 1
+superficie 1
+ataque 1
+facilita 1
+atacante 4
+obtenga 1
+sobre 3
+sistema 7
+por 7
+ejemplo 2
+si 2
+una 9
+cuenta 1
+normal 1
+tiene 2
+administrador 1
+aplicacin 2
+puede 8
+permitir 1
+alguien 1
+modifique 1
+datos 7
+crticos 1
+incluso 1
+borre 1
+eso 4
+recomendable 4
+definir 1
+roles 1
+separar 1
+responsabilidades 1
+autenticacin 3
+otro 2
+elemento 1
+clave 2
+proceso 1
+permite 1
+verificar 2
+identidad 2
+persona 1
+intenta 1
+acceder 3
+a 11
+recurso 1
+muchas 3
+aplicaciones 1
+utilizan 1
+contraseas 3
+pero 3
+no 6
+basta 1
+pedir 1
+simple 1
+deben 8
+aplicar 1
+polticas 1
+exijan 1
+largas 1
+combinaciones 1
+caracteres 2
+evitar 3
+palabras 2
+comunes 1
+adems 3
+usar 1
+multifactor 2
+ya 2
+reduce 1
+riesgo 1
+autorizados 1
+combina 1
+algo 3
+sabe 1
+como 7
+cdigo 2
+temporal 1
+huella 1
+digital 2
+autorizacin 1
+refiere 1
+lo 1
+hacer 1
+autenticarse 1
+vlida 1
+significa 1
+deba 1
+toda 1
+cada 2
+operacin 1
+importante 2
+fallas 2
+ocurren 1
+confa 1
+demasiado 1
+cliente 1
+modificar 1
+parmetros 1
+solicitud 1
+funciones 1
+restringidas 1
+validacin 2
+realizarse 2
+siempre 1
+del 4
+lado 1
+servidor 1
+depender 1
+controles 1
+interfaz 1
+punto 1
+fundamental 1
+entradas 1
+todo 2
+dato 1
+recibido 1
+exterior 1
+considerarse 1
+potencialmente 1
+peligroso 1
+enviar 1
+especiales 1
+estructuras 1
+diseadas 1
+manipular 1
+consultas 1
+esto 1
+provocar 1
+inyeccin 1
+sql 1
+ejecucin 1
+scripts 1
+corrupcin 1
+reducir 3
+estos 1
+riesgos 2
+recomienda 1
+validar 1
+formato 1
+establecer 2
+lmites 1
+longitud 1
+utilizar 2
+listas 2
+valores 2
+permitidos 1
+lugar 1
+prohibidos 1
+tambin 3
+codificar 1
+correctamente 1
+muestran 1
+pginas 1
+web 1
+tipo 1
+xss 1
+cifrado 1
+esencial 1
+proteger 1
+sensible 1
+tanto 1
+trnsito 1
+almacenamiento 2
+viajan 1
+internet 1
+protegerse 2
+protocolos 1
+seguros 2
+tls 1
+nunca 1
+guardarse 1
+texto 1
+plano 1
+algoritmos 1
+hash 1
+tcnicas 1
+salting 1
+fuerza 1
+bruta 1
+personales 1
+financieros 1
+cifrarse 1
+impacto 1
+base 1
+llega 1
+comprometida 1
+gestin 1
+errores 1
+influye 1
+muestra 1
+mensajes 2
+detallados 1
+revelar 1
+interna 1
+funcionamiento 1
+mostrar 2
+nombre 1
+exacto 1
+tabla 1
+archivo 1
+ayudar 1
+entender 1
+estructura 1
+genricos 1
+registrar 2
+detalles 1
+tcnicos 1
+bitcoras 2
+internas 1
+pueden 2
+contener 1
+sensibles 1
+pistas 1
+monitoreo 1
+registro 2
+eventos 1
+permiten 1
+detectar 2
+incidentes 1
+analizar 1
+comportamientos 1
+sospechosos 1
+intentos 2
+fallidos 1
+cambios 2
+operaciones 1
+crticas 1
+cuidado 1
+guardar 1
+confidencial 1
+innecesaria 1
+alertas 1
+patrones 1
+anormales 1
+mltiples 1
+sesin 1
+misma 1
+direccin 1
+repetidos 1
+actualizacin 1
+constante 1
+otra 1
+prctica 1
+necesaria 1
+originan 1
+libreras 1
+antiguas 1
+componentes 1
+soporte 1
+sistemas 1
+mantenerse 1
+actualizados 1
+dependencias 1
+revisarse 1
+peridicamente 1
+pruebas 2
+esttico 1
+revisiones 1
+manuales 1
+penetracin 1
+estas 1
+actividades 1
+ayudan 1
+descubrir 1
+antes 1
+sean 1
+explotadas 1
+finalmente 1
+esfuerzo 1
+continuo 1
+existe 1
+completamente 1
+invulnerable 1
+mediante 1
+buenas 1
+prcticas 1
+diseo 1
+adecuado 1
+cultura 1
+prevencin 1
+responsabilidad 1
+equipo 1
+analistas 1
+desarrolladores 1
+testers 1
+administradores 1
+trabaja 1
+enfoque 1
+preventivo 1
+logra 1
+confiable 1
+resistente 1
+preparado 1
+enfrentar 1
+amenazas 1
+entorno 1
+vez 1
+complejo 1
+finales 1
+prueba 1
+b 2
+------------------
+Tiempo_transcurrido_segundos 0.004905708017759025
+
+>>> Ejecutando pylint...
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+===== sábado,  7 de febrero de 2026, 13:13:41 CST =====
+>>> Ejecutando programa Python...
+Error: caracter invalido en linea 1 posicion 74: 'á'
+Error: caracter invalido en linea 1 posicion 80: '.'
+Error: caracter invalido en linea 1 posicion 93: 'ó'
+Error: caracter invalido en linea 1 posicion 168: 'ó'
+Error: caracter invalido en linea 1 posicion 186: 'ó'
+Error: caracter invalido en linea 1 posicion 188: ','
+Error: caracter invalido en linea 1 posicion 241: '.'
+Error: caracter invalido en linea 1 posicion 255: 'ú'
+Error: caracter invalido en linea 1 posicion 271: 'ú'
+Error: caracter invalido en linea 1 posicion 361: 'é'
+Error: caracter invalido en linea 1 posicion 363: '.'
+Error: caracter invalido en linea 1 posicion 376: ','
+Error: caracter invalido en linea 1 posicion 424: 'á'
+Error: caracter invalido en linea 1 posicion 477: '.'
+Error: caracter invalido en linea 2 posicion 1: ' '
+Error: caracter invalido en linea 3 posicion 24: 'á'
+Error: caracter invalido en linea 3 posicion 49: 'í'
+Error: caracter invalido en linea 3 posicion 65: '.'
+Error: caracter invalido en linea 3 posicion 131: 'ú'
+Error: caracter invalido en linea 3 posicion 188: '.'
+Error: caracter invalido en linea 3 posicion 327: '.'
+Error: caracter invalido en linea 3 posicion 340: ','
+Error: caracter invalido en linea 3 posicion 394: ','
+Error: caracter invalido en linea 3 posicion 419: 'ó'
+Error: caracter invalido en linea 3 posicion 467: 'í'
+Error: caracter invalido en linea 3 posicion 499: 'ó'
+Error: caracter invalido en linea 3 posicion 501: '.'
+Error: caracter invalido en linea 3 posicion 568: '.'
+Error: caracter invalido en linea 4 posicion 1: ' '
+Error: caracter invalido en linea 5 posicion 15: 'ó'
+Error: caracter invalido en linea 5 posicion 40: '.'
+Error: caracter invalido en linea 5 posicion 143: '.'
+Error: caracter invalido en linea 5 posicion 188: 'ñ'
+Error: caracter invalido en linea 5 posicion 191: ','
+Error: caracter invalido en linea 5 posicion 233: '.'
+Error: caracter invalido en linea 5 posicion 255: 'í'
+Error: caracter invalido en linea 5 posicion 281: 'ñ'
+Error: caracter invalido en linea 5 posicion 291: ','
+Error: caracter invalido en linea 5 posicion 346: '.'
+Error: caracter invalido en linea 5 posicion 352: 'á'
+Error: caracter invalido en linea 5 posicion 354: ','
+Error: caracter invalido en linea 5 posicion 388: 'ó'
+Error: caracter invalido en linea 5 posicion 402: ','
+Error: caracter invalido en linea 5 posicion 453: '.'
+Error: caracter invalido en linea 5 posicion 469: 'ó'
+Error: caracter invalido en linea 5 posicion 516: ','
+Error: caracter invalido en linea 5 posicion 568: ','
+Error: caracter invalido en linea 5 posicion 579: 'ó'
+Error: caracter invalido en linea 5 posicion 614: '.'
+Error: caracter invalido en linea 6 posicion 1: ' '
+Error: caracter invalido en linea 7 posicion 14: 'ó'
+Error: caracter invalido en linea 7 posicion 65: 'é'
+Error: caracter invalido en linea 7 posicion 83: '.'
+Error: caracter invalido en linea 7 posicion 123: 'á'
+Error: caracter invalido en linea 7 posicion 128: ','
+Error: caracter invalido en linea 7 posicion 188: 'ó'
+Error: caracter invalido en linea 7 posicion 190: '.'
+Error: caracter invalido en linea 7 posicion 249: 'ó'
+Error: caracter invalido en linea 7 posicion 262: '.'
+Error: caracter invalido en linea 7 posicion 304: 'ó'
+Error: caracter invalido en linea 7 posicion 311: 'í'
+Error: caracter invalido en linea 7 posicion 337: '.'
+Error: caracter invalido en linea 7 posicion 370: 'á'
+Error: caracter invalido en linea 7 posicion 429: '.'
+Error: caracter invalido en linea 7 posicion 450: 'ó'
+Error: caracter invalido en linea 7 posicion 540: '.'
+Error: caracter invalido en linea 8 posicion 1: ' '
+Error: caracter invalido en linea 9 posicion 38: 'ó'
+Error: caracter invalido en linea 9 posicion 52: '.'
+Error: caracter invalido en linea 9 posicion 133: '.'
+Error: caracter invalido en linea 9 posicion 200: 'ñ'
+Error: caracter invalido en linea 9 posicion 230: '.'
+Error: caracter invalido en linea 9 posicion 272: 'ó'
+Error: caracter invalido en linea 9 posicion 278: ','
+Error: caracter invalido en linea 9 posicion 287: 'ó'
+Error: caracter invalido en linea 9 posicion 311: 'ó'
+Error: caracter invalido en linea 9 posicion 322: '.'
+Error: caracter invalido en linea 9 posicion 350: ','
+Error: caracter invalido en linea 9 posicion 400: 'ó'
+Error: caracter invalido en linea 9 posicion 402: ','
+Error: caracter invalido en linea 9 posicion 416: 'í'
+Error: caracter invalido en linea 9 posicion 515: '.'
+Error: caracter invalido en linea 9 posicion 522: 'é'
+Error: caracter invalido en linea 9 posicion 593: 'á'
+Error: caracter invalido en linea 9 posicion 635: '.'
+Error: caracter invalido en linea 10 posicion 1: ' '
+Error: caracter invalido en linea 11 posicion 47: 'ó'
+Error: caracter invalido en linea 11 posicion 70: 'á'
+Error: caracter invalido en linea 11 posicion 99: '.'
+Error: caracter invalido en linea 11 posicion 186: '.'
+Error: caracter invalido en linea 11 posicion 208: ','
+Error: caracter invalido en linea 11 posicion 219: 'ó'
+Error: caracter invalido en linea 11 posicion 235: 'ñ'
+Error: caracter invalido en linea 11 posicion 274: '.'
+Error: caracter invalido en linea 11 posicion 324: 'é'
+Error: caracter invalido en linea 11 posicion 379: '.'
+Error: caracter invalido en linea 11 posicion 385: 'á'
+Error: caracter invalido en linea 11 posicion 387: ','
+Error: caracter invalido en linea 11 posicion 503: '.'
+Error: caracter invalido en linea 12 posicion 1: ' '
+Error: caracter invalido en linea 13 posicion 9: 'ó'
+Error: caracter invalido en linea 13 posicion 28: 'é'
+Error: caracter invalido en linea 13 posicion 54: '.'
+Error: caracter invalido en linea 13 posicion 122: 'ó'
+Error: caracter invalido en linea 13 posicion 156: '.'
+Error: caracter invalido en linea 13 posicion 169: ','
+Error: caracter invalido en linea 13 posicion 298: '.'
+Error: caracter invalido en linea 13 posicion 344: 'é'
+Error: caracter invalido en linea 13 posicion 384: 'é'
+Error: caracter invalido en linea 13 posicion 398: 'á'
+Error: caracter invalido en linea 13 posicion 413: '.'
+Error: caracter invalido en linea 13 posicion 422: 'á'
+Error: caracter invalido en linea 13 posicion 445: ','
+Error: caracter invalido en linea 13 posicion 517: '.'
+Error: caracter invalido en linea 14 posicion 1: ' '
+Error: caracter invalido en linea 15 posicion 106: '.'
+Error: caracter invalido en linea 15 posicion 148: ','
+Error: caracter invalido en linea 15 posicion 167: ','
+Error: caracter invalido en linea 15 posicion 205: 'í'
+Error: caracter invalido en linea 15 posicion 211: '.'
+Error: caracter invalido en linea 15 posicion 224: ','
+Error: caracter invalido en linea 15 posicion 291: 'ó'
+Error: caracter invalido en linea 15 posicion 318: '.'
+Error: caracter invalido en linea 15 posicion 325: 'é'
+Error: caracter invalido en linea 15 posicion 388: ','
+Error: caracter invalido en linea 15 posicion 396: 'ú'
+Error: caracter invalido en linea 15 posicion 431: 'ó'
+Error: caracter invalido en linea 15 posicion 457: 'ó'
+Error: caracter invalido en linea 15 posicion 491: '.'
+Error: caracter invalido en linea 16 posicion 1: ' '
+Error: caracter invalido en linea 17 posicion 15: 'ó'
+Error: caracter invalido en linea 17 posicion 38: 'á'
+Error: caracter invalido en linea 17 posicion 54: '.'
+Error: caracter invalido en linea 17 posicion 101: 'í'
+Error: caracter invalido en linea 17 posicion 139: '.'
+Error: caracter invalido en linea 17 posicion 223: 'ó'
+Error: caracter invalido en linea 17 posicion 233: '.'
+Error: caracter invalido en linea 17 posicion 239: 'á'
+Error: caracter invalido en linea 17 posicion 241: ','
+Error: caracter invalido en linea 17 posicion 288: ','
+Error: caracter invalido en linea 17 posicion 297: 'á'
+Error: caracter invalido en linea 17 posicion 307: 'á'
+Error: caracter invalido en linea 17 posicion 317: 'ó'
+Error: caracter invalido en linea 17 posicion 322: ','
+Error: caracter invalido en linea 17 posicion 366: 'ó'
+Error: caracter invalido en linea 17 posicion 368: '.'
+Error: caracter invalido en linea 17 posicion 442: '.'
+Error: caracter invalido en linea 18 posicion 1: ' '
+Error: caracter invalido en linea 19 posicion 11: ','
+Error: caracter invalido en linea 19 posicion 62: '.'
+Error: caracter invalido en linea 19 posicion 111: ','
+Error: caracter invalido en linea 19 posicion 162: 'á'
+Error: caracter invalido en linea 19 posicion 169: ','
+Error: caracter invalido en linea 19 posicion 175: 'ñ'
+Error: caracter invalido en linea 19 posicion 212: 'ó'
+Error: caracter invalido en linea 19 posicion 214: '.'
+Error: caracter invalido en linea 19 posicion 271: ':'
+Error: caracter invalido en linea 19 posicion 282: ','
+Error: caracter invalido en linea 19 posicion 299: ','
+Error: caracter invalido en linea 19 posicion 326: '.'
+Error: caracter invalido en linea 19 posicion 368: ','
+Error: caracter invalido en linea 19 posicion 389: 'á'
+Error: caracter invalido en linea 19 posicion 401: ','
+Error: caracter invalido en linea 19 posicion 482: 'á'
+Error: caracter invalido en linea 19 posicion 493: '.'
+Error: caracter invalido en linea 21 posicion 38: 'á'
+Error: caracter invalido en linea 21 posicion 40: 'ú'
+Error: caracter invalido en linea 21 posicion 42: 'ú'
+Word Count Results
+------------------
+para 13
+construir 1
+software 3
+seguro 3
+es 14
+necesario 1
+comenzar 1
+desde 4
+la 25
+etapa 1
+de 37
+anlisis 2
+definicin 1
+requisitos 1
+debe 9
+incluir 1
+objetivos 1
+claros 1
+relacionados 1
+con 6
+proteccin 1
+informacin 8
+el 20
+control 2
+accesos 3
+y 19
+resistencia 1
+ante 1
+ataques 4
+un 19
+error 3
+comn 1
+enfocarse 1
+nicamente 2
+en 18
+las 3
+funcionalidades 1
+visibles 1
+usuario 8
+dejar 1
+seguridad 5
+despus 2
+sin 3
+embargo 2
+corregir 1
+vulnerabilidades 3
+al 2
+final 1
+suele 1
+ser 3
+ms 4
+costoso 1
+riesgoso 1
+que 16
+prevenirlas 1
+inicio 2
+uno 1
+los 5
+principios 1
+importantes 2
+mnimo 1
+privilegio 1
+este 2
+principio 1
+establece 1
+o 12
+componente 1
+tener 2
+permisos 5
+necesarios 1
+realizar 2
+su 2
+tarea 1
+cuando 4
+se 14
+asignan 1
+excesivos 1
+incrementa 1
+superficie 1
+ataque 1
+facilita 1
+atacante 4
+obtenga 1
+sobre 3
+sistema 7
+por 7
+ejemplo 2
+si 2
+una 9
+cuenta 1
+normal 1
+tiene 2
+administrador 1
+aplicacin 2
+puede 8
+permitir 1
+alguien 1
+modifique 1
+datos 7
+crticos 1
+incluso 1
+borre 1
+eso 4
+recomendable 4
+definir 1
+roles 1
+separar 1
+responsabilidades 1
+autenticacin 3
+otro 2
+elemento 1
+clave 2
+proceso 1
+permite 1
+verificar 2
+identidad 2
+persona 1
+intenta 1
+acceder 3
+a 11
+recurso 1
+muchas 3
+aplicaciones 1
+utilizan 1
+contraseas 3
+pero 3
+no 6
+basta 1
+pedir 1
+simple 1
+deben 8
+aplicar 1
+polticas 1
+exijan 1
+largas 1
+combinaciones 1
+caracteres 2
+evitar 3
+palabras 2
+comunes 1
+adems 3
+usar 1
+multifactor 2
+ya 2
+reduce 1
+riesgo 1
+autorizados 1
+combina 1
+algo 3
+sabe 1
+como 7
+cdigo 2
+temporal 1
+huella 1
+digital 2
+autorizacin 1
+refiere 1
+lo 1
+hacer 1
+autenticarse 1
+vlida 1
+significa 1
+deba 1
+toda 1
+cada 2
+operacin 1
+importante 2
+fallas 2
+ocurren 1
+confa 1
+demasiado 1
+cliente 1
+modificar 1
+parmetros 1
+solicitud 1
+funciones 1
+restringidas 1
+validacin 2
+realizarse 2
+siempre 1
+del 4
+lado 1
+servidor 1
+depender 1
+controles 1
+interfaz 1
+punto 1
+fundamental 1
+entradas 1
+todo 2
+dato 1
+recibido 1
+exterior 1
+considerarse 1
+potencialmente 1
+peligroso 1
+enviar 1
+especiales 1
+estructuras 1
+diseadas 1
+manipular 1
+consultas 1
+esto 1
+provocar 1
+inyeccin 1
+sql 1
+ejecucin 1
+scripts 1
+corrupcin 1
+reducir 3
+estos 1
+riesgos 2
+recomienda 1
+validar 1
+formato 1
+establecer 2
+lmites 1
+longitud 1
+utilizar 2
+listas 2
+valores 2
+permitidos 1
+lugar 1
+prohibidos 1
+tambin 3
+codificar 1
+correctamente 1
+muestran 1
+pginas 1
+web 1
+tipo 1
+xss 1
+cifrado 1
+esencial 1
+proteger 1
+sensible 1
+tanto 1
+trnsito 1
+almacenamiento 2
+viajan 1
+internet 1
+protegerse 2
+protocolos 1
+seguros 2
+tls 1
+nunca 1
+guardarse 1
+texto 1
+plano 1
+algoritmos 1
+hash 1
+tcnicas 1
+salting 1
+fuerza 1
+bruta 1
+personales 1
+financieros 1
+cifrarse 1
+impacto 1
+base 1
+llega 1
+comprometida 1
+gestin 1
+errores 1
+influye 1
+muestra 1
+mensajes 2
+detallados 1
+revelar 1
+interna 1
+funcionamiento 1
+mostrar 2
+nombre 1
+exacto 1
+tabla 1
+archivo 1
+ayudar 1
+entender 1
+estructura 1
+genricos 1
+registrar 2
+detalles 1
+tcnicos 1
+bitcoras 2
+internas 1
+pueden 2
+contener 1
+sensibles 1
+pistas 1
+monitoreo 1
+registro 2
+eventos 1
+permiten 1
+detectar 2
+incidentes 1
+analizar 1
+comportamientos 1
+sospechosos 1
+intentos 2
+fallidos 1
+cambios 2
+operaciones 1
+crticas 1
+cuidado 1
+guardar 1
+confidencial 1
+innecesaria 1
+alertas 1
+patrones 1
+anormales 1
+mltiples 1
+sesin 1
+misma 1
+direccin 1
+repetidos 1
+actualizacin 1
+constante 1
+otra 1
+prctica 1
+necesaria 1
+originan 1
+libreras 1
+antiguas 1
+componentes 1
+soporte 1
+sistemas 1
+mantenerse 1
+actualizados 1
+dependencias 1
+revisarse 1
+peridicamente 1
+pruebas 2
+esttico 1
+revisiones 1
+manuales 1
+penetracin 1
+estas 1
+actividades 1
+ayudan 1
+descubrir 1
+antes 1
+sean 1
+explotadas 1
+finalmente 1
+esfuerzo 1
+continuo 1
+existe 1
+completamente 1
+invulnerable 1
+mediante 1
+buenas 1
+prcticas 1
+diseo 1
+adecuado 1
+cultura 1
+prevencin 1
+responsabilidad 1
+equipo 1
+analistas 1
+desarrolladores 1
+testers 1
+administradores 1
+trabaja 1
+enfoque 1
+preventivo 1
+logra 1
+confiable 1
+resistente 1
+preparado 1
+enfrentar 1
+amenazas 1
+entorno 1
+vez 1
+complejo 1
+finales 1
+prueba 1
+b 2
+------------------
+Tiempo_transcurrido_segundos 0.004908249946311116
+
+>>> Ejecutando pylint...
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+===== sábado,  7 de febrero de 2026, 13:16:32 CST =====
+>>> Ejecutando programa Python...
+Error: caracter invalido en linea 1 posicion 80: '.'
+Error: caracter invalido en linea 1 posicion 188: ','
+Error: caracter invalido en linea 1 posicion 241: '.'
+Error: caracter invalido en linea 1 posicion 363: '.'
+Error: caracter invalido en linea 1 posicion 376: ','
+Error: caracter invalido en linea 1 posicion 477: '.'
+Error: caracter invalido en linea 2 posicion 1: ' '
+Error: caracter invalido en linea 3 posicion 65: '.'
+Error: caracter invalido en linea 3 posicion 188: '.'
+Error: caracter invalido en linea 3 posicion 327: '.'
+Error: caracter invalido en linea 3 posicion 340: ','
+Error: caracter invalido en linea 3 posicion 394: ','
+Error: caracter invalido en linea 3 posicion 501: '.'
+Error: caracter invalido en linea 3 posicion 568: '.'
+Error: caracter invalido en linea 4 posicion 1: ' '
+Error: caracter invalido en linea 5 posicion 40: '.'
+Error: caracter invalido en linea 5 posicion 143: '.'
+Error: caracter invalido en linea 5 posicion 191: ','
+Error: caracter invalido en linea 5 posicion 233: '.'
+Error: caracter invalido en linea 5 posicion 291: ','
+Error: caracter invalido en linea 5 posicion 346: '.'
+Error: caracter invalido en linea 5 posicion 354: ','
+Error: caracter invalido en linea 5 posicion 402: ','
+Error: caracter invalido en linea 5 posicion 453: '.'
+Error: caracter invalido en linea 5 posicion 516: ','
+Error: caracter invalido en linea 5 posicion 568: ','
+Error: caracter invalido en linea 5 posicion 614: '.'
+Error: caracter invalido en linea 6 posicion 1: ' '
+Error: caracter invalido en linea 7 posicion 83: '.'
+Error: caracter invalido en linea 7 posicion 128: ','
+Error: caracter invalido en linea 7 posicion 190: '.'
+Error: caracter invalido en linea 7 posicion 262: '.'
+Error: caracter invalido en linea 7 posicion 337: '.'
+Error: caracter invalido en linea 7 posicion 429: '.'
+Error: caracter invalido en linea 7 posicion 540: '.'
+Error: caracter invalido en linea 8 posicion 1: ' '
+Error: caracter invalido en linea 9 posicion 52: '.'
+Error: caracter invalido en linea 9 posicion 133: '.'
+Error: caracter invalido en linea 9 posicion 230: '.'
+Error: caracter invalido en linea 9 posicion 278: ','
+Error: caracter invalido en linea 9 posicion 322: '.'
+Error: caracter invalido en linea 9 posicion 350: ','
+Error: caracter invalido en linea 9 posicion 402: ','
+Error: caracter invalido en linea 9 posicion 515: '.'
+Error: caracter invalido en linea 9 posicion 635: '.'
+Error: caracter invalido en linea 10 posicion 1: ' '
+Error: caracter invalido en linea 11 posicion 99: '.'
+Error: caracter invalido en linea 11 posicion 186: '.'
+Error: caracter invalido en linea 11 posicion 208: ','
+Error: caracter invalido en linea 11 posicion 274: '.'
+Error: caracter invalido en linea 11 posicion 379: '.'
+Error: caracter invalido en linea 11 posicion 387: ','
+Error: caracter invalido en linea 11 posicion 503: '.'
+Error: caracter invalido en linea 12 posicion 1: ' '
+Error: caracter invalido en linea 13 posicion 54: '.'
+Error: caracter invalido en linea 13 posicion 156: '.'
+Error: caracter invalido en linea 13 posicion 169: ','
+Error: caracter invalido en linea 13 posicion 298: '.'
+Error: caracter invalido en linea 13 posicion 413: '.'
+Error: caracter invalido en linea 13 posicion 445: ','
+Error: caracter invalido en linea 13 posicion 517: '.'
+Error: caracter invalido en linea 14 posicion 1: ' '
+Error: caracter invalido en linea 15 posicion 106: '.'
+Error: caracter invalido en linea 15 posicion 148: ','
+Error: caracter invalido en linea 15 posicion 167: ','
+Error: caracter invalido en linea 15 posicion 211: '.'
+Error: caracter invalido en linea 15 posicion 224: ','
+Error: caracter invalido en linea 15 posicion 318: '.'
+Error: caracter invalido en linea 15 posicion 388: ','
+Error: caracter invalido en linea 15 posicion 491: '.'
+Error: caracter invalido en linea 16 posicion 1: ' '
+Error: caracter invalido en linea 17 posicion 54: '.'
+Error: caracter invalido en linea 17 posicion 139: '.'
+Error: caracter invalido en linea 17 posicion 233: '.'
+Error: caracter invalido en linea 17 posicion 241: ','
+Error: caracter invalido en linea 17 posicion 288: ','
+Error: caracter invalido en linea 17 posicion 322: ','
+Error: caracter invalido en linea 17 posicion 368: '.'
+Error: caracter invalido en linea 17 posicion 442: '.'
+Error: caracter invalido en linea 18 posicion 1: ' '
+Error: caracter invalido en linea 19 posicion 11: ','
+Error: caracter invalido en linea 19 posicion 62: '.'
+Error: caracter invalido en linea 19 posicion 111: ','
+Error: caracter invalido en linea 19 posicion 169: ','
+Error: caracter invalido en linea 19 posicion 214: '.'
+Error: caracter invalido en linea 19 posicion 271: ':'
+Error: caracter invalido en linea 19 posicion 282: ','
+Error: caracter invalido en linea 19 posicion 299: ','
+Error: caracter invalido en linea 19 posicion 326: '.'
+Error: caracter invalido en linea 19 posicion 368: ','
+Error: caracter invalido en linea 19 posicion 401: ','
+Error: caracter invalido en linea 19 posicion 493: '.'
+Word Count Results
+------------------
+para 13
+construir 1
+software 3
+seguro 3
+es 14
+necesario 1
+comenzar 1
+desde 4
+la 25
+etapa 1
+de 37
+análisis 2
+definición 1
+requisitos 1
+debe 9
+incluir 1
+objetivos 1
+claros 1
+relacionados 1
+con 6
+protección 1
+información 8
+el 20
+control 2
+accesos 3
+y 19
+resistencia 1
+ante 1
+ataques 4
+un 19
+error 3
+común 1
+enfocarse 1
+únicamente 2
+en 18
+las 3
+funcionalidades 1
+visibles 1
+usuario 8
+dejar 1
+seguridad 5
+después 2
+sin 3
+embargo 2
+corregir 1
+vulnerabilidades 3
+al 2
+final 1
+suele 1
+ser 3
+más 4
+costoso 1
+riesgoso 1
+que 16
+prevenirlas 1
+inicio 2
+uno 1
+los 5
+principios 1
+importantes 2
+mínimo 1
+privilegio 1
+este 2
+principio 1
+establece 1
+o 12
+componente 1
+tener 2
+permisos 5
+necesarios 1
+realizar 2
+su 2
+tarea 1
+cuando 4
+se 14
+asignan 1
+excesivos 1
+incrementa 1
+superficie 1
+ataque 1
+facilita 1
+atacante 4
+obtenga 1
+sobre 3
+sistema 7
+por 7
+ejemplo 2
+si 2
+una 9
+cuenta 1
+normal 1
+tiene 2
+administrador 1
+aplicación 2
+puede 8
+permitir 1
+alguien 1
+modifique 1
+datos 7
+críticos 1
+incluso 1
+borre 1
+eso 4
+recomendable 4
+definir 1
+roles 1
+separar 1
+responsabilidades 1
+autenticación 3
+otro 2
+elemento 1
+clave 2
+proceso 1
+permite 1
+verificar 2
+identidad 2
+persona 1
+intenta 1
+acceder 3
+a 11
+recurso 1
+muchas 3
+aplicaciones 1
+utilizan 1
+contraseñas 3
+pero 3
+no 6
+basta 1
+pedir 1
+simple 1
+deben 8
+aplicar 1
+políticas 1
+exijan 1
+largas 1
+combinaciones 1
+caracteres 2
+evitar 3
+palabras 2
+comunes 1
+además 3
+usar 1
+multifactor 2
+ya 2
+reduce 1
+riesgo 1
+autorizados 1
+combina 1
+algo 3
+sabe 1
+como 7
+código 2
+temporal 1
+huella 1
+digital 2
+autorización 1
+refiere 1
+lo 1
+hacer 1
+autenticarse 1
+válida 1
+significa 1
+deba 1
+toda 1
+cada 2
+operación 1
+importante 2
+fallas 2
+ocurren 1
+confía 1
+demasiado 1
+cliente 1
+modificar 1
+parámetros 1
+solicitud 1
+funciones 1
+restringidas 1
+validación 2
+realizarse 2
+siempre 1
+del 4
+lado 1
+servidor 1
+depender 1
+controles 1
+interfaz 1
+punto 1
+fundamental 1
+entradas 1
+todo 2
+dato 1
+recibido 1
+exterior 1
+considerarse 1
+potencialmente 1
+peligroso 1
+enviar 1
+especiales 1
+estructuras 1
+diseñadas 1
+manipular 1
+consultas 1
+esto 1
+provocar 1
+inyección 1
+sql 1
+ejecución 1
+scripts 1
+corrupción 1
+reducir 3
+estos 1
+riesgos 2
+recomienda 1
+validar 1
+formato 1
+establecer 2
+límites 1
+longitud 1
+utilizar 2
+listas 2
+valores 2
+permitidos 1
+lugar 1
+prohibidos 1
+también 3
+codificar 1
+correctamente 1
+muestran 1
+páginas 1
+web 1
+tipo 1
+xss 1
+cifrado 1
+esencial 1
+proteger 1
+sensible 1
+tanto 1
+tránsito 1
+almacenamiento 2
+viajan 1
+internet 1
+protegerse 2
+protocolos 1
+seguros 2
+tls 1
+nunca 1
+guardarse 1
+texto 1
+plano 1
+algoritmos 1
+hash 1
+técnicas 1
+salting 1
+fuerza 1
+bruta 1
+personales 1
+financieros 1
+cifrarse 1
+impacto 1
+base 1
+llega 1
+comprometida 1
+gestión 1
+errores 1
+influye 1
+muestra 1
+mensajes 2
+detallados 1
+revelar 1
+interna 1
+funcionamiento 1
+mostrar 2
+nombre 1
+exacto 1
+tabla 1
+archivo 1
+ayudar 1
+entender 1
+estructura 1
+genéricos 1
+registrar 2
+detalles 1
+técnicos 1
+bitácoras 2
+internas 1
+pueden 2
+contener 1
+sensibles 1
+pistas 1
+monitoreo 1
+registro 2
+eventos 1
+permiten 1
+detectar 2
+incidentes 1
+analizar 1
+comportamientos 1
+sospechosos 1
+intentos 2
+fallidos 1
+cambios 2
+operaciones 1
+críticas 1
+cuidado 1
+guardar 1
+confidencial 1
+innecesaria 1
+alertas 1
+patrones 1
+anormales 1
+múltiples 1
+sesión 1
+misma 1
+dirección 1
+repetidos 1
+actualización 1
+constante 1
+otra 1
+práctica 1
+necesaria 1
+originan 1
+librerías 1
+antiguas 1
+componentes 1
+soporte 1
+sistemas 1
+mantenerse 1
+actualizados 1
+dependencias 1
+revisarse 1
+periódicamente 1
+pruebas 2
+estático 1
+revisiones 1
+manuales 1
+penetración 1
+estas 1
+actividades 1
+ayudan 1
+descubrir 1
+antes 1
+sean 1
+explotadas 1
+finalmente 1
+esfuerzo 1
+continuo 1
+existe 1
+completamente 1
+invulnerable 1
+mediante 1
+buenas 1
+prácticas 1
+diseño 1
+adecuado 1
+cultura 1
+prevención 1
+responsabilidad 1
+equipo 1
+analistas 1
+desarrolladores 1
+testers 1
+administradores 1
+trabaja 1
+enfoque 1
+preventivo 1
+logra 1
+confiable 1
+resistente 1
+preparado 1
+enfrentar 1
+amenazas 1
+entorno 1
+vez 1
+complejo 1
+finales 1
+prueba 1
+b 2
+á 1
+ú 2
+------------------
+Tiempo_transcurrido_segundos 0.005386500037275255
+
+>>> Ejecutando pylint...
+************* Module wordCount
+wordCount.py:243:0: C0304: Final newline missing (missing-final-newline)
+
+-------------------------------------------------------------------
+Your code has been rated at 9.92/10 (previous run: 10.00/10, -0.08)
+
+===== sábado,  7 de febrero de 2026, 13:16:45 CST =====
+>>> Ejecutando programa Python...
+Error: caracter invalido en linea 1 posicion 80: '.'
+Error: caracter invalido en linea 1 posicion 188: ','
+Error: caracter invalido en linea 1 posicion 241: '.'
+Error: caracter invalido en linea 1 posicion 363: '.'
+Error: caracter invalido en linea 1 posicion 376: ','
+Error: caracter invalido en linea 1 posicion 477: '.'
+Error: caracter invalido en linea 2 posicion 1: ' '
+Error: caracter invalido en linea 3 posicion 65: '.'
+Error: caracter invalido en linea 3 posicion 188: '.'
+Error: caracter invalido en linea 3 posicion 327: '.'
+Error: caracter invalido en linea 3 posicion 340: ','
+Error: caracter invalido en linea 3 posicion 394: ','
+Error: caracter invalido en linea 3 posicion 501: '.'
+Error: caracter invalido en linea 3 posicion 568: '.'
+Error: caracter invalido en linea 4 posicion 1: ' '
+Error: caracter invalido en linea 5 posicion 40: '.'
+Error: caracter invalido en linea 5 posicion 143: '.'
+Error: caracter invalido en linea 5 posicion 191: ','
+Error: caracter invalido en linea 5 posicion 233: '.'
+Error: caracter invalido en linea 5 posicion 291: ','
+Error: caracter invalido en linea 5 posicion 346: '.'
+Error: caracter invalido en linea 5 posicion 354: ','
+Error: caracter invalido en linea 5 posicion 402: ','
+Error: caracter invalido en linea 5 posicion 453: '.'
+Error: caracter invalido en linea 5 posicion 516: ','
+Error: caracter invalido en linea 5 posicion 568: ','
+Error: caracter invalido en linea 5 posicion 614: '.'
+Error: caracter invalido en linea 6 posicion 1: ' '
+Error: caracter invalido en linea 7 posicion 83: '.'
+Error: caracter invalido en linea 7 posicion 128: ','
+Error: caracter invalido en linea 7 posicion 190: '.'
+Error: caracter invalido en linea 7 posicion 262: '.'
+Error: caracter invalido en linea 7 posicion 337: '.'
+Error: caracter invalido en linea 7 posicion 429: '.'
+Error: caracter invalido en linea 7 posicion 540: '.'
+Error: caracter invalido en linea 8 posicion 1: ' '
+Error: caracter invalido en linea 9 posicion 52: '.'
+Error: caracter invalido en linea 9 posicion 133: '.'
+Error: caracter invalido en linea 9 posicion 230: '.'
+Error: caracter invalido en linea 9 posicion 278: ','
+Error: caracter invalido en linea 9 posicion 322: '.'
+Error: caracter invalido en linea 9 posicion 350: ','
+Error: caracter invalido en linea 9 posicion 402: ','
+Error: caracter invalido en linea 9 posicion 515: '.'
+Error: caracter invalido en linea 9 posicion 635: '.'
+Error: caracter invalido en linea 10 posicion 1: ' '
+Error: caracter invalido en linea 11 posicion 99: '.'
+Error: caracter invalido en linea 11 posicion 186: '.'
+Error: caracter invalido en linea 11 posicion 208: ','
+Error: caracter invalido en linea 11 posicion 274: '.'
+Error: caracter invalido en linea 11 posicion 379: '.'
+Error: caracter invalido en linea 11 posicion 387: ','
+Error: caracter invalido en linea 11 posicion 503: '.'
+Error: caracter invalido en linea 12 posicion 1: ' '
+Error: caracter invalido en linea 13 posicion 54: '.'
+Error: caracter invalido en linea 13 posicion 156: '.'
+Error: caracter invalido en linea 13 posicion 169: ','
+Error: caracter invalido en linea 13 posicion 298: '.'
+Error: caracter invalido en linea 13 posicion 413: '.'
+Error: caracter invalido en linea 13 posicion 445: ','
+Error: caracter invalido en linea 13 posicion 517: '.'
+Error: caracter invalido en linea 14 posicion 1: ' '
+Error: caracter invalido en linea 15 posicion 106: '.'
+Error: caracter invalido en linea 15 posicion 148: ','
+Error: caracter invalido en linea 15 posicion 167: ','
+Error: caracter invalido en linea 15 posicion 211: '.'
+Error: caracter invalido en linea 15 posicion 224: ','
+Error: caracter invalido en linea 15 posicion 318: '.'
+Error: caracter invalido en linea 15 posicion 388: ','
+Error: caracter invalido en linea 15 posicion 491: '.'
+Error: caracter invalido en linea 16 posicion 1: ' '
+Error: caracter invalido en linea 17 posicion 54: '.'
+Error: caracter invalido en linea 17 posicion 139: '.'
+Error: caracter invalido en linea 17 posicion 233: '.'
+Error: caracter invalido en linea 17 posicion 241: ','
+Error: caracter invalido en linea 17 posicion 288: ','
+Error: caracter invalido en linea 17 posicion 322: ','
+Error: caracter invalido en linea 17 posicion 368: '.'
+Error: caracter invalido en linea 17 posicion 442: '.'
+Error: caracter invalido en linea 18 posicion 1: ' '
+Error: caracter invalido en linea 19 posicion 11: ','
+Error: caracter invalido en linea 19 posicion 62: '.'
+Error: caracter invalido en linea 19 posicion 111: ','
+Error: caracter invalido en linea 19 posicion 169: ','
+Error: caracter invalido en linea 19 posicion 214: '.'
+Error: caracter invalido en linea 19 posicion 271: ':'
+Error: caracter invalido en linea 19 posicion 282: ','
+Error: caracter invalido en linea 19 posicion 299: ','
+Error: caracter invalido en linea 19 posicion 326: '.'
+Error: caracter invalido en linea 19 posicion 368: ','
+Error: caracter invalido en linea 19 posicion 401: ','
+Error: caracter invalido en linea 19 posicion 493: '.'
+Word Count Results
+------------------
+para 13
+construir 1
+software 3
+seguro 3
+es 14
+necesario 1
+comenzar 1
+desde 4
+la 25
+etapa 1
+de 37
+análisis 2
+definición 1
+requisitos 1
+debe 9
+incluir 1
+objetivos 1
+claros 1
+relacionados 1
+con 6
+protección 1
+información 8
+el 20
+control 2
+accesos 3
+y 19
+resistencia 1
+ante 1
+ataques 4
+un 19
+error 3
+común 1
+enfocarse 1
+únicamente 2
+en 18
+las 3
+funcionalidades 1
+visibles 1
+usuario 8
+dejar 1
+seguridad 5
+después 2
+sin 3
+embargo 2
+corregir 1
+vulnerabilidades 3
+al 2
+final 1
+suele 1
+ser 3
+más 4
+costoso 1
+riesgoso 1
+que 16
+prevenirlas 1
+inicio 2
+uno 1
+los 5
+principios 1
+importantes 2
+mínimo 1
+privilegio 1
+este 2
+principio 1
+establece 1
+o 12
+componente 1
+tener 2
+permisos 5
+necesarios 1
+realizar 2
+su 2
+tarea 1
+cuando 4
+se 14
+asignan 1
+excesivos 1
+incrementa 1
+superficie 1
+ataque 1
+facilita 1
+atacante 4
+obtenga 1
+sobre 3
+sistema 7
+por 7
+ejemplo 2
+si 2
+una 9
+cuenta 1
+normal 1
+tiene 2
+administrador 1
+aplicación 2
+puede 8
+permitir 1
+alguien 1
+modifique 1
+datos 7
+críticos 1
+incluso 1
+borre 1
+eso 4
+recomendable 4
+definir 1
+roles 1
+separar 1
+responsabilidades 1
+autenticación 3
+otro 2
+elemento 1
+clave 2
+proceso 1
+permite 1
+verificar 2
+identidad 2
+persona 1
+intenta 1
+acceder 3
+a 11
+recurso 1
+muchas 3
+aplicaciones 1
+utilizan 1
+contraseñas 3
+pero 3
+no 6
+basta 1
+pedir 1
+simple 1
+deben 8
+aplicar 1
+políticas 1
+exijan 1
+largas 1
+combinaciones 1
+caracteres 2
+evitar 3
+palabras 2
+comunes 1
+además 3
+usar 1
+multifactor 2
+ya 2
+reduce 1
+riesgo 1
+autorizados 1
+combina 1
+algo 3
+sabe 1
+como 7
+código 2
+temporal 1
+huella 1
+digital 2
+autorización 1
+refiere 1
+lo 1
+hacer 1
+autenticarse 1
+válida 1
+significa 1
+deba 1
+toda 1
+cada 2
+operación 1
+importante 2
+fallas 2
+ocurren 1
+confía 1
+demasiado 1
+cliente 1
+modificar 1
+parámetros 1
+solicitud 1
+funciones 1
+restringidas 1
+validación 2
+realizarse 2
+siempre 1
+del 4
+lado 1
+servidor 1
+depender 1
+controles 1
+interfaz 1
+punto 1
+fundamental 1
+entradas 1
+todo 2
+dato 1
+recibido 1
+exterior 1
+considerarse 1
+potencialmente 1
+peligroso 1
+enviar 1
+especiales 1
+estructuras 1
+diseñadas 1
+manipular 1
+consultas 1
+esto 1
+provocar 1
+inyección 1
+sql 1
+ejecución 1
+scripts 1
+corrupción 1
+reducir 3
+estos 1
+riesgos 2
+recomienda 1
+validar 1
+formato 1
+establecer 2
+límites 1
+longitud 1
+utilizar 2
+listas 2
+valores 2
+permitidos 1
+lugar 1
+prohibidos 1
+también 3
+codificar 1
+correctamente 1
+muestran 1
+páginas 1
+web 1
+tipo 1
+xss 1
+cifrado 1
+esencial 1
+proteger 1
+sensible 1
+tanto 1
+tránsito 1
+almacenamiento 2
+viajan 1
+internet 1
+protegerse 2
+protocolos 1
+seguros 2
+tls 1
+nunca 1
+guardarse 1
+texto 1
+plano 1
+algoritmos 1
+hash 1
+técnicas 1
+salting 1
+fuerza 1
+bruta 1
+personales 1
+financieros 1
+cifrarse 1
+impacto 1
+base 1
+llega 1
+comprometida 1
+gestión 1
+errores 1
+influye 1
+muestra 1
+mensajes 2
+detallados 1
+revelar 1
+interna 1
+funcionamiento 1
+mostrar 2
+nombre 1
+exacto 1
+tabla 1
+archivo 1
+ayudar 1
+entender 1
+estructura 1
+genéricos 1
+registrar 2
+detalles 1
+técnicos 1
+bitácoras 2
+internas 1
+pueden 2
+contener 1
+sensibles 1
+pistas 1
+monitoreo 1
+registro 2
+eventos 1
+permiten 1
+detectar 2
+incidentes 1
+analizar 1
+comportamientos 1
+sospechosos 1
+intentos 2
+fallidos 1
+cambios 2
+operaciones 1
+críticas 1
+cuidado 1
+guardar 1
+confidencial 1
+innecesaria 1
+alertas 1
+patrones 1
+anormales 1
+múltiples 1
+sesión 1
+misma 1
+dirección 1
+repetidos 1
+actualización 1
+constante 1
+otra 1
+práctica 1
+necesaria 1
+originan 1
+librerías 1
+antiguas 1
+componentes 1
+soporte 1
+sistemas 1
+mantenerse 1
+actualizados 1
+dependencias 1
+revisarse 1
+periódicamente 1
+pruebas 2
+estático 1
+revisiones 1
+manuales 1
+penetración 1
+estas 1
+actividades 1
+ayudan 1
+descubrir 1
+antes 1
+sean 1
+explotadas 1
+finalmente 1
+esfuerzo 1
+continuo 1
+existe 1
+completamente 1
+invulnerable 1
+mediante 1
+buenas 1
+prácticas 1
+diseño 1
+adecuado 1
+cultura 1
+prevención 1
+responsabilidad 1
+equipo 1
+analistas 1
+desarrolladores 1
+testers 1
+administradores 1
+trabaja 1
+enfoque 1
+preventivo 1
+logra 1
+confiable 1
+resistente 1
+preparado 1
+enfrentar 1
+amenazas 1
+entorno 1
+vez 1
+complejo 1
+finales 1
+prueba 1
+b 2
+á 1
+ú 2
+------------------
+Tiempo_transcurrido_segundos 0.005367833073250949
+
+>>> Ejecutando pylint...
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.92/10, +0.08)
+
+===== sábado,  7 de febrero de 2026, 13:17:21 CST =====
+>>> Ejecutando programa Python...
+Error: caracter invalido en linea 1 posicion 80: '.'
+Error: caracter invalido en linea 1 posicion 188: ','
+Error: caracter invalido en linea 1 posicion 241: '.'
+Error: caracter invalido en linea 1 posicion 363: '.'
+Error: caracter invalido en linea 1 posicion 376: ','
+Error: caracter invalido en linea 1 posicion 477: '.'
+Word Count Results
+------------------
+para 3
+construir 1
+software 1
+seguro 1
+es 2
+necesario 1
+comenzar 1
+desde 2
+la 6
+etapa 1
+de 5
+análisis 1
+definición 1
+requisitos 1
+debe 1
+incluir 1
+objetivos 1
+claros 1
+relacionados 1
+con 1
+protección 1
+información 1
+el 3
+control 1
+accesos 1
+y 3
+resistencia 1
+ante 1
+ataques 1
+un 1
+error 1
+común 1
+enfocarse 1
+únicamente 1
+en 1
+las 1
+funcionalidades 1
+visibles 1
+usuario 1
+dejar 1
+seguridad 1
+después 1
+sin 1
+embargo 1
+corregir 1
+vulnerabilidades 1
+al 1
+final 1
+suele 1
+ser 1
+más 1
+costoso 1
+riesgoso 1
+que 1
+prevenirlas 1
+inicio 1
+palabras 1
+finales 1
+prueba 1
+a 3
+b 2
+á 1
+ú 2
+------------------
+Tiempo_transcurrido_segundos 0.0005010840250179172
+
+>>> Ejecutando pylint...
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+

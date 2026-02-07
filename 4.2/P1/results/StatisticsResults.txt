@@ -1,0 +1,21 @@
+=== Statistics Results ===
+Archivo de entrada: fileWithData.txt
+Valores leidos totales(validos + invalidos): 111
+Numeros validos: 106
+Valores invalidos: 5
+
+=== Descriptive Statistics ===
+Mean (media): 49.792453
+Median (mediana): 47.500000
+Mode (moda): 38
+Variance (varianza): 794.428622
+Standard deviation (desviacion estandar): 28.185610
+
+Tiempo transcurrido (segundos): 0.000368
+
+=== Errores detectados (se continuo la ejecucion) ===
+Error en linea 100: valor '--' invalido (could not convert string to float: '--')
+Error en linea 100: valor 'pa'' invalido (could not convert string to float: "pa'")
+Error en linea 100: valor 'que' invalido (could not convert string to float: 'que')
+Error en linea 100: valor 'truene' invalido (could not convert string to float: 'truene')
+Error en linea 100: valor '--' invalido (could not convert string to float: '--')
