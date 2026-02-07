@@ -25,6 +25,8 @@ Los tres programas comparten características comunes:
 ```
 4.2/
 ├── README.md                    # Este archivo
+├── general_results/                          # Resultados generales de los 3 programas
+│   ├── A01796826_A4.2.pdf
 ├── P1/                          # Programa 1: Estadísticas Descriptivas
 │   ├── README.md
 │   ├── source/
@@ -55,6 +57,7 @@ Los tres programas comparten características comunes:
     │   └── WordCountResults.txt
     └── tests/
         └── pylint_historial.txt
+
 ```
 
 ---
