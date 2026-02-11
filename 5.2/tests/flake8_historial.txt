@@ -1,0 +1,584 @@
+>>> Ejecutando Flake8...
+computeSales.py:11:80: E501 line too long (89 > 79 characters)
+computeSales.py:96:80: E501 line too long (81 > 79 characters)
+computeSales.py:100:80: E501 line too long (87 > 79 characters)
+computeSales.py:143:80: E501 line too long (82 > 79 characters)
+computeSales.py:164:80: E501 line too long (80 > 79 characters)
+computeSales.py:173:80: E501 line too long (82 > 79 characters)
+computeSales.py:192:80: E501 line too long (80 > 79 characters)
+computeSales.py:205:80: E501 line too long (92 > 79 characters)
+computeSales.py:217:80: E501 line too long (80 > 79 characters)
+computeSales.py:227:80: E501 line too long (80 > 79 characters)
+computeSales.py:253:80: E501 line too long (85 > 79 characters)
+computeSales.py:268:80: E501 line too long (99 > 79 characters)
+computeSales.py:288:80: E501 line too long (92 > 79 characters)
+computeSales.py:365:80: E501 line too long (80 > 79 characters)
+computeSales.py:380:80: E501 line too long (94 > 79 characters)
+computeSales.py:388:80: E501 line too long (87 > 79 characters)
+computeSales.py:445:80: E501 line too long (86 > 79 characters)
+computeSales.py:466:80: E501 line too long (85 > 79 characters)
+computeSales.py:479:37: W292 no newline at end of file
+
+>>> Ejecutando Flake8...
+computeSales.py:11:80: E501 line too long (89 > 79 characters)
+computeSales.py:96:80: E501 line too long (81 > 79 characters)
+computeSales.py:100:80: E501 line too long (87 > 79 characters)
+computeSales.py:143:80: E501 line too long (82 > 79 characters)
+computeSales.py:164:80: E501 line too long (80 > 79 characters)
+computeSales.py:173:80: E501 line too long (82 > 79 characters)
+computeSales.py:192:80: E501 line too long (80 > 79 characters)
+computeSales.py:205:80: E501 line too long (92 > 79 characters)
+computeSales.py:217:80: E501 line too long (80 > 79 characters)
+computeSales.py:227:80: E501 line too long (80 > 79 characters)
+computeSales.py:253:80: E501 line too long (85 > 79 characters)
+computeSales.py:268:80: E501 line too long (99 > 79 characters)
+computeSales.py:288:80: E501 line too long (92 > 79 characters)
+computeSales.py:365:80: E501 line too long (80 > 79 characters)
+computeSales.py:380:80: E501 line too long (94 > 79 characters)
+computeSales.py:388:80: E501 line too long (87 > 79 characters)
+computeSales.py:445:80: E501 line too long (86 > 79 characters)
+computeSales.py:466:80: E501 line too long (85 > 79 characters)
+computeSales.py:479:37: W292 no newline at end of file
+
+>>> Ejecutando Flake8...
+computeSales.py:11:80: E501 line too long (89 > 79 characters)
+computeSales.py:96:80: E501 line too long (81 > 79 characters)
+computeSales.py:100:80: E501 line too long (87 > 79 characters)
+computeSales.py:143:80: E501 line too long (82 > 79 characters)
+computeSales.py:164:80: E501 line too long (80 > 79 characters)
+computeSales.py:173:80: E501 line too long (82 > 79 characters)
+computeSales.py:192:80: E501 line too long (80 > 79 characters)
+computeSales.py:205:80: E501 line too long (92 > 79 characters)
+computeSales.py:217:80: E501 line too long (80 > 79 characters)
+computeSales.py:227:80: E501 line too long (80 > 79 characters)
+computeSales.py:253:80: E501 line too long (85 > 79 characters)
+computeSales.py:268:80: E501 line too long (99 > 79 characters)
+computeSales.py:288:80: E501 line too long (92 > 79 characters)
+computeSales.py:365:80: E501 line too long (80 > 79 characters)
+computeSales.py:380:80: E501 line too long (94 > 79 characters)
+computeSales.py:388:80: E501 line too long (87 > 79 characters)
+computeSales.py:445:80: E501 line too long (86 > 79 characters)
+computeSales.py:466:80: E501 line too long (85 > 79 characters)
+computeSales.py:479:37: W292 no newline at end of file
+
+===== lunes,  9 de febrero de 2026, 17:43:11 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:11:80: E501 line too long (89 > 79 characters)
+computeSales.py:96:80: E501 line too long (81 > 79 characters)
+computeSales.py:100:80: E501 line too long (87 > 79 characters)
+computeSales.py:143:80: E501 line too long (82 > 79 characters)
+computeSales.py:164:80: E501 line too long (80 > 79 characters)
+computeSales.py:173:80: E501 line too long (82 > 79 characters)
+computeSales.py:192:80: E501 line too long (80 > 79 characters)
+computeSales.py:205:80: E501 line too long (92 > 79 characters)
+computeSales.py:217:80: E501 line too long (80 > 79 characters)
+computeSales.py:227:80: E501 line too long (80 > 79 characters)
+computeSales.py:253:80: E501 line too long (85 > 79 characters)
+computeSales.py:268:80: E501 line too long (99 > 79 characters)
+computeSales.py:288:80: E501 line too long (92 > 79 characters)
+computeSales.py:365:80: E501 line too long (80 > 79 characters)
+computeSales.py:380:80: E501 line too long (94 > 79 characters)
+computeSales.py:388:80: E501 line too long (87 > 79 characters)
+computeSales.py:445:80: E501 line too long (86 > 79 characters)
+computeSales.py:466:80: E501 line too long (85 > 79 characters)
+computeSales.py:479:37: W292 no newline at end of file
+
+===== lunes,  9 de febrero de 2026, 17:44:29 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:11:80: E501 line too long (89 > 79 characters)
+computeSales.py:96:80: E501 line too long (81 > 79 characters)
+computeSales.py:100:80: E501 line too long (87 > 79 characters)
+computeSales.py:143:80: E501 line too long (82 > 79 characters)
+computeSales.py:164:80: E501 line too long (80 > 79 characters)
+computeSales.py:173:80: E501 line too long (82 > 79 characters)
+computeSales.py:192:80: E501 line too long (80 > 79 characters)
+computeSales.py:205:80: E501 line too long (92 > 79 characters)
+computeSales.py:217:80: E501 line too long (80 > 79 characters)
+computeSales.py:227:80: E501 line too long (80 > 79 characters)
+computeSales.py:253:80: E501 line too long (85 > 79 characters)
+computeSales.py:268:80: E501 line too long (99 > 79 characters)
+computeSales.py:288:80: E501 line too long (92 > 79 characters)
+computeSales.py:365:80: E501 line too long (80 > 79 characters)
+computeSales.py:380:80: E501 line too long (94 > 79 characters)
+computeSales.py:388:80: E501 line too long (87 > 79 characters)
+computeSales.py:445:80: E501 line too long (86 > 79 characters)
+computeSales.py:466:80: E501 line too long (85 > 79 characters)
+
+===== lunes,  9 de febrero de 2026, 17:46:13 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:11:80: E501 line too long (89 > 79 characters)
+computeSales.py:96:80: E501 line too long (81 > 79 characters)
+computeSales.py:100:80: E501 line too long (87 > 79 characters)
+computeSales.py:143:80: E501 line too long (82 > 79 characters)
+computeSales.py:164:80: E501 line too long (80 > 79 characters)
+computeSales.py:173:80: E501 line too long (82 > 79 characters)
+computeSales.py:192:80: E501 line too long (80 > 79 characters)
+computeSales.py:205:80: E501 line too long (92 > 79 characters)
+computeSales.py:217:80: E501 line too long (80 > 79 characters)
+computeSales.py:227:80: E501 line too long (80 > 79 characters)
+computeSales.py:253:80: E501 line too long (85 > 79 characters)
+computeSales.py:268:80: E501 line too long (99 > 79 characters)
+computeSales.py:288:80: E501 line too long (92 > 79 characters)
+computeSales.py:365:80: E501 line too long (80 > 79 characters)
+computeSales.py:380:80: E501 line too long (94 > 79 characters)
+computeSales.py:388:80: E501 line too long (87 > 79 characters)
+computeSales.py:445:80: E501 line too long (86 > 79 characters)
+computeSales.py:466:80: E501 line too long (85 > 79 characters)
+
+===== martes, 10 de febrero de 2026, 14:22:52 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:11:80: E501 line too long (89 > 79 characters)
+computeSales.py:96:80: E501 line too long (81 > 79 characters)
+computeSales.py:100:80: E501 line too long (87 > 79 characters)
+computeSales.py:143:80: E501 line too long (82 > 79 characters)
+computeSales.py:164:80: E501 line too long (80 > 79 characters)
+computeSales.py:173:80: E501 line too long (82 > 79 characters)
+computeSales.py:192:80: E501 line too long (80 > 79 characters)
+computeSales.py:205:80: E501 line too long (92 > 79 characters)
+computeSales.py:217:80: E501 line too long (80 > 79 characters)
+computeSales.py:227:80: E501 line too long (80 > 79 characters)
+computeSales.py:253:80: E501 line too long (85 > 79 characters)
+computeSales.py:268:80: E501 line too long (99 > 79 characters)
+computeSales.py:288:80: E501 line too long (92 > 79 characters)
+computeSales.py:365:80: E501 line too long (80 > 79 characters)
+computeSales.py:380:80: E501 line too long (94 > 79 characters)
+computeSales.py:388:80: E501 line too long (87 > 79 characters)
+computeSales.py:445:80: E501 line too long (86 > 79 characters)
+computeSales.py:466:80: E501 line too long (85 > 79 characters)
+
+===== martes, 10 de febrero de 2026, 14:24:17 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:11:80: E501 line too long (89 > 79 characters)
+computeSales.py:96:80: E501 line too long (81 > 79 characters)
+computeSales.py:100:80: E501 line too long (87 > 79 characters)
+computeSales.py:143:80: E501 line too long (82 > 79 characters)
+computeSales.py:164:80: E501 line too long (80 > 79 characters)
+computeSales.py:173:80: E501 line too long (82 > 79 characters)
+computeSales.py:192:80: E501 line too long (80 > 79 characters)
+computeSales.py:205:80: E501 line too long (92 > 79 characters)
+computeSales.py:217:80: E501 line too long (80 > 79 characters)
+computeSales.py:227:80: E501 line too long (80 > 79 characters)
+computeSales.py:253:80: E501 line too long (85 > 79 characters)
+computeSales.py:268:80: E501 line too long (99 > 79 characters)
+computeSales.py:288:80: E501 line too long (92 > 79 characters)
+computeSales.py:365:80: E501 line too long (80 > 79 characters)
+computeSales.py:380:80: E501 line too long (94 > 79 characters)
+computeSales.py:388:80: E501 line too long (87 > 79 characters)
+computeSales.py:445:80: E501 line too long (86 > 79 characters)
+computeSales.py:466:80: E501 line too long (85 > 79 characters)
+
+===== martes, 10 de febrero de 2026, 14:58:36 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:11:80: E501 line too long (89 > 79 characters)
+computeSales.py:96:80: E501 line too long (81 > 79 characters)
+computeSales.py:100:80: E501 line too long (87 > 79 characters)
+computeSales.py:143:80: E501 line too long (82 > 79 characters)
+computeSales.py:164:80: E501 line too long (80 > 79 characters)
+computeSales.py:173:80: E501 line too long (82 > 79 characters)
+computeSales.py:192:80: E501 line too long (80 > 79 characters)
+computeSales.py:205:80: E501 line too long (92 > 79 characters)
+computeSales.py:217:80: E501 line too long (80 > 79 characters)
+computeSales.py:227:80: E501 line too long (80 > 79 characters)
+computeSales.py:253:80: E501 line too long (85 > 79 characters)
+computeSales.py:268:80: E501 line too long (99 > 79 characters)
+computeSales.py:288:80: E501 line too long (92 > 79 characters)
+computeSales.py:365:80: E501 line too long (80 > 79 characters)
+computeSales.py:380:80: E501 line too long (94 > 79 characters)
+computeSales.py:388:80: E501 line too long (87 > 79 characters)
+computeSales.py:445:80: E501 line too long (86 > 79 characters)
+computeSales.py:466:80: E501 line too long (85 > 79 characters)
+
+===== martes, 10 de febrero de 2026, 15:02:11 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:11:80: E501 line too long (89 > 79 characters)
+computeSales.py:96:80: E501 line too long (81 > 79 characters)
+computeSales.py:100:80: E501 line too long (87 > 79 characters)
+computeSales.py:143:80: E501 line too long (82 > 79 characters)
+computeSales.py:164:80: E501 line too long (80 > 79 characters)
+computeSales.py:173:80: E501 line too long (82 > 79 characters)
+computeSales.py:192:80: E501 line too long (80 > 79 characters)
+computeSales.py:205:80: E501 line too long (92 > 79 characters)
+computeSales.py:217:80: E501 line too long (80 > 79 characters)
+computeSales.py:227:80: E501 line too long (80 > 79 characters)
+computeSales.py:253:80: E501 line too long (85 > 79 characters)
+computeSales.py:268:80: E501 line too long (99 > 79 characters)
+computeSales.py:288:80: E501 line too long (92 > 79 characters)
+computeSales.py:365:80: E501 line too long (80 > 79 characters)
+computeSales.py:380:80: E501 line too long (94 > 79 characters)
+computeSales.py:388:80: E501 line too long (87 > 79 characters)
+computeSales.py:445:80: E501 line too long (86 > 79 characters)
+computeSales.py:466:80: E501 line too long (85 > 79 characters)
+
+===== martes, 10 de febrero de 2026, 15:07:30 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:11:80: E501 line too long (89 > 79 characters)
+computeSales.py:96:80: E501 line too long (81 > 79 characters)
+computeSales.py:103:80: E501 line too long (87 > 79 characters)
+computeSales.py:111:80: E501 line too long (93 > 79 characters)
+computeSales.py:112:80: E501 line too long (100 > 79 characters)
+computeSales.py:122:80: E501 line too long (103 > 79 characters)
+computeSales.py:150:80: E501 line too long (97 > 79 characters)
+computeSales.py:189:1: E302 expected 2 blank lines, found 1
+computeSales.py:208:80: E501 line too long (85 > 79 characters)
+computeSales.py:223:80: E501 line too long (99 > 79 characters)
+computeSales.py:243:80: E501 line too long (92 > 79 characters)
+computeSales.py:320:80: E501 line too long (80 > 79 characters)
+computeSales.py:335:80: E501 line too long (94 > 79 characters)
+computeSales.py:343:80: E501 line too long (87 > 79 characters)
+computeSales.py:400:80: E501 line too long (86 > 79 characters)
+computeSales.py:403:29: F821 undefined name 'construir_catalogo_precios'
+computeSales.py:421:80: E501 line too long (85 > 79 characters)
+
+===== martes, 10 de febrero de 2026, 15:10:12 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:11:80: E501 line too long (89 > 79 characters)
+computeSales.py:96:80: E501 line too long (81 > 79 characters)
+computeSales.py:103:80: E501 line too long (87 > 79 characters)
+computeSales.py:111:80: E501 line too long (93 > 79 characters)
+computeSales.py:112:80: E501 line too long (100 > 79 characters)
+computeSales.py:122:80: E501 line too long (103 > 79 characters)
+computeSales.py:150:80: E501 line too long (97 > 79 characters)
+computeSales.py:189:1: E302 expected 2 blank lines, found 1
+computeSales.py:199:80: E501 line too long (82 > 79 characters)
+computeSales.py:220:80: E501 line too long (80 > 79 characters)
+computeSales.py:229:80: E501 line too long (82 > 79 characters)
+computeSales.py:248:80: E501 line too long (80 > 79 characters)
+computeSales.py:261:80: E501 line too long (92 > 79 characters)
+computeSales.py:273:80: E501 line too long (80 > 79 characters)
+computeSales.py:283:80: E501 line too long (80 > 79 characters)
+computeSales.py:309:80: E501 line too long (85 > 79 characters)
+computeSales.py:324:80: E501 line too long (99 > 79 characters)
+computeSales.py:344:80: E501 line too long (92 > 79 characters)
+computeSales.py:421:80: E501 line too long (80 > 79 characters)
+computeSales.py:436:80: E501 line too long (94 > 79 characters)
+computeSales.py:444:80: E501 line too long (87 > 79 characters)
+computeSales.py:501:80: E501 line too long (86 > 79 characters)
+computeSales.py:522:80: E501 line too long (85 > 79 characters)
+
+===== martes, 10 de febrero de 2026, 15:18:11 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:11:80: E501 line too long (89 > 79 characters)
+computeSales.py:96:80: E501 line too long (81 > 79 characters)
+computeSales.py:103:80: E501 line too long (87 > 79 characters)
+computeSales.py:111:80: E501 line too long (93 > 79 characters)
+computeSales.py:112:80: E501 line too long (100 > 79 characters)
+computeSales.py:122:80: E501 line too long (103 > 79 characters)
+computeSales.py:150:80: E501 line too long (97 > 79 characters)
+computeSales.py:189:1: E302 expected 2 blank lines, found 1
+computeSales.py:199:80: E501 line too long (82 > 79 characters)
+computeSales.py:220:80: E501 line too long (80 > 79 characters)
+computeSales.py:229:80: E501 line too long (82 > 79 characters)
+computeSales.py:248:80: E501 line too long (80 > 79 characters)
+computeSales.py:261:80: E501 line too long (92 > 79 characters)
+computeSales.py:273:80: E501 line too long (80 > 79 characters)
+computeSales.py:283:80: E501 line too long (80 > 79 characters)
+computeSales.py:309:80: E501 line too long (85 > 79 characters)
+computeSales.py:324:80: E501 line too long (99 > 79 characters)
+computeSales.py:344:80: E501 line too long (92 > 79 characters)
+computeSales.py:421:80: E501 line too long (80 > 79 characters)
+computeSales.py:436:80: E501 line too long (94 > 79 characters)
+computeSales.py:444:80: E501 line too long (87 > 79 characters)
+computeSales.py:501:80: E501 line too long (86 > 79 characters)
+computeSales.py:522:80: E501 line too long (85 > 79 characters)
+
+===== martes, 10 de febrero de 2026, 15:20:51 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:481:71: E999 SyntaxError: unmatched ')'
+
+===== martes, 10 de febrero de 2026, 15:21:12 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:11:80: E501 line too long (89 > 79 characters)
+computeSales.py:96:80: E501 line too long (81 > 79 characters)
+computeSales.py:103:80: E501 line too long (87 > 79 characters)
+computeSales.py:111:80: E501 line too long (93 > 79 characters)
+computeSales.py:112:80: E501 line too long (100 > 79 characters)
+computeSales.py:122:80: E501 line too long (103 > 79 characters)
+computeSales.py:150:80: E501 line too long (97 > 79 characters)
+computeSales.py:189:1: E302 expected 2 blank lines, found 1
+computeSales.py:199:80: E501 line too long (82 > 79 characters)
+computeSales.py:220:80: E501 line too long (80 > 79 characters)
+computeSales.py:229:80: E501 line too long (82 > 79 characters)
+computeSales.py:248:80: E501 line too long (80 > 79 characters)
+computeSales.py:261:80: E501 line too long (92 > 79 characters)
+computeSales.py:273:80: E501 line too long (80 > 79 characters)
+computeSales.py:283:80: E501 line too long (80 > 79 characters)
+computeSales.py:309:80: E501 line too long (85 > 79 characters)
+computeSales.py:324:80: E501 line too long (99 > 79 characters)
+computeSales.py:344:80: E501 line too long (92 > 79 characters)
+computeSales.py:421:80: E501 line too long (80 > 79 characters)
+computeSales.py:436:80: E501 line too long (94 > 79 characters)
+computeSales.py:444:80: E501 line too long (87 > 79 characters)
+computeSales.py:506:80: E501 line too long (86 > 79 characters)
+computeSales.py:527:80: E501 line too long (85 > 79 characters)
+
+===== martes, 10 de febrero de 2026, 15:21:46 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:11:80: E501 line too long (89 > 79 characters)
+computeSales.py:96:80: E501 line too long (81 > 79 characters)
+computeSales.py:103:80: E501 line too long (87 > 79 characters)
+computeSales.py:111:80: E501 line too long (93 > 79 characters)
+computeSales.py:112:80: E501 line too long (100 > 79 characters)
+computeSales.py:122:80: E501 line too long (103 > 79 characters)
+computeSales.py:150:80: E501 line too long (97 > 79 characters)
+computeSales.py:189:1: E302 expected 2 blank lines, found 1
+computeSales.py:199:80: E501 line too long (82 > 79 characters)
+computeSales.py:220:80: E501 line too long (80 > 79 characters)
+computeSales.py:229:80: E501 line too long (82 > 79 characters)
+computeSales.py:248:80: E501 line too long (80 > 79 characters)
+computeSales.py:261:80: E501 line too long (92 > 79 characters)
+computeSales.py:273:80: E501 line too long (80 > 79 characters)
+computeSales.py:283:80: E501 line too long (80 > 79 characters)
+computeSales.py:309:80: E501 line too long (85 > 79 characters)
+computeSales.py:324:80: E501 line too long (99 > 79 characters)
+computeSales.py:344:80: E501 line too long (92 > 79 characters)
+computeSales.py:421:80: E501 line too long (80 > 79 characters)
+computeSales.py:436:80: E501 line too long (94 > 79 characters)
+computeSales.py:444:80: E501 line too long (87 > 79 characters)
+computeSales.py:506:80: E501 line too long (86 > 79 characters)
+computeSales.py:527:80: E501 line too long (85 > 79 characters)
+
+===== martes, 10 de febrero de 2026, 15:22:41 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:11:80: E501 line too long (89 > 79 characters)
+computeSales.py:96:80: E501 line too long (81 > 79 characters)
+computeSales.py:103:80: E501 line too long (87 > 79 characters)
+computeSales.py:111:80: E501 line too long (93 > 79 characters)
+computeSales.py:112:80: E501 line too long (100 > 79 characters)
+computeSales.py:122:80: E501 line too long (103 > 79 characters)
+computeSales.py:150:80: E501 line too long (97 > 79 characters)
+computeSales.py:189:1: E302 expected 2 blank lines, found 1
+computeSales.py:199:80: E501 line too long (82 > 79 characters)
+computeSales.py:220:80: E501 line too long (80 > 79 characters)
+computeSales.py:229:80: E501 line too long (82 > 79 characters)
+computeSales.py:248:80: E501 line too long (80 > 79 characters)
+computeSales.py:261:80: E501 line too long (92 > 79 characters)
+computeSales.py:273:80: E501 line too long (80 > 79 characters)
+computeSales.py:283:80: E501 line too long (80 > 79 characters)
+computeSales.py:309:80: E501 line too long (85 > 79 characters)
+computeSales.py:324:80: E501 line too long (99 > 79 characters)
+computeSales.py:344:80: E501 line too long (92 > 79 characters)
+computeSales.py:421:80: E501 line too long (80 > 79 characters)
+computeSales.py:436:80: E501 line too long (94 > 79 characters)
+computeSales.py:444:80: E501 line too long (87 > 79 characters)
+computeSales.py:506:80: E501 line too long (86 > 79 characters)
+computeSales.py:527:80: E501 line too long (85 > 79 characters)
+
+===== martes, 10 de febrero de 2026, 15:23:02 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:11:80: E501 line too long (89 > 79 characters)
+computeSales.py:96:80: E501 line too long (81 > 79 characters)
+computeSales.py:103:80: E501 line too long (87 > 79 characters)
+computeSales.py:111:80: E501 line too long (93 > 79 characters)
+computeSales.py:112:80: E501 line too long (100 > 79 characters)
+computeSales.py:122:80: E501 line too long (103 > 79 characters)
+computeSales.py:150:80: E501 line too long (97 > 79 characters)
+computeSales.py:189:1: E302 expected 2 blank lines, found 1
+computeSales.py:199:80: E501 line too long (82 > 79 characters)
+computeSales.py:220:80: E501 line too long (80 > 79 characters)
+computeSales.py:229:80: E501 line too long (82 > 79 characters)
+computeSales.py:248:80: E501 line too long (80 > 79 characters)
+computeSales.py:261:80: E501 line too long (92 > 79 characters)
+computeSales.py:273:80: E501 line too long (80 > 79 characters)
+computeSales.py:283:80: E501 line too long (80 > 79 characters)
+computeSales.py:309:80: E501 line too long (85 > 79 characters)
+computeSales.py:324:80: E501 line too long (99 > 79 characters)
+computeSales.py:344:80: E501 line too long (92 > 79 characters)
+computeSales.py:421:80: E501 line too long (80 > 79 characters)
+computeSales.py:436:80: E501 line too long (94 > 79 characters)
+computeSales.py:444:80: E501 line too long (87 > 79 characters)
+computeSales.py:506:80: E501 line too long (86 > 79 characters)
+computeSales.py:527:80: E501 line too long (85 > 79 characters)
+
+===== martes, 10 de febrero de 2026, 16:06:19 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:11:80: E501 line too long (89 > 79 characters)
+computeSales.py:96:80: E501 line too long (81 > 79 characters)
+computeSales.py:103:80: E501 line too long (87 > 79 characters)
+computeSales.py:111:80: E501 line too long (93 > 79 characters)
+computeSales.py:112:80: E501 line too long (100 > 79 characters)
+computeSales.py:122:80: E501 line too long (103 > 79 characters)
+computeSales.py:150:80: E501 line too long (97 > 79 characters)
+computeSales.py:189:1: E302 expected 2 blank lines, found 1
+computeSales.py:199:80: E501 line too long (82 > 79 characters)
+computeSales.py:220:80: E501 line too long (80 > 79 characters)
+computeSales.py:229:80: E501 line too long (82 > 79 characters)
+computeSales.py:248:80: E501 line too long (80 > 79 characters)
+computeSales.py:261:80: E501 line too long (92 > 79 characters)
+computeSales.py:273:80: E501 line too long (80 > 79 characters)
+computeSales.py:283:80: E501 line too long (80 > 79 characters)
+computeSales.py:309:80: E501 line too long (85 > 79 characters)
+computeSales.py:324:80: E501 line too long (99 > 79 characters)
+computeSales.py:344:80: E501 line too long (92 > 79 characters)
+computeSales.py:421:80: E501 line too long (80 > 79 characters)
+computeSales.py:436:80: E501 line too long (94 > 79 characters)
+computeSales.py:444:80: E501 line too long (87 > 79 characters)
+computeSales.py:506:80: E501 line too long (86 > 79 characters)
+computeSales.py:527:80: E501 line too long (85 > 79 characters)
+
+===== martes, 10 de febrero de 2026, 16:14:03 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:11:80: E501 line too long (89 > 79 characters)
+computeSales.py:96:80: E501 line too long (81 > 79 characters)
+computeSales.py:103:80: E501 line too long (87 > 79 characters)
+computeSales.py:111:80: E501 line too long (93 > 79 characters)
+computeSales.py:112:80: E501 line too long (100 > 79 characters)
+computeSales.py:122:80: E501 line too long (103 > 79 characters)
+computeSales.py:150:80: E501 line too long (97 > 79 characters)
+computeSales.py:189:1: E302 expected 2 blank lines, found 1
+computeSales.py:199:80: E501 line too long (82 > 79 characters)
+computeSales.py:220:80: E501 line too long (80 > 79 characters)
+computeSales.py:229:80: E501 line too long (82 > 79 characters)
+computeSales.py:248:80: E501 line too long (80 > 79 characters)
+computeSales.py:261:80: E501 line too long (92 > 79 characters)
+computeSales.py:273:80: E501 line too long (80 > 79 characters)
+computeSales.py:283:80: E501 line too long (80 > 79 characters)
+computeSales.py:309:80: E501 line too long (85 > 79 characters)
+computeSales.py:324:80: E501 line too long (99 > 79 characters)
+computeSales.py:344:80: E501 line too long (92 > 79 characters)
+computeSales.py:425:80: E501 line too long (80 > 79 characters)
+computeSales.py:432:80: E501 line too long (91 > 79 characters)
+computeSales.py:440:80: E501 line too long (87 > 79 characters)
+computeSales.py:451:80: E501 line too long (92 > 79 characters)
+computeSales.py:506:80: E501 line too long (86 > 79 characters)
+computeSales.py:527:80: E501 line too long (85 > 79 characters)
+
+===== martes, 10 de febrero de 2026, 16:16:40 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:11:80: E501 line too long (89 > 79 characters)
+computeSales.py:96:80: E501 line too long (81 > 79 characters)
+computeSales.py:103:80: E501 line too long (87 > 79 characters)
+computeSales.py:111:80: E501 line too long (93 > 79 characters)
+computeSales.py:112:80: E501 line too long (100 > 79 characters)
+computeSales.py:122:80: E501 line too long (103 > 79 characters)
+computeSales.py:150:80: E501 line too long (97 > 79 characters)
+computeSales.py:189:1: E302 expected 2 blank lines, found 1
+computeSales.py:199:80: E501 line too long (82 > 79 characters)
+computeSales.py:220:80: E501 line too long (80 > 79 characters)
+computeSales.py:229:80: E501 line too long (82 > 79 characters)
+computeSales.py:248:80: E501 line too long (80 > 79 characters)
+computeSales.py:261:80: E501 line too long (92 > 79 characters)
+computeSales.py:273:80: E501 line too long (80 > 79 characters)
+computeSales.py:283:80: E501 line too long (80 > 79 characters)
+computeSales.py:309:80: E501 line too long (85 > 79 characters)
+computeSales.py:324:80: E501 line too long (99 > 79 characters)
+computeSales.py:344:80: E501 line too long (92 > 79 characters)
+computeSales.py:425:80: E501 line too long (80 > 79 characters)
+computeSales.py:432:80: E501 line too long (91 > 79 characters)
+computeSales.py:440:80: E501 line too long (87 > 79 characters)
+computeSales.py:451:80: E501 line too long (92 > 79 characters)
+computeSales.py:459:80: E501 line too long (80 > 79 characters)
+computeSales.py:463:5: E122 continuation line missing indentation or outdented
+computeSales.py:464:5: E122 continuation line missing indentation or outdented
+computeSales.py:465:5: E122 continuation line missing indentation or outdented
+computeSales.py:466:5: E122 continuation line missing indentation or outdented
+computeSales.py:467:5: E122 continuation line missing indentation or outdented
+computeSales.py:468:5: E122 continuation line missing indentation or outdented
+computeSales.py:469:1: E122 continuation line missing indentation or outdented
+computeSales.py:511:80: E501 line too long (86 > 79 characters)
+computeSales.py:532:80: E501 line too long (85 > 79 characters)
+
+===== martes, 10 de febrero de 2026, 16:17:06 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:11:80: E501 line too long (89 > 79 characters)
+computeSales.py:96:80: E501 line too long (81 > 79 characters)
+computeSales.py:103:80: E501 line too long (87 > 79 characters)
+computeSales.py:111:80: E501 line too long (93 > 79 characters)
+computeSales.py:112:80: E501 line too long (100 > 79 characters)
+computeSales.py:122:80: E501 line too long (103 > 79 characters)
+computeSales.py:150:80: E501 line too long (97 > 79 characters)
+computeSales.py:189:1: E302 expected 2 blank lines, found 1
+computeSales.py:199:80: E501 line too long (82 > 79 characters)
+computeSales.py:220:80: E501 line too long (80 > 79 characters)
+computeSales.py:229:80: E501 line too long (82 > 79 characters)
+computeSales.py:248:80: E501 line too long (80 > 79 characters)
+computeSales.py:261:80: E501 line too long (92 > 79 characters)
+computeSales.py:273:80: E501 line too long (80 > 79 characters)
+computeSales.py:283:80: E501 line too long (80 > 79 characters)
+computeSales.py:309:80: E501 line too long (85 > 79 characters)
+computeSales.py:324:80: E501 line too long (99 > 79 characters)
+computeSales.py:344:80: E501 line too long (92 > 79 characters)
+computeSales.py:425:80: E501 line too long (80 > 79 characters)
+computeSales.py:432:80: E501 line too long (91 > 79 characters)
+computeSales.py:440:80: E501 line too long (87 > 79 characters)
+computeSales.py:451:80: E501 line too long (92 > 79 characters)
+computeSales.py:459:80: E501 line too long (80 > 79 characters)
+computeSales.py:463:5: E122 continuation line missing indentation or outdented
+computeSales.py:464:5: E122 continuation line missing indentation or outdented
+computeSales.py:465:5: E122 continuation line missing indentation or outdented
+computeSales.py:466:5: E122 continuation line missing indentation or outdented
+computeSales.py:467:5: E122 continuation line missing indentation or outdented
+computeSales.py:468:5: E122 continuation line missing indentation or outdented
+computeSales.py:469:1: E122 continuation line missing indentation or outdented
+computeSales.py:511:80: E501 line too long (86 > 79 characters)
+computeSales.py:532:80: E501 line too long (85 > 79 characters)
+
+===== martes, 10 de febrero de 2026, 16:17:53 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:11:80: E501 line too long (89 > 79 characters)
+computeSales.py:96:80: E501 line too long (81 > 79 characters)
+computeSales.py:103:80: E501 line too long (87 > 79 characters)
+computeSales.py:111:80: E501 line too long (93 > 79 characters)
+computeSales.py:112:80: E501 line too long (100 > 79 characters)
+computeSales.py:122:80: E501 line too long (103 > 79 characters)
+computeSales.py:150:80: E501 line too long (97 > 79 characters)
+computeSales.py:189:1: E302 expected 2 blank lines, found 1
+computeSales.py:199:80: E501 line too long (82 > 79 characters)
+computeSales.py:220:80: E501 line too long (80 > 79 characters)
+computeSales.py:229:80: E501 line too long (82 > 79 characters)
+computeSales.py:248:80: E501 line too long (80 > 79 characters)
+computeSales.py:261:80: E501 line too long (92 > 79 characters)
+computeSales.py:273:80: E501 line too long (80 > 79 characters)
+computeSales.py:283:80: E501 line too long (80 > 79 characters)
+computeSales.py:309:80: E501 line too long (85 > 79 characters)
+computeSales.py:324:80: E501 line too long (99 > 79 characters)
+computeSales.py:344:80: E501 line too long (92 > 79 characters)
+computeSales.py:425:80: E501 line too long (80 > 79 characters)
+computeSales.py:432:80: E501 line too long (91 > 79 characters)
+computeSales.py:440:80: E501 line too long (87 > 79 characters)
+computeSales.py:451:80: E501 line too long (92 > 79 characters)
+computeSales.py:459:80: E501 line too long (80 > 79 characters)
+computeSales.py:463:5: E122 continuation line missing indentation or outdented
+computeSales.py:464:5: E122 continuation line missing indentation or outdented
+computeSales.py:465:5: E122 continuation line missing indentation or outdented
+computeSales.py:466:5: E122 continuation line missing indentation or outdented
+computeSales.py:467:5: E122 continuation line missing indentation or outdented
+computeSales.py:468:5: E122 continuation line missing indentation or outdented
+computeSales.py:469:1: E122 continuation line missing indentation or outdented
+computeSales.py:511:80: E501 line too long (86 > 79 characters)
+computeSales.py:532:80: E501 line too long (85 > 79 characters)
+
+===== martes, 10 de febrero de 2026, 16:18:54 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:11:80: E501 line too long (89 > 79 characters)
+computeSales.py:96:80: E501 line too long (81 > 79 characters)
+computeSales.py:103:80: E501 line too long (87 > 79 characters)
+computeSales.py:111:80: E501 line too long (93 > 79 characters)
+computeSales.py:112:80: E501 line too long (100 > 79 characters)
+computeSales.py:122:80: E501 line too long (103 > 79 characters)
+computeSales.py:150:80: E501 line too long (97 > 79 characters)
+computeSales.py:189:1: E302 expected 2 blank lines, found 1
+computeSales.py:199:80: E501 line too long (82 > 79 characters)
+computeSales.py:220:80: E501 line too long (80 > 79 characters)
+computeSales.py:229:80: E501 line too long (82 > 79 characters)
+computeSales.py:248:80: E501 line too long (80 > 79 characters)
+computeSales.py:261:80: E501 line too long (92 > 79 characters)
+computeSales.py:273:80: E501 line too long (80 > 79 characters)
+computeSales.py:283:80: E501 line too long (80 > 79 characters)
+computeSales.py:309:80: E501 line too long (85 > 79 characters)
+computeSales.py:324:80: E501 line too long (99 > 79 characters)
+computeSales.py:344:80: E501 line too long (92 > 79 characters)
+computeSales.py:425:80: E501 line too long (80 > 79 characters)
+computeSales.py:432:80: E501 line too long (91 > 79 characters)
+computeSales.py:440:80: E501 line too long (87 > 79 characters)
+computeSales.py:451:80: E501 line too long (92 > 79 characters)
+computeSales.py:459:80: E501 line too long (80 > 79 characters)
+computeSales.py:463:5: E122 continuation line missing indentation or outdented
+computeSales.py:464:5: E122 continuation line missing indentation or outdented
+computeSales.py:465:5: E122 continuation line missing indentation or outdented
+computeSales.py:466:5: E122 continuation line missing indentation or outdented
+computeSales.py:467:5: E122 continuation line missing indentation or outdented
+computeSales.py:468:5: E122 continuation line missing indentation or outdented
+computeSales.py:469:1: E122 continuation line missing indentation or outdented
+computeSales.py:511:80: E501 line too long (86 > 79 characters)
+computeSales.py:532:80: E501 line too long (85 > 79 characters)
+
