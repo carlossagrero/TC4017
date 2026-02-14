@@ -8,7 +8,8 @@ Uso:
 Requisitos cubiertos:
 - Lee 2 archivos JSON desde línea de comandos.
 - Calcula el costo total de todas las ventas usando el catálogo de precios.
-- Imprime resultados en pantalla y los guarda en SalesResults.txt (legible para humanos).
+- Imprime resultados en pantalla y
+los guarda en SalesResults.txt (legible para humanos).
 - Maneja datos inválidos: reporta errores y continúa.
 - Escala a cientos/miles de ítems.
 - Mide e incluye tiempo transcurrido.
@@ -52,12 +53,14 @@ class ResumenProceso:  # pylint: disable=too-many-instance-attributes
     cantidad_invalida: int = 0
 
     detalles_errores: List[str] = field(default_factory=list)
-    max_detalles_errores: int = 200  # límite para no llenar el archivo y se vea feo
+    # límite para no llenar el archivo y se vea feo
+    max_detalles_errores: int = 200
 
 
 def imprimir_error(mensaje: str) -> None:
     """Imprime un mensaje de error en stderr."""
     print(f"[ERROR] {mensaje}", file=sys.stderr)
+
 
 def registrar_error(resumen: ResumenProceso, mensaje: str) -> None:
     """Registra un error en el resumen e imprime mensaje."""
@@ -65,6 +68,7 @@ def registrar_error(resumen: ResumenProceso, mensaje: str) -> None:
     imprimir_error(mensaje)
     if len(resumen.detalles_errores) < resumen.max_detalles_errores:
         resumen.detalles_errores.append(mensaje)
+
 
 def registrar_advertencia(resumen: ResumenProceso, mensaje: str) -> None:
     """Registra una advertencia en el resumen e imprime mensaje."""
@@ -115,14 +119,20 @@ def convertir_a_decimal(valor: Any) -> Optional[Decimal]:
     return None
 
 
-def obtener_lista_ventas(datos_ventas: Any) -> Tuple[List[Any], List[ErrorDato]]:
+def obtener_lista_ventas(
+    datos_ventas: Any,
+) -> Tuple[
+    List[Any],
+    List[ErrorDato],
+]:
     """
     Acepta formatos:
     - Lista de ventas: [...]
     - Dict con llave: {"sales":[...]} / {"ventas":[...]} ...
     - Lista plana de renglones (tu caso):
       [{"SALE_ID":1,"Product":"X","Quantity":2,...}, ...]
-      Se agrupa por SALE_ID (y por SALE_Date si existe) para formar ventas con 'items'.
+      Se agrupa por SALE_ID (y por SALE_Date si existe) 
+      para formar ventas con 'items'.
     """
     errores: List[ErrorDato] = []
 
