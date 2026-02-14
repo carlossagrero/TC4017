@@ -131,7 +131,7 @@ def obtener_lista_ventas(
     - Dict con llave: {"sales":[...]} / {"ventas":[...]} ...
     - Lista plana de renglones (tu caso):
       [{"SALE_ID":1,"Product":"X","Quantity":2,...}, ...]
-      Se agrupa por SALE_ID (y por SALE_Date si existe) 
+      Se agrupa por SALE_ID (y por SALE_Date si existe)
       para formar ventas con 'items'.
     """
     errores: List[ErrorDato] = []
@@ -140,8 +140,15 @@ def obtener_lista_ventas(
         if not isinstance(obj, dict):
             return False
         return (
-            "Product" in obj and "Quantity" in obj and ("SALE_ID" in obj or "sale_id" in obj)
-            and not any(k in obj for k in ("items", "products", "productos", "details", "detalles"))
+            "Product" in obj and "Quantity" in obj
+            and ("SALE_ID" in obj or "sale_id" in obj)
+            and not any(
+                k in obj
+                for k in (
+                    "items", "products", "productos",
+                    "details", "detalles"
+                )
+            )
         )
 
     def agrupar_renglones(renglones: List[dict]) -> List[dict]:
@@ -223,6 +230,7 @@ def obtener_lista_ventas(
     )
     return [], errores
 
+
 def construir_catalogo_precios(
     datos_catalogo: Any,
 ) -> Tuple[Dict[str, Decimal], List[ErrorDato]]:
@@ -233,7 +241,8 @@ def construir_catalogo_precios(
       o [{"product":"A","price": 10}, ...]
       o [{"name":"A","price": 10}, ...]
     - Dict directo: {"A": 10, "B": 5.5}
-    - Dict con lista: {"catalogue":[...]} o {"catalog":[...]} o {"products":[...]}
+    - Dict con lista: {"catalogue":[...]}
+      o {"catalog":[...]} o {"products":[...]}
     """
     errores: List[ErrorDato] = []
     catalogo: Dict[str, Decimal] = {}
@@ -254,7 +263,10 @@ def construir_catalogo_precios(
             errores.append(
                 ErrorDato(
                     contexto=f"catálogo[{idx}]",
-                    detalle=f"Precio inválido para '{nombre_norm}': {precio!r}",
+                    detalle=(
+                        f"Precio inválido para '{nombre_norm}': "
+                        f"{precio!r}"
+                    ),
                 )
             )
             return
@@ -263,7 +275,10 @@ def construir_catalogo_precios(
             errores.append(
                 ErrorDato(
                     contexto=f"catálogo[{idx}]",
-                    detalle=f"Precio negativo para '{nombre_norm}': {precio_dec}",
+                    detalle=(
+                        f"Precio negativo para '{nombre_norm}': "
+                        f"{precio_dec}"
+                    ),
                 )
             )
             return
@@ -282,7 +297,9 @@ def construir_catalogo_precios(
             return catalogo, errores
 
         # Caso 2: dict con lista en una llave conocida
-        for llave in ("catalogue", "catalog", "products", "productos", "items"):
+        for llave in (
+            "catalogue", "catalog", "products", "productos", "items"
+        ):
             posible = datos_catalogo.get(llave)
             if isinstance(posible, list):
                 datos_catalogo = posible
@@ -295,7 +312,10 @@ def construir_catalogo_precios(
                 errores.append(
                     ErrorDato(
                         contexto=f"catálogo[{idx}]",
-                        detalle=f"Se esperaba un objeto, se recibió: {type(item).__name__}",
+                        detalle=(
+                            f"Se esperaba un objeto, se recibió: "
+                            f"{type(item).__name__}"
+                        ),
                     )
                 )
                 continue
@@ -307,7 +327,11 @@ def construir_catalogo_precios(
                 or item.get("producto")
                 or item.get("nombre")
             )
-            precio = item.get("price") or item.get("precio") or item.get("cost")
+            precio = (
+                item.get("price")
+                or item.get("precio")
+                or item.get("cost")
+            )
             registrar_item(nombre, precio, idx)
 
         return catalogo, errores
@@ -316,8 +340,9 @@ def construir_catalogo_precios(
         ErrorDato(
             contexto="catálogo",
             detalle=(
-                "Estructura no reconocida: se esperaba lista, dict directo "
-                "de precios, o un dict con una llave tipo 'catalogue/products'."
+                "Estructura no reconocida: se esperaba lista, "
+                "dict directo de precios, o un dict con una llave "
+                "tipo 'catalogue/products'."
             ),
         )
     )
@@ -327,7 +352,10 @@ def construir_catalogo_precios(
 def extraer_items_de_venta(
     venta: Any,
     indice: int,
-) -> Tuple[List[Tuple[Optional[str], Optional[Decimal]]], List[ErrorDato]]:
+) -> Tuple[
+    List[Tuple[Optional[str], Optional[Decimal]]],
+    List[ErrorDato]
+]:
     """
     Extrae items como lista de (nombre_producto, cantidad_decimal).
 
@@ -343,13 +371,18 @@ def extraer_items_de_venta(
         errores.append(
             ErrorDato(
                 contexto=f"venta[{indice}]",
-                detalle=f"Se esperaba un objeto, se recibió: {type(venta).__name__}",
+                detalle=(
+                    f"Se esperaba un objeto, se recibió: "
+                    f"{type(venta).__name__}"
+                ),
             )
         )
         return items, errores
 
     contenedor = None
-    for llave in ("items", "products", "productos", "details", "detalles"):
+    for llave in (
+        "items", "products", "productos", "details", "detalles"
+    ):
         if llave in venta:
             contenedor = venta.get(llave)
             break
@@ -358,7 +391,10 @@ def extraer_items_de_venta(
         errores.append(
             ErrorDato(
                 contexto=f"venta[{indice}]",
-                detalle="No se encontró lista/dict de items (keys esperadas: items/products/...).",
+                detalle=(
+                    "No se encontró lista/dict de items "
+                    "(keys esperadas: items/products/...)."
+                ),
             )
         )
         return items, errores
@@ -378,7 +414,10 @@ def extraer_items_de_venta(
                 errores.append(
                     ErrorDato(
                         contexto=f"venta[{indice}].item[{j}]",
-                        detalle=f"Se esperaba un objeto, se recibió: {type(item).__name__}",
+                        detalle=(
+                            f"Se esperaba un objeto, se recibió: "
+                            f"{type(item).__name__}"
+                        ),
                     )
                 )
                 items.append((None, None))
@@ -407,7 +446,10 @@ def extraer_items_de_venta(
     errores.append(
         ErrorDato(
             contexto=f"venta[{indice}]",
-            detalle=f"Items con tipo inválido: {type(contenedor).__name__}",
+            detalle=(
+                f"Items con tipo inválido: "
+                f"{type(contenedor).__name__}"
+            ),
         )
     )
     return items, errores
@@ -416,7 +458,8 @@ def extraer_items_de_venta(
 def formatear_moneda(monto: Decimal, moneda: str = MONEDA) -> str:
     """Formatea un monto en la moneda especificada."""
     monto_red = monto.quantize(REDONDEO, rounding=ROUND_HALF_UP)
-    # Formato con separador de miles (estilo anglosajón); legible y estándar.
+    # Formato con separador de miles (estilo anglosajón);
+    # legible y estándar.
     return f"{moneda} {monto_red:,.2f}"
 
 
@@ -463,23 +506,29 @@ def calcular_totales(  # pylint: disable=too-many-locals
             resumen.total_items += 1
 
             if not nombre_producto:
-                registrar_error(resumen, f"venta[{i}] item[{j}]: nombre inválido/ausente.")
+                registrar_error(
+                    resumen,
+                    f"venta[{i}] item[{j}]: nombre inválido/ausente."
+                )
                 continue
 
             if cantidad is None:
                 resumen.cantidad_invalida += 1
                 registrar_error(
                     resumen,
-                    f"venta[{i}] item[{j}]: cantidad inválida para '{nombre_producto}'."
+                    f"venta[{i}] item[{j}]: cantidad inválida para "
+                    f"'{nombre_producto}'."
                 )
                 continue
 
-            # Regla: no permitir cero (pero permitir negativos si son devoluciones)
+            # Regla: no permitir cero
+            # (pero permitir negativos si son devoluciones)
             if cantidad == 0:
                 resumen.cantidad_invalida += 1
                 registrar_error(
                     resumen,
-                    f"venta[{i}] item[{j}]: cantidad cero para '{nombre_producto}'."
+                    f"venta[{i}] item[{j}]: cantidad cero para "
+                    f"'{nombre_producto}'."
                 )
                 continue
 
@@ -488,8 +537,8 @@ def calcular_totales(  # pylint: disable=too-many-locals
                 resumen.items_sin_precio += 1
                 registrar_advertencia(
                     resumen,
-                    f"venta[{i}] item[{j}]: producto '{nombre_producto}' no existe en catálogo.\n"
-                    f"Se omite del cálculo."
+                    f"venta[{i}] item[{j}]: producto '{nombre_producto}' "
+                    f"no existe en catálogo.\nSe omite del cálculo."
                 )
                 continue
 
@@ -499,13 +548,16 @@ def calcular_totales(  # pylint: disable=too-many-locals
 
             lineas_ventas.append(
                 f"- {nombre_producto} | qty={cantidad} | "
-                f"unit={formatear_moneda(precio)} | total={formatear_moneda(total_item)}"
+                f"unit={formatear_moneda(precio)} | "
+                f"total={formatear_moneda(total_item)}"
             )
 
         total_general += subtotal
         resumen.total_renglones += 1
 
-        lineas_ventas.append(f"Subtotal venta # {i:04d}: {formatear_moneda(subtotal)}")
+        lineas_ventas.append(
+            f"Subtotal venta # {i:04d}: {formatear_moneda(subtotal)}"
+        )
         lineas_ventas.append(f"Items válidos: {conteo_items_validos}")
 
     # -------------------------
@@ -537,7 +589,8 @@ def calcular_totales(  # pylint: disable=too-many-locals
                 resumen.errores_ventas - len(resumen.detalles_errores)
             )
             detalle_errores_lineas.append(
-                f"- ... ({errores_adicionales} errores adicionales no mostrados)"
+                f"- ... ({errores_adicionales} errores adicionales "
+                f"no mostrados)"
             )
     else:
         detalle_errores_lineas.append("Sin errores reportados.")
@@ -548,6 +601,7 @@ def calcular_totales(  # pylint: disable=too-many-locals
     lineas.extend(lineas_ventas)
 
     return total_general, lineas, resumen
+
 
 def escribir_resultados(ruta_salida: Path, lineas: Iterable[str]) -> None:
     """Escribe las líneas de resultados en el archivo de salida."""
@@ -586,7 +640,10 @@ def main(argv: List[str]) -> int:  # pylint: disable=too-many-locals
     datos_ventas = leer_json_desde_archivo(ruta_ventas)
 
     if datos_catalogo is None or datos_ventas is None:
-        imprimir_error("No se pudo continuar por errores críticos de lectura/parseo.")
+        imprimir_error(
+            "No se pudo continuar por errores críticos de "
+            "lectura/parseo."
+        )
         return 1
 
     catalogo, errores_cat = construir_catalogo_precios(datos_catalogo)
@@ -624,8 +681,10 @@ def main(argv: List[str]) -> int:  # pylint: disable=too-many-locals
     # Salida en archivo
     escribir_resultados(Path(ARCHIVO_SALIDA), lineas)
 
-    # Exit code: 0 aunque haya errores de datos (Req3: continuar ejecución)
+    # Exit code: 0 aunque haya errores de datos
+    # (Req3: continuar ejecución)
     return 0
+
 
 if __name__ == "__main__":
     raise SystemExit(main(sys.argv))
