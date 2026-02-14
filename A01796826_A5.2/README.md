@@ -29,7 +29,11 @@ Este proyecto es parte de la asignatura **TC4017 - Pruebas de software y asegura
 │   ├── generar_ventas.py          # Generador de datos de prueba
 │   └── ejecuta_programa.sh        # Script de ejecución y validación
 ├── results/                        # Resultados generados
-│   └── SalesResults.txt           # Reporte de ventas procesadas
+│   ├── SalesResults.txt           # Reporte por defecto (sin parámetro)
+│   ├── TC2.Sales_results.txt      # Resultados de TC2.Sales.json
+│   ├── TC3.Sales_results.txt      # Resultados de TC3.Sales.json
+│   ├── salesRecord_results.txt    # Resultados de salesRecord.json
+│   └── salesRecord_100k_results.txt # Resultados de salesRecord_100k.json
 ├── tests/                          # Archivos de pruebas y logs
 │   ├── bitacora_ejecucion.txt     # Historial de ejecuciones
 │   ├── pylint_historial.txt       # Historial de análisis Pylint
@@ -49,17 +53,23 @@ Este proyecto es parte de la asignatura **TC4017 - Pruebas de software y asegura
 
 ```bash
 cd source
-python computeSales.py <archivo_catalogo> <archivo_ventas>
+python computeSales.py <archivo_catalogo> <archivo_ventas> [archivo_salida]
 ```
 
-**Ejemplo:**
+**Ejemplo básico (usa archivo de salida por defecto):**
 ```bash
 python computeSales.py ../data/priceCatalogue.json ../data/salesRecord.json
+# Genera: ../results/SalesResults.txt
+```
+
+**Ejemplo con archivo de salida personalizado:**
+```bash
+python computeSales.py ../data/priceCatalogue.json ../data/TC2.Sales.json ../results/TC2.Sales_results.txt
 ```
 
 **Ejemplo con dataset grande:**
 ```bash
-python computeSales.py ../data/priceCatalogue.json ../data/salesRecord_100k.json
+python computeSales.py ../data/priceCatalogue.json ../data/salesRecord_100k.json ../results/salesRecord_100k_results.txt
 ```
 
 ### Generar Datos de Prueba
@@ -73,7 +83,7 @@ Este script genera un archivo `salesRecord_100k.json` con 100,000 renglones de v
 
 ### Ejecución con Script Automatizado
 
-El script `ejecuta_programa.sh` ejecuta el programa y realiza análisis de calidad de código:
+El script `ejecuta_programa.sh` procesa **automáticamente todos los archivos `*.json`** de la carpeta `data/` y realiza análisis de calidad de código:
 
 ```bash
 cd source
@@ -81,10 +91,17 @@ cd source
 ```
 
 Este script:
-1. Ejecuta el programa principal
-2. Registra la salida en la bitácora de ejecución
-3. Ejecuta Pylint para análisis estático
-4. Ejecuta Flake8 para verificación de estilo PEP8
+1. **Itera sobre todos los archivos `*.json` en `data/`** (excepto `priceCatalogue.json`)
+2. Para cada archivo de ventas, ejecuta el programa y crea un archivo de resultados con el patrón: `{nombre_archivo}_results.txt`
+3. Registra la salida en la bitácora de ejecución
+4. Ejecuta Pylint para análisis estático del código
+5. Ejecuta Flake8 para verificación de estilo PEP8
+
+**Archivos procesados automáticamente:**
+- ✅ `salesRecord.json` → `salesRecord_results.txt`
+- ✅ `salesRecord_100k.json` → `salesRecord_100k_results.txt`
+- ✅ `TC2.Sales.json` → `TC2.Sales_results.txt`
+- ✅ `TC3.Sales.json` → `TC3.Sales_results.txt`
 
 ## 📄 Formato de Archivos
 
@@ -111,7 +128,7 @@ Este script:
 
 ## 📊 Salida del Programa
 
-El programa genera un archivo `SalesResults.txt` en el directorio `results/` con:
+El programa genera archivos de resultados en el directorio `results/` con:
 
 - Resumen de ventas procesadas
 - Total de ventas, renglones e items
