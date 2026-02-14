@@ -1,0 +1,123 @@
+RESULTADOS DE VENTAS
+====================
+Moneda: USD
+Ventas procesadas: 11
+
+
+TIEMPO
+------
+Tiempo transcurrido: 0.00 s
+
+RESUMEN
+-------
+Total general: USD 165,235.37
+Errores en catálogo: 0
+Errores en ventas:   0
+Items sin precio:    2
+Cantidad inválida:   0
+
+DETALLE DE ERRORES (muestra)
+---------------------------
+- [ADVERTENCIA] venta[7] item[8]: producto 'Elotes' no existe en catálogo.
+Se omite del cálculo.
+- [ADVERTENCIA] venta[11] item[2]: producto 'Frijoles' no existe en catálogo.
+Se omite del cálculo.
+
+Venta # 0001
+----------------------------------------
+- Rustic breakfast | qty=200 | unit=USD 21.32 | total=USD 4,264.00
+- Sandwich with salad | qty=23 | unit=USD 22.48 | total=USD 517.04
+- Raw legums | qty=11 | unit=USD 17.11 | total=USD 188.21
+Subtotal venta # 0001: USD 4,969.25
+Items válidos: 3
+
+Venta # 0002
+----------------------------------------
+- Smoothie with chia seeds | qty=13 | unit=USD 25.26 | total=USD 328.38
+- Corn | qty=678 | unit=USD 13.55 | total=USD 9,186.90
+- Plums | qty=334 | unit=USD 19.18 | total=USD 6,406.12
+- Fresh blueberries | qty=3445 | unit=USD 21.01 | total=USD 72,379.45
+- Green smoothie | qty=-123 | unit=USD 17.68 | total=USD -2,174.64
+- Corn | qty=445 | unit=USD 13.55 | total=USD 6,029.75
+Subtotal venta # 0002: USD 92,155.96
+Items válidos: 6
+
+Venta # 0003
+----------------------------------------
+- Fresh stawberry | qty=221 | unit=USD 28.59 | total=USD 6,318.39
+- Raw legums | qty=2 | unit=USD 17.11 | total=USD 34.22
+Subtotal venta # 0003: USD 6,352.61
+Items válidos: 2
+
+Venta # 0004
+----------------------------------------
+- Green smoothie | qty=400 | unit=USD 17.68 | total=USD 7,072.00
+- Cuban sandwiche | qty=2 | unit=USD 18.50 | total=USD 37.00
+- Hazelnut in black ceramic bowl | qty=2 | unit=USD 27.35 | total=USD 54.70
+Subtotal venta # 0004: USD 7,163.70
+Items válidos: 3
+
+Venta # 0005
+----------------------------------------
+- Tomatoes | qty=1 | unit=USD 26.03 | total=USD 26.03
+- Plums | qty=250 | unit=USD 19.18 | total=USD 4,795.00
+- Fresh blueberries | qty=334 | unit=USD 21.01 | total=USD 7,017.34
+Subtotal venta # 0005: USD 11,838.37
+Items válidos: 3
+
+Venta # 0006
+----------------------------------------
+- Green smoothie | qty=300 | unit=USD 17.68 | total=USD 5,304.00
+- Corn | qty=68 | unit=USD 13.55 | total=USD 921.40
+- French fries | qty=33 | unit=USD 18.32 | total=USD 604.56
+Subtotal venta # 0006: USD 6,829.96
+Items válidos: 3
+
+Venta # 0007
+----------------------------------------
+- Ground beef meat burger | qty=78 | unit=USD 11.73 | total=USD 914.94
+- Hazelnut in black ceramic bowl | qty=2 | unit=USD 27.35 | total=USD 54.70
+- Sweet fresh stawberry | qty=87 | unit=USD 29.45 | total=USD 2,562.15
+- Homemade bread | qty=1 | unit=USD 17.48 | total=USD 17.48
+- Smoothie with chia seeds | qty=46 | unit=USD 25.26 | total=USD 1,161.96
+- Corn | qty=1 | unit=USD 13.55 | total=USD 13.55
+- Plums | qty=2 | unit=USD 19.18 | total=USD 38.36
+Subtotal venta # 0007: USD 4,763.14
+Items válidos: 7
+
+Venta # 0008
+----------------------------------------
+- Green smoothie | qty=1 | unit=USD 17.68 | total=USD 17.68
+- Corn | qty=2 | unit=USD 13.55 | total=USD 27.10
+- French fries | qty=4 | unit=USD 18.32 | total=USD 73.28
+- Ground beef meat burger | qty=64 | unit=USD 11.73 | total=USD 750.72
+- Hazelnut in black ceramic bowl | qty=2 | unit=USD 27.35 | total=USD 54.70
+Subtotal venta # 0008: USD 923.48
+Items válidos: 5
+
+Venta # 0009
+----------------------------------------
+- Sweet fresh stawberry | qty=3 | unit=USD 29.45 | total=USD 88.35
+- Homemade bread | qty=456 | unit=USD 17.48 | total=USD 7,970.88
+- Smoothie with chia seeds | qty=2 | unit=USD 25.26 | total=USD 50.52
+Subtotal venta # 0009: USD 8,109.75
+Items válidos: 3
+
+Venta # 0010
+----------------------------------------
+- Corn | qty=5 | unit=USD 13.55 | total=USD 67.75
+- Plums | qty=645 | unit=USD 19.18 | total=USD 12,371.10
+- Fresh blueberries | qty=-35 | unit=USD 21.01 | total=USD -735.35
+- Green smoothie | qty=2 | unit=USD 17.68 | total=USD 35.36
+Subtotal venta # 0010: USD 11,738.86
+Items válidos: 4
+
+Venta # 0011
+----------------------------------------
+- Corn | qty=465 | unit=USD 13.55 | total=USD 6,300.75
+- Ground beef meat burger | qty=4 | unit=USD 11.73 | total=USD 46.92
+- Hazelnut in black ceramic bowl | qty=1 | unit=USD 27.35 | total=USD 27.35
+- Sweet fresh stawberry | qty=131 | unit=USD 29.45 | total=USD 3,857.95
+- Homemade bread | qty=9 | unit=USD 17.48 | total=USD 157.32
+Subtotal venta # 0011: USD 10,390.29
+Items válidos: 5

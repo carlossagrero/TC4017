@@ -27,7 +27,7 @@ from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 
-ARCHIVO_SALIDA = "../results/SalesResults.txt"
+ARCHIVO_SALIDA_DEFECTO = "../results/SalesResults.txt"
 MONEDA = "USD"
 REDONDEO = Decimal("0.01")
 
@@ -620,19 +620,20 @@ def imprimir_uso() -> None:
     """Imprime el mensaje de uso del programa."""
     print(
         "Uso:\n"
-        "  python computeSales.py priceCatalogue.json salesRecord.json\n",
+        "  python computeSales.py priceCatalogue.json salesRecord.json [archivo_salida.txt]\n",
         file=sys.stderr,
     )
 
 
 def main(argv: List[str]) -> int:  # pylint: disable=too-many-locals
     """Función principal del programa."""
-    if len(argv) != 3:
+    if len(argv) < 3 or len(argv) > 4:
         imprimir_uso()
         return 2
 
     ruta_catalogo = Path(argv[1])
     ruta_ventas = Path(argv[2])
+    archivo_salida = argv[3] if len(argv) == 4 else ARCHIVO_SALIDA_DEFECTO
 
     inicio = time.perf_counter()
 
@@ -679,7 +680,7 @@ def main(argv: List[str]) -> int:  # pylint: disable=too-many-locals
     print("\n".join(lineas))
 
     # Salida en archivo
-    escribir_resultados(Path(ARCHIVO_SALIDA), lineas)
+    escribir_resultados(Path(archivo_salida), lineas)
 
     # Exit code: 0 aunque haya errores de datos
     # (Req3: continuar ejecución)
