@@ -133,7 +133,8 @@ def obtener_lista_ventas(datos_ventas: Any) -> Tuple[List[Any], List[ErrorDato]]
             sale_date = r.get("SALE_Date", r.get("sale_date"))
             if sale_id is None:
                 errores.append(
-                    ErrorDato(contexto=f"ventas[{idx}]", detalle="Falta SALE_ID; no se puede agrupar.")
+                    ErrorDato(contexto=f"ventas[{idx}]", 
+                              detalle="Falta SALE_ID; no se puede agrupar.")
                 )
                 # Lo metemos como venta individual
                 key = (f"sin_id_{idx}", sale_date)
@@ -464,7 +465,8 @@ def calcular_totales(
                 resumen.items_sin_precio += 1
                 registrar_advertencia(
                     resumen,
-                    f"venta[{i}] item[{j}]: producto '{nombre_producto}' no existe en catálogo. Se omite del cálculo."
+                    f"venta[{i}] item[{j}]: producto '{nombre_producto}' no existe en catálogo.\n"
+                    f"Se omite del cálculo."
                 )
                 continue
 

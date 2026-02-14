@@ -452,3 +452,58 @@ computeSales.py:523:4: W0612: Unused variable 'total' (unused-variable)
 Your code has been rated at 9.35/10 (previous run: 9.35/10, +0.00)
 
 
+===== sábado, 14 de febrero de 2026, 10:48:10 CST =====
+>>> Ejecutando pylint...
+************* Module computeSales
+computeSales.py:136:0: C0301: Line too long (103/100) (line-too-long)
+computeSales.py:467:0: C0301: Line too long (118/100) (line-too-long)
+computeSales.py:512:0: C0301: Line too long (116/100) (line-too-long)
+computeSales.py:35:0: C0115: Missing class docstring (missing-class-docstring)
+computeSales.py:41:0: C0115: Missing class docstring (missing-class-docstring)
+computeSales.py:41:0: R0902: Too many instance attributes (9/7) (too-many-instance-attributes)
+computeSales.py:56:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:59:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:65:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:71:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:75:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:89:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:165:15: W0718: Catching too general exception Exception (broad-exception-caught)
+computeSales.py:393:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:399:0: R0914: Too many local variables (22/15) (too-many-locals)
+computeSales.py:524:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:536:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:544:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:544:0: R0914: Too many local variables (18/15) (too-many-locals)
+computeSales.py:570:4: W0612: Unused variable 'total' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 9.26/10 (previous run: 9.35/10, -0.10)
+
+
+===== sábado, 14 de febrero de 2026, 10:55:29 CST =====
+>>> Ejecutando pylint...
+************* Module computeSales
+computeSales.py:136:56: C0303: Trailing whitespace (trailing-whitespace)
+computeSales.py:514:0: C0301: Line too long (116/100) (line-too-long)
+computeSales.py:35:0: C0115: Missing class docstring (missing-class-docstring)
+computeSales.py:41:0: C0115: Missing class docstring (missing-class-docstring)
+computeSales.py:41:0: R0902: Too many instance attributes (9/7) (too-many-instance-attributes)
+computeSales.py:56:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:59:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:65:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:71:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:75:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:89:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:166:15: W0718: Catching too general exception Exception (broad-exception-caught)
+computeSales.py:394:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:400:0: R0914: Too many local variables (22/15) (too-many-locals)
+computeSales.py:526:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:538:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:546:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:546:0: R0914: Too many local variables (18/15) (too-many-locals)
+computeSales.py:572:4: W0612: Unused variable 'total' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 9.29/10 (previous run: 9.26/10, +0.04)
+
+
