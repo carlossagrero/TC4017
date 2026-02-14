@@ -33,12 +33,14 @@ REDONDEO = Decimal("0.01")
 
 @dataclass(frozen=True)
 class ErrorDato:
+    """Representa un error de datos con contexto y detalle."""
     contexto: str
     detalle: str
 
 
 @dataclass
-class ResumenProceso:
+class ResumenProceso:  # pylint: disable=too-many-instance-attributes
+    """Resumen del proceso de cálculo de ventas con contadores y errores."""
     total_ventas: int = 0
     total_renglones: int = 0
     total_items: int = 0
@@ -54,25 +56,30 @@ class ResumenProceso:
 
 
 def imprimir_error(mensaje: str) -> None:
+    """Imprime un mensaje de error en stderr."""
     print(f"[ERROR] {mensaje}", file=sys.stderr)
 
 def registrar_error(resumen: ResumenProceso, mensaje: str) -> None:
+    """Registra un error en el resumen e imprime mensaje."""
     resumen.errores_ventas += 1
     imprimir_error(mensaje)
     if len(resumen.detalles_errores) < resumen.max_detalles_errores:
         resumen.detalles_errores.append(mensaje)
 
 def registrar_advertencia(resumen: ResumenProceso, mensaje: str) -> None:
+    """Registra una advertencia en el resumen e imprime mensaje."""
     imprimir_advertencia(mensaje)
     if len(resumen.detalles_errores) < resumen.max_detalles_errores:
         resumen.detalles_errores.append("[ADVERTENCIA] " + mensaje)
 
 
 def imprimir_advertencia(mensaje: str) -> None:
+    """Imprime una advertencia en stderr."""
     print(f"[ADVERTENCIA] {mensaje}", file=sys.stderr)
 
 
 def leer_json_desde_archivo(ruta: Path) -> Optional[Any]:
+    """Lee y parsea un archivo JSON, manejando errores de I/O y parseo."""
     try:
         contenido = ruta.read_text(encoding="utf-8")
     except OSError as exc:
@@ -87,6 +94,7 @@ def leer_json_desde_archivo(ruta: Path) -> Optional[Any]:
 
 
 def normalizar_texto(valor: Any) -> Optional[str]:
+    """Normaliza un texto eliminando espacios, retorna None si está vacío."""
     if isinstance(valor, str):
         texto = valor.strip()
         return texto if texto else None
@@ -133,8 +141,10 @@ def obtener_lista_ventas(datos_ventas: Any) -> Tuple[List[Any], List[ErrorDato]]
             sale_date = r.get("SALE_Date", r.get("sale_date"))
             if sale_id is None:
                 errores.append(
-                    ErrorDato(contexto=f"ventas[{idx}]", 
-                              detalle="Falta SALE_ID; no se puede agrupar.")
+                    ErrorDato(
+                        contexto=f"ventas[{idx}]",
+                        detalle="Falta SALE_ID; no se puede agrupar."
+                    )
                 )
                 # Lo metemos como venta individual
                 key = (f"sin_id_{idx}", sale_date)
@@ -162,8 +172,10 @@ def obtener_lista_ventas(datos_ventas: Any) -> Tuple[List[Any], List[ErrorDato]]
             )
         # Orden estable por sale_id (si es comparable)
         try:
-            ventas_agrupadas.sort(key=lambda v: (str(v.get("sale_id")), str(v.get("sale_date"))))
-        except Exception:
+            ventas_agrupadas.sort(
+                key=lambda v: (str(v.get("sale_id")), str(v.get("sale_date")))
+            )
+        except Exception:  # pylint: disable=broad-exception-caught
             pass
         return ventas_agrupadas
 
@@ -392,12 +404,13 @@ def extraer_items_de_venta(
 
 
 def formatear_moneda(monto: Decimal, moneda: str = MONEDA) -> str:
+    """Formatea un monto en la moneda especificada."""
     monto_red = monto.quantize(REDONDEO, rounding=ROUND_HALF_UP)
     # Formato con separador de miles (estilo anglosajón); legible y estándar.
     return f"{moneda} {monto_red:,.2f}"
 
 
-def calcular_totales(
+def calcular_totales(  # pylint: disable=too-many-locals
     catalogo: Dict[str, Decimal],
     ventas: List[Any],
 ) -> Tuple[Decimal, List[str], ResumenProceso]:
@@ -475,8 +488,8 @@ def calcular_totales(
             conteo_items_validos += 1
 
             lineas_ventas.append(
-                f"- {nombre_producto} | qty={cantidad} | unit={formatear_moneda(precio)} | "
-                f"total={formatear_moneda(total_item)}"
+                f"- {nombre_producto} | qty={cantidad} | "
+                f"unit={formatear_moneda(precio)} | total={formatear_moneda(total_item)}"
             )
 
         total_general += subtotal
@@ -510,8 +523,11 @@ def calcular_totales(
             detalle_errores_lineas.append(f"- {msg}")
 
         if resumen.errores_ventas > len(resumen.detalles_errores):
+            errores_adicionales = (
+                resumen.errores_ventas - len(resumen.detalles_errores)
+            )
             detalle_errores_lineas.append(
-                f"- ... ({resumen.errores_ventas - len(resumen.detalles_errores)} errores adicionales no mostrados)"
+                f"- ... ({errores_adicionales} errores adicionales no mostrados)"
             )
     else:
         detalle_errores_lineas.append("Sin errores reportados.")
@@ -524,6 +540,7 @@ def calcular_totales(
     return total_general, lineas, resumen
 
 def escribir_resultados(ruta_salida: Path, lineas: Iterable[str]) -> None:
+    """Escribe las líneas de resultados en el archivo de salida."""
     try:
         ruta_salida.parent.mkdir(parents=True, exist_ok=True)
         ruta_salida.write_text(
@@ -536,6 +553,7 @@ def escribir_resultados(ruta_salida: Path, lineas: Iterable[str]) -> None:
 
 
 def imprimir_uso() -> None:
+    """Imprime el mensaje de uso del programa."""
     print(
         "Uso:\n"
         "  python computeSales.py priceCatalogue.json salesRecord.json\n",
@@ -543,7 +561,8 @@ def imprimir_uso() -> None:
     )
 
 
-def main(argv: List[str]) -> int:
+def main(argv: List[str]) -> int:  # pylint: disable=too-many-locals
+    """Función principal del programa."""
     if len(argv) != 3:
         imprimir_uso()
         return 2
@@ -569,7 +588,7 @@ def main(argv: List[str]) -> int:
     for err in errores_ventas_estructura:
         imprimir_error(f"{err.contexto}: {err.detalle}")
 
-    total, lineas, resumen = calcular_totales(catalogo, ventas)
+    _, lineas, resumen = calcular_totales(catalogo, ventas)
 
     # Contabilizar errores de catálogo y de estructura (si aplican)
     resumen.errores_catalogo += resumen_cat
