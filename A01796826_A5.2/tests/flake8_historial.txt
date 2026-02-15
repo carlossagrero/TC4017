@@ -841,3 +841,44 @@ computeSales.py:630:1: E305 expected 2 blank lines after class or function defin
 >>> Ejecutando Flake8...
 computeSales.py:623:80: E501 line too long (95 > 79 characters)
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+===== sábado, 14 de febrero de 2026, 18:16:04 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:623:80: E501 line too long (95 > 79 characters)
+
+===== sábado, 14 de febrero de 2026, 18:25:50 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:623:80: E501 line too long (95 > 79 characters)
+
+=======
+>>>>>>> e700f9c (Se gregó funcionalidad para que cumpliera el punto que se ejecutaran todos los casos de prueba)
+=======
+===== sábado, 14 de febrero de 2026, 11:29:13 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:623:80: E501 line too long (95 > 79 characters)
+
+===== sábado, 14 de febrero de 2026, 11:30:59 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:623:80: E501 line too long (95 > 79 characters)
+
+===== sábado, 14 de febrero de 2026, 16:19:08 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:631:80: E501 line too long (95 > 79 characters)
+
+===== sábado, 14 de febrero de 2026, 16:19:51 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:631:80: E501 line too long (95 > 79 characters)
+
+===== sábado, 14 de febrero de 2026, 17:37:42 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:631:80: E501 line too long (95 > 79 characters)
+
+<<<<<<< HEAD
+>>>>>>> 4e7b299 (haciendo cambios de formato y actualizando README)
+=======
+===== sábado, 14 de febrero de 2026, 17:43:55 CST =====
+>>> Ejecutando Flake8...
+computeSales.py:631:80: E501 line too long (95 > 79 characters)
+
+>>>>>>> e6d6e98 (haciendo cambios de formato y actualizando README)

@@ -151,6 +151,12 @@ def obtener_lista_ventas(
             )
         )
 
+    def es_item_catalogo(obj: Any) -> bool:
+        if not isinstance(obj, dict):
+            return False
+        tiene_nombre = any(k in obj for k in ("title", "product", "name"))
+        return tiene_nombre and "price" in obj
+
     def agrupar_renglones(renglones: List[dict]) -> List[dict]:
         grupos: Dict[Tuple[Any, Any], List[dict]] = {}
         for idx, r in enumerate(renglones):
@@ -198,6 +204,8 @@ def obtener_lista_ventas(
 
     # 1) Lista directa
     if isinstance(datos_ventas, list):
+        if datos_ventas and all(es_item_catalogo(x) for x in datos_ventas):
+            return [], errores
         if datos_ventas and all(es_renglon_plano(x) for x in datos_ventas):
             return agrupar_renglones(datos_ventas), errores
         return datos_ventas, errores
