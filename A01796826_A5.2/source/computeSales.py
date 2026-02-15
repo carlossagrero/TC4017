@@ -203,40 +203,49 @@ def obtener_lista_ventas(
         return ventas_agrupadas
 
     # 1) Lista directa
+    ventas_procesadas = None
     if isinstance(datos_ventas, list):
         if datos_ventas and all(es_item_catalogo(x) for x in datos_ventas):
-            return [], errores
-        if datos_ventas and all(es_renglon_plano(x) for x in datos_ventas):
-            return agrupar_renglones(datos_ventas), errores
-        return datos_ventas, errores
+            ventas_procesadas = []
+        elif datos_ventas and all(es_renglon_plano(x) for x in datos_ventas):
+            ventas_procesadas = agrupar_renglones(datos_ventas)
+        else:
+            ventas_procesadas = datos_ventas
 
     # 2) Dict con llave conocida
-    if isinstance(datos_ventas, dict):
+    if ventas_procesadas is None and isinstance(datos_ventas, dict):
         for llave in ("sales", "ventas", "records", "registro", "data"):
             posible = datos_ventas.get(llave)
             if isinstance(posible, list):
                 if posible and all(es_renglon_plano(x) for x in posible):
-                    return agrupar_renglones(posible), errores
-                return posible, errores
+                    ventas_procesadas = agrupar_renglones(posible)
+                else:
+                    ventas_procesadas = posible
+                break
 
+        if ventas_procesadas is None:
+            errores.append(
+                ErrorDato(
+                    contexto="ventas",
+                    detalle=(
+                        "Estructura no reconocida: se esperaba una lista o una"
+                        " llave como 'sales'/'ventas' con una lista."
+                    ),
+                )
+            )
+            ventas_procesadas = []
+
+    # 3) Tipo inválido
+    if ventas_procesadas is None:
         errores.append(
             ErrorDato(
                 contexto="ventas",
-                detalle=(
-                    "Estructura no reconocida: se esperaba una lista o una "
-                    "llave como 'sales'/'ventas' con una lista."
-                ),
+                detalle="Tipo inválido: debe ser una lista o un JSON.",
             )
         )
-        return [], errores
+        ventas_procesadas = []
 
-    errores.append(
-        ErrorDato(
-            contexto="ventas",
-            detalle="Tipo inválido: se esperaba una lista o un objeto JSON.",
-        )
-    )
-    return [], errores
+    return ventas_procesadas, errores
 
 
 def construir_catalogo_precios(
