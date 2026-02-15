@@ -3,18 +3,8 @@
 # Ruta del catálogo de precios
 CATALOGO="../data/priceCatalogue.json"
 
-<<<<<<< HEAD
 # Iterar sobre todos los archivos *.json en data/
 for archivo_ventas in ../data/*.json; do
-=======
-# Iterar sobre todos los archivos *.json en data/ excepto priceCatalogue.json
-for archivo_ventas in ../data/*.json; do
-    # Omitir el archivo de catálogo
-    if [[ "$(basename "$archivo_ventas")" == "priceCatalogue.json" ]]; then
-        continue
-    fi
-
->>>>>>> e700f9c (Se gregó funcionalidad para que cumpliera el punto que se ejecutaran todos los casos de prueba)
     # Obtener nombre del archivo sin extensión
     nombre_archivo=$(basename "$archivo_ventas" .json)
     archivo_salida="../results/${nombre_archivo}_results.txt"

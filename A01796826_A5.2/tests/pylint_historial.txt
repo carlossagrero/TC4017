@@ -635,3 +635,12 @@ Your code has been rated at 9.96/10 (previous run: 9.96/10, +0.00)
 
 
 >>>>>>> e6d6e98 (haciendo cambios de formato y actualizando README)
+===== sábado, 14 de febrero de 2026, 18:33:40 CST =====
+>>> Ejecutando pylint...
+************* Module computeSales
+computeSales.py:122:0: R0911: Too many return statements (7/6) (too-many-return-statements)
+
+-------------------------------------------------------------------
+Your code has been rated at 9.96/10 (previous run: 10.00/10, -0.04)
+
+

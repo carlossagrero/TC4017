@@ -1,0 +1,21 @@
+RESULTADOS DE VENTAS
+====================
+Moneda: USD
+Ventas procesadas: 0
+
+
+TIEMPO
+------
+Tiempo transcurrido: 0.00 s
+
+RESUMEN
+-------
+Total general: USD 0.00
+Errores en catálogo: 0
+Errores en ventas:   0
+Items sin precio:    0
+Cantidad inválida:   0
+
+DETALLE DE ERRORES (muestra)
+---------------------------
+Sin errores reportados.

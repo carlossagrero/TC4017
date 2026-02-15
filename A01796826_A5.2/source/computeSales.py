@@ -628,7 +628,8 @@ def imprimir_uso() -> None:
     """Imprime el mensaje de uso del programa."""
     print(
         "Uso:\n"
-        "  python computeSales.py priceCatalogue.json salesRecord.json [archivo_salida.txt]\n",
+        "  python computeSales.py priceCatalogue.json salesRecord.json "
+        "[archivo_salida.txt]\n",
         file=sys.stderr,
     )
 
