@@ -34,6 +34,8 @@ Este proyecto es parte de la asignatura **TC4017 - Pruebas de software y asegura
 │   ├── TC3.Sales_results.txt      # Resultados de TC3.Sales.json
 │   ├── salesRecord_results.txt    # Resultados de salesRecord.json
 │   └── salesRecord_100k_results.txt # Resultados de salesRecord_100k.json
+├── general_results/                # Reportes generales
+│   └── A01796826_A5.2.pdf         # Reporte consolidado en formato PDF
 ├── tests/                          # Archivos de pruebas y logs
 │   ├── bitacora_ejecucion.txt     # Historial de ejecuciones
 │   ├── pylint_historial.txt       # Historial de análisis Pylint
