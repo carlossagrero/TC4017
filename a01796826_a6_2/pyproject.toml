@@ -1,5 +1,5 @@
 [project]
-name = "a01796826-a6-2"
+name = "a01796826-a6_2"
 version = "1.0.0"
 description = "Aplicación para que simulará ser un hotel"
 readme = "README.md"
@@ -20,7 +20,7 @@ packages = [{ include = "a01796826_a6", from = "src" }]
 
 [tool.semantic_release]
 branch = "main"
-tag_format = "v{version}"
+tag_format = "a6_2-v{version}"
 changelog_file = "CHANGELOG.md"
 version_toml = ["pyproject.toml:project.version"]
 

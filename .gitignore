@@ -1,3 +1,57 @@
-4.2/.DS_Store
-.DS_Stire
-.gitignore
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python bytecode
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Virtualenvs (Poetry/venv)
+.venv/
+venv/
+env/
+**/.venv/
+**/venv/
+**/env/
+
+# Conda
+.conda/
+**/.conda/
+
+# Test / coverage
+.pytest_cache/
+**/.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+**/htmlcov/
+.tox/
+**/.tox/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+**/*.egg-info/
+
+# Ruff/Black caches
+.ruff_cache/
+**/.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# VS Code (recomendado: ignora settings de usuario del workspace)
+.vscode/
+**/.vscode/
+
+# Logs
+*.log
+
+# Secrets / env files
+.env
+**/.env
+.env.*
+**/.env.*
