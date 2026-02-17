@@ -21,8 +21,10 @@ packages = [{ include = "a01796826_a6", from = "src" }]
 [tool.semantic_release]
 branch = "main"
 tag_format = "a6_2-v{version}"
+tag_regex = "^a6_2-v(?P<version>\\d+\\.\\d+\\.\\d+)$"
 changelog_file = "CHANGELOG.md"
 version_toml = ["pyproject.toml:project.version"]
+allow_zero_version = true
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
