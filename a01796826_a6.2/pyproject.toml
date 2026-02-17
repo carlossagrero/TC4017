@@ -1,0 +1,29 @@
+[project]
+name = "a01796826-a6-2"
+version = "1.0.0"
+description = "Aplicación para que simulará ser un hotel"
+readme = "README.md"
+requires-python = "==3.12.7"
+authors = [
+  { name = "Your Name", email = "tbd@example.com" }
+]
+dependencies = []
+
+[dependency-groups]
+dev = [
+  "pytest (>=9.0.2,<10.0.0)",
+  "python-semantic-release (>=10.5.3,<11.0.0)"
+]
+
+[tool.poetry]
+packages = [{ include = "a01796826_a6", from = "src" }]
+
+[tool.semantic_release]
+branch = "main"
+tag_format = "v{version}"
+changelog_file = "CHANGELOG.md"
+version_toml = ["pyproject.toml:project.version"]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
