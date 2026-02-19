@@ -501,3 +501,151 @@ TOTAL                     62      0   100%
 ============================== 18 passed in 0.08s ==============================
 
 
+============================================================
+Reporte de pruebas - 19/02/2026
+============================================================
+
+[TEST] hotel.py
+------------------------------------------------------------
+============================= test session starts ==============================
+platform darwin -- Python 3.12.7, pytest-9.0.2, pluggy-1.6.0 -- /opt/anaconda3/envs/A6.2/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/carlosisaacsagrerocampos/Library/CloudStorage/OneDrive-ScitumS.AdeC.V/Informacion Personal/Maestría/4to Trimestre/TC4017 - Pruebas de software y aseguramiento de la calidad/Repo/TC4017/a01796826_a6_2
+configfile: pyproject.toml
+plugins: anyio-4.12.1, cov-7.0.0
+collecting ... collected 27 items
+
+tests/test_customer.py::test_a_dict_serializes_fields PASSED             [  3%]
+tests/test_customer.py::test_desde_dict_creates_customer[payload0-True] PASSED [  7%]
+tests/test_customer.py::test_desde_dict_creates_customer[payload1-True] PASSED [ 11%]
+tests/test_customer.py::test_desde_dict_missing_required_keys[payload0] PASSED [ 14%]
+tests/test_customer.py::test_desde_dict_missing_required_keys[payload1] PASSED [ 18%]
+tests/test_customer.py::test_desde_dict_missing_required_keys[payload2] PASSED [ 22%]
+tests/test_customer.py::test_desde_dict_invalid_email[payload0] PASSED   [ 25%]
+tests/test_customer.py::test_desde_dict_invalid_email[payload1] PASSED   [ 29%]
+tests/test_customer.py::test_desde_dict_invalid_email[payload2] PASSED   [ 33%]
+tests/test_hotel.py::test_a_dict_serializes_fields PASSED                [ 37%]
+tests/test_hotel.py::test_desde_dict_creates_hotel[payload0-True] PASSED [ 40%]
+tests/test_hotel.py::test_desde_dict_creates_hotel[payload1-True] PASSED [ 44%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload0] PASSED [ 48%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload1] PASSED [ 51%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload2] PASSED [ 55%]
+tests/test_hotel.py::test_desde_dict_invalid_total_habitaciones[payload0] PASSED [ 59%]
+tests/test_hotel.py::test_desde_dict_invalid_total_habitaciones[payload1] PASSED [ 62%]
+tests/test_hotel_service.py::test_crear_hotel_persists_data PASSED       [ 66%]
+tests/test_hotel_service.py::test_eliminar_hotel_marks_inactive PASSED   [ 70%]
+tests/test_hotel_service.py::test_eliminar_hotel_returns_false_when_missing PASSED [ 74%]
+tests/test_hotel_service.py::test_eliminar_hotel_returns_false_on_corrupt PASSED [ 77%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_hotel PASSED     [ 81%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_none_when_missing PASSED [ 85%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_none_on_corrupt PASSED [ 88%]
+tests/test_hotel_service.py::test_modificar_hotel_updates_fields PASSED  [ 92%]
+tests/test_hotel_service.py::test_modificar_hotel_returns_false_when_missing PASSED [ 96%]
+tests/test_hotel_service.py::test_modificar_hotel_returns_false_on_corrupt PASSED [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.12.7-final-0 _______________
+
+Name           Stmts   Miss  Cover   Missing
+--------------------------------------------
+src/hotel.py      22      0   100%
+--------------------------------------------
+TOTAL             22      0   100%
+============================== 27 passed in 0.09s ==============================
+
+[TEST] hotel_service.py
+------------------------------------------------------------
+============================= test session starts ==============================
+platform darwin -- Python 3.12.7, pytest-9.0.2, pluggy-1.6.0 -- /opt/anaconda3/envs/A6.2/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/carlosisaacsagrerocampos/Library/CloudStorage/OneDrive-ScitumS.AdeC.V/Informacion Personal/Maestría/4to Trimestre/TC4017 - Pruebas de software y aseguramiento de la calidad/Repo/TC4017/a01796826_a6_2
+configfile: pyproject.toml
+plugins: anyio-4.12.1, cov-7.0.0
+collecting ... collected 27 items
+
+tests/test_customer.py::test_a_dict_serializes_fields PASSED             [  3%]
+tests/test_customer.py::test_desde_dict_creates_customer[payload0-True] PASSED [  7%]
+tests/test_customer.py::test_desde_dict_creates_customer[payload1-True] PASSED [ 11%]
+tests/test_customer.py::test_desde_dict_missing_required_keys[payload0] PASSED [ 14%]
+tests/test_customer.py::test_desde_dict_missing_required_keys[payload1] PASSED [ 18%]
+tests/test_customer.py::test_desde_dict_missing_required_keys[payload2] PASSED [ 22%]
+tests/test_customer.py::test_desde_dict_invalid_email[payload0] PASSED   [ 25%]
+tests/test_customer.py::test_desde_dict_invalid_email[payload1] PASSED   [ 29%]
+tests/test_customer.py::test_desde_dict_invalid_email[payload2] PASSED   [ 33%]
+tests/test_hotel.py::test_a_dict_serializes_fields PASSED                [ 37%]
+tests/test_hotel.py::test_desde_dict_creates_hotel[payload0-True] PASSED [ 40%]
+tests/test_hotel.py::test_desde_dict_creates_hotel[payload1-True] PASSED [ 44%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload0] PASSED [ 48%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload1] PASSED [ 51%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload2] PASSED [ 55%]
+tests/test_hotel.py::test_desde_dict_invalid_total_habitaciones[payload0] PASSED [ 59%]
+tests/test_hotel.py::test_desde_dict_invalid_total_habitaciones[payload1] PASSED [ 62%]
+tests/test_hotel_service.py::test_crear_hotel_persists_data PASSED       [ 66%]
+tests/test_hotel_service.py::test_eliminar_hotel_marks_inactive PASSED   [ 70%]
+tests/test_hotel_service.py::test_eliminar_hotel_returns_false_when_missing PASSED [ 74%]
+tests/test_hotel_service.py::test_eliminar_hotel_returns_false_on_corrupt PASSED [ 77%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_hotel PASSED     [ 81%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_none_when_missing PASSED [ 85%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_none_on_corrupt PASSED [ 88%]
+tests/test_hotel_service.py::test_modificar_hotel_updates_fields PASSED  [ 92%]
+tests/test_hotel_service.py::test_modificar_hotel_returns_false_when_missing PASSED [ 96%]
+tests/test_hotel_service.py::test_modificar_hotel_returns_false_on_corrupt PASSED [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.12.7-final-0 _______________
+
+Name                   Stmts   Miss  Cover   Missing
+----------------------------------------------------
+src/hotel_service.py      62      0   100%
+----------------------------------------------------
+TOTAL                     62      0   100%
+============================== 27 passed in 0.08s ==============================
+
+[TEST] customer.py
+------------------------------------------------------------
+============================= test session starts ==============================
+platform darwin -- Python 3.12.7, pytest-9.0.2, pluggy-1.6.0 -- /opt/anaconda3/envs/A6.2/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/carlosisaacsagrerocampos/Library/CloudStorage/OneDrive-ScitumS.AdeC.V/Informacion Personal/Maestría/4to Trimestre/TC4017 - Pruebas de software y aseguramiento de la calidad/Repo/TC4017/a01796826_a6_2
+configfile: pyproject.toml
+plugins: anyio-4.12.1, cov-7.0.0
+collecting ... collected 27 items
+
+tests/test_customer.py::test_a_dict_serializes_fields PASSED             [  3%]
+tests/test_customer.py::test_desde_dict_creates_customer[payload0-True] PASSED [  7%]
+tests/test_customer.py::test_desde_dict_creates_customer[payload1-True] PASSED [ 11%]
+tests/test_customer.py::test_desde_dict_missing_required_keys[payload0] PASSED [ 14%]
+tests/test_customer.py::test_desde_dict_missing_required_keys[payload1] PASSED [ 18%]
+tests/test_customer.py::test_desde_dict_missing_required_keys[payload2] PASSED [ 22%]
+tests/test_customer.py::test_desde_dict_invalid_email[payload0] PASSED   [ 25%]
+tests/test_customer.py::test_desde_dict_invalid_email[payload1] PASSED   [ 29%]
+tests/test_customer.py::test_desde_dict_invalid_email[payload2] PASSED   [ 33%]
+tests/test_hotel.py::test_a_dict_serializes_fields PASSED                [ 37%]
+tests/test_hotel.py::test_desde_dict_creates_hotel[payload0-True] PASSED [ 40%]
+tests/test_hotel.py::test_desde_dict_creates_hotel[payload1-True] PASSED [ 44%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload0] PASSED [ 48%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload1] PASSED [ 51%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload2] PASSED [ 55%]
+tests/test_hotel.py::test_desde_dict_invalid_total_habitaciones[payload0] PASSED [ 59%]
+tests/test_hotel.py::test_desde_dict_invalid_total_habitaciones[payload1] PASSED [ 62%]
+tests/test_hotel_service.py::test_crear_hotel_persists_data PASSED       [ 66%]
+tests/test_hotel_service.py::test_eliminar_hotel_marks_inactive PASSED   [ 70%]
+tests/test_hotel_service.py::test_eliminar_hotel_returns_false_when_missing PASSED [ 74%]
+tests/test_hotel_service.py::test_eliminar_hotel_returns_false_on_corrupt PASSED [ 77%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_hotel PASSED     [ 81%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_none_when_missing PASSED [ 85%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_none_on_corrupt PASSED [ 88%]
+tests/test_hotel_service.py::test_modificar_hotel_updates_fields PASSED  [ 92%]
+tests/test_hotel_service.py::test_modificar_hotel_returns_false_when_missing PASSED [ 96%]
+tests/test_hotel_service.py::test_modificar_hotel_returns_false_on_corrupt PASSED [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.12.7-final-0 _______________
+
+Name              Stmts   Miss  Cover   Missing
+-----------------------------------------------
+src/customer.py      20      0   100%
+-----------------------------------------------
+TOTAL                20      0   100%
+============================== 27 passed in 0.07s ==============================
+

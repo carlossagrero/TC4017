@@ -14,7 +14,13 @@ echo "[TEST] hotel.py" >> "$REPORTE"
 echo "------------------------------------------------------------" >> "$REPORTE"
 pytest --cov=src.hotel --cov-report=term-missing -v 2>&1 | tee -a "$REPORTE"
 echo "" >> "$REPORTE"
+
 echo "[TEST] hotel_service.py" >> "$REPORTE"
 echo "------------------------------------------------------------" >> "$REPORTE"
 pytest --cov=src.hotel_service --cov-report=term-missing -v 2>&1 | tee -a "$REPORTE"
+echo "" >> "$REPORTE"
+
+echo "[TEST] customer.py" >> "$REPORTE"
+echo "------------------------------------------------------------" >> "$REPORTE"
+pytest --cov=src.customer --cov-report=term-missing -v 2>&1 | tee -a "$REPORTE"
 echo "" >> "$REPORTE"
