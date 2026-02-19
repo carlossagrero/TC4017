@@ -2,6 +2,24 @@
 
 <!-- version list -->
 
+## v0.3.0 (2026-02-19)
+
+### Features
+
+- Se agrega clase Customer con la definición de sus atributos
+  ([`18be97d`](https://github.com/carlossagrero/TC4017/commit/18be97dd66e85a756a78d9b79b87320aa666701d))
+
+### Performance Improvements
+
+- Optimiza el uso de Customer para el acceso a datos
+  ([`bd7962a`](https://github.com/carlossagrero/TC4017/commit/bd7962a72a7f7aa816c3be63023ad2f843acf596))
+
+### Testing
+
+- Se crearon las pruebas de hotel_service.py y se actualizó el script bash que las ejecuta
+  ([`0d760cd`](https://github.com/carlossagrero/TC4017/commit/0d760cd30b25a24b0bb4df3c951e3f1111a8e784))
+
+
 ## v0.2.0 (2026-02-18)
 
 ### Bug Fixes
