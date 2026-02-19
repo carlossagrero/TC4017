@@ -1,0 +1,18 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.7, pytest-9.0.2, pluggy-1.6.0
+rootdir: /Users/carlosisaacsagrerocampos/Library/CloudStorage/OneDrive-ScitumS.AdeC.V/Informacion Personal/Maestría/4to Trimestre/TC4017 - Pruebas de software y aseguramiento de la calidad/Repo/TC4017/a01796826_a6_2
+configfile: pyproject.toml
+plugins: anyio-4.12.1, cov-7.0.0
+collected 8 items
+
+tests/test_hotel.py ........                                             [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.12.7-final-0 _______________
+
+Name           Stmts   Miss  Cover   Missing
+--------------------------------------------
+src/hotel.py      22      0   100%
+--------------------------------------------
+TOTAL             22      0   100%
+============================== 8 passed in 0.05s ===============================
