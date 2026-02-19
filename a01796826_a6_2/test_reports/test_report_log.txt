@@ -1,0 +1,241 @@
+============================================================
+Reporte de pruebas - 18/02/2026
+============================================================
+
+[TEST] hotel.py
+------------------------------------------------------------
+============================= test session starts ==============================
+platform darwin -- Python 3.12.7, pytest-9.0.2, pluggy-1.6.0 -- /opt/anaconda3/envs/A6.2/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/carlosisaacsagrerocampos/Library/CloudStorage/OneDrive-ScitumS.AdeC.V/Informacion Personal/Maestría/4to Trimestre/TC4017 - Pruebas de software y aseguramiento de la calidad/Repo/TC4017/a01796826_a6_2
+configfile: pyproject.toml
+plugins: anyio-4.12.1, cov-7.0.0
+collecting ... collected 18 items
+
+tests/test_hotel.py::test_a_dict_serializes_fields PASSED                [  5%]
+tests/test_hotel.py::test_desde_dict_creates_hotel[payload0-True] PASSED [ 11%]
+tests/test_hotel.py::test_desde_dict_creates_hotel[payload1-True] PASSED [ 16%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload0] PASSED [ 22%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload1] PASSED [ 27%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload2] PASSED [ 33%]
+tests/test_hotel.py::test_desde_dict_invalid_total_habitaciones[payload0] PASSED [ 38%]
+tests/test_hotel.py::test_desde_dict_invalid_total_habitaciones[payload1] PASSED [ 44%]
+tests/test_hotel_service.py::test_crear_hotel_persists_data FAILED       [ 50%]
+tests/test_hotel_service.py::test_eliminar_hotel_marks_inactive PASSED   [ 55%]
+tests/test_hotel_service.py::test_eliminar_hotel_returns_false_when_missing PASSED [ 61%]
+tests/test_hotel_service.py::test_eliminar_hotel_returns_false_on_corrupt PASSED [ 66%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_hotel PASSED     [ 72%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_none_when_missing PASSED [ 77%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_none_on_corrupt PASSED [ 83%]
+tests/test_hotel_service.py::test_modificar_hotel_updates_fields PASSED  [ 88%]
+tests/test_hotel_service.py::test_modificar_hotel_returns_false_when_missing PASSED [ 94%]
+tests/test_hotel_service.py::test_modificar_hotel_returns_false_on_corrupt PASSED [100%]
+
+=================================== FAILURES ===================================
+________________________ test_crear_hotel_persists_data ________________________
+
+tmp_path = PosixPath('/private/var/folders/rq/5nsb2_hn47z52y699n711vzm0000gp/T/pytest-of-carlosisaacsagrerocampos/pytest-11/test_crear_hotel_persists_data0')
+
+    def test_crear_hotel_persists_data(tmp_path):
+        #investigue que se puede usar esto para evitar escribir archivos reales
+        # en el sistema, y que pytest se encarga de limpiar
+        # el directorio temporal despues de la prueba.
+        db_path = tmp_path / "bd.json"
+        service = HotelService(str(db_path))
+    
+        hotel = service.crear_hotel("Hotel Uno", "Monterrey", 121)
+    
+        saved = json.loads(db_path.read_text(encoding="utf-8"))
+        assert hotel.id_hotel in saved["hoteles"]
+>       assert saved["hoteles"][hotel.id_hotel] == {
+            "id_hotel": hotel.id_hotel,
+            "nombre": "Hotel Uno",
+            "ciudad": "Monterrey",
+            "total_habitaciones": 120,
+            "activo": True,
+        }
+E       AssertionError: assert {'activo': Tr...tel Uno', ...} == {'activo': Tr...tel Uno', ...}
+E         
+E         Omitting 4 identical items, use -vv to show
+E         Differing items:
+E         {'total_habitaciones': 121} != {'total_habitaciones': 120}
+E         
+E         Full diff:
+E           {...
+E         
+E         ...Full output truncated (9 lines hidden), use '-vv' to show
+
+tests/test_hotel_service.py:25: AssertionError
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.12.7-final-0 _______________
+
+Name           Stmts   Miss  Cover   Missing
+--------------------------------------------
+src/hotel.py      22      0   100%
+--------------------------------------------
+TOTAL             22      0   100%
+=========================== short test summary info ============================
+FAILED tests/test_hotel_service.py::test_crear_hotel_persists_data - Assertio...
+========================= 1 failed, 17 passed in 0.10s =========================
+============================================================
+Reporte de pruebas - 18/02/2026
+============================================================
+
+[TEST] hotel.py
+------------------------------------------------------------
+============================= test session starts ==============================
+platform darwin -- Python 3.12.7, pytest-9.0.2, pluggy-1.6.0 -- /opt/anaconda3/envs/A6.2/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/carlosisaacsagrerocampos/Library/CloudStorage/OneDrive-ScitumS.AdeC.V/Informacion Personal/Maestría/4to Trimestre/TC4017 - Pruebas de software y aseguramiento de la calidad/Repo/TC4017/a01796826_a6_2
+configfile: pyproject.toml
+plugins: anyio-4.12.1, cov-7.0.0
+collecting ... collected 18 items
+
+tests/test_hotel.py::test_a_dict_serializes_fields PASSED                [  5%]
+tests/test_hotel.py::test_desde_dict_creates_hotel[payload0-True] PASSED [ 11%]
+tests/test_hotel.py::test_desde_dict_creates_hotel[payload1-True] PASSED [ 16%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload0] PASSED [ 22%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload1] PASSED [ 27%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload2] PASSED [ 33%]
+tests/test_hotel.py::test_desde_dict_invalid_total_habitaciones[payload0] PASSED [ 38%]
+tests/test_hotel.py::test_desde_dict_invalid_total_habitaciones[payload1] PASSED [ 44%]
+tests/test_hotel_service.py::test_crear_hotel_persists_data FAILED       [ 50%]
+tests/test_hotel_service.py::test_eliminar_hotel_marks_inactive PASSED   [ 55%]
+tests/test_hotel_service.py::test_eliminar_hotel_returns_false_when_missing PASSED [ 61%]
+tests/test_hotel_service.py::test_eliminar_hotel_returns_false_on_corrupt PASSED [ 66%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_hotel PASSED     [ 72%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_none_when_missing PASSED [ 77%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_none_on_corrupt PASSED [ 83%]
+tests/test_hotel_service.py::test_modificar_hotel_updates_fields PASSED  [ 88%]
+tests/test_hotel_service.py::test_modificar_hotel_returns_false_when_missing PASSED [ 94%]
+tests/test_hotel_service.py::test_modificar_hotel_returns_false_on_corrupt PASSED [100%]
+
+=================================== FAILURES ===================================
+________________________ test_crear_hotel_persists_data ________________________
+
+tmp_path = PosixPath('/private/var/folders/rq/5nsb2_hn47z52y699n711vzm0000gp/T/pytest-of-carlosisaacsagrerocampos/pytest-12/test_crear_hotel_persists_data0')
+
+    def test_crear_hotel_persists_data(tmp_path):
+        #investigue que se puede usar esto para evitar escribir archivos reales
+        # en el sistema, y que pytest se encarga de limpiar
+        # el directorio temporal despues de la prueba.
+        db_path = tmp_path / "bd.json"
+        service = HotelService(str(db_path))
+    
+        hotel = service.crear_hotel("Hotel Uno", "Monterrey", 121)
+    
+        saved = json.loads(db_path.read_text(encoding="utf-8"))
+        assert hotel.id_hotel in saved["hoteles"]
+>       assert saved["hoteles"][hotel.id_hotel] == {
+            "id_hotel": hotel.id_hotel,
+            "nombre": "Hotel Uno",
+            "ciudad": "Monterrey",
+            "total_habitaciones": 120,
+            "activo": True,
+        }
+E       AssertionError: assert {'activo': Tr...tel Uno', ...} == {'activo': Tr...tel Uno', ...}
+E         
+E         Omitting 4 identical items, use -vv to show
+E         Differing items:
+E         {'total_habitaciones': 121} != {'total_habitaciones': 120}
+E         
+E         Full diff:
+E           {...
+E         
+E         ...Full output truncated (9 lines hidden), use '-vv' to show
+
+tests/test_hotel_service.py:25: AssertionError
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.12.7-final-0 _______________
+
+Name           Stmts   Miss  Cover   Missing
+--------------------------------------------
+src/hotel.py      22      0   100%
+--------------------------------------------
+TOTAL             22      0   100%
+=========================== short test summary info ============================
+FAILED tests/test_hotel_service.py::test_crear_hotel_persists_data - Assertio...
+========================= 1 failed, 17 passed in 0.09s =========================
+============================================================
+Reporte de pruebas - 18/02/2026
+============================================================
+
+[TEST] hotel.py
+------------------------------------------------------------
+============================= test session starts ==============================
+platform darwin -- Python 3.12.7, pytest-9.0.2, pluggy-1.6.0 -- /opt/anaconda3/envs/A6.2/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/carlosisaacsagrerocampos/Library/CloudStorage/OneDrive-ScitumS.AdeC.V/Informacion Personal/Maestría/4to Trimestre/TC4017 - Pruebas de software y aseguramiento de la calidad/Repo/TC4017/a01796826_a6_2
+configfile: pyproject.toml
+plugins: anyio-4.12.1, cov-7.0.0
+collecting ... collected 18 items
+
+tests/test_hotel.py::test_a_dict_serializes_fields PASSED                [  5%]
+tests/test_hotel.py::test_desde_dict_creates_hotel[payload0-True] PASSED [ 11%]
+tests/test_hotel.py::test_desde_dict_creates_hotel[payload1-True] PASSED [ 16%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload0] PASSED [ 22%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload1] PASSED [ 27%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload2] PASSED [ 33%]
+tests/test_hotel.py::test_desde_dict_invalid_total_habitaciones[payload0] PASSED [ 38%]
+tests/test_hotel.py::test_desde_dict_invalid_total_habitaciones[payload1] PASSED [ 44%]
+tests/test_hotel_service.py::test_crear_hotel_persists_data PASSED       [ 50%]
+tests/test_hotel_service.py::test_eliminar_hotel_marks_inactive PASSED   [ 55%]
+tests/test_hotel_service.py::test_eliminar_hotel_returns_false_when_missing PASSED [ 61%]
+tests/test_hotel_service.py::test_eliminar_hotel_returns_false_on_corrupt PASSED [ 66%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_hotel PASSED     [ 72%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_none_when_missing PASSED [ 77%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_none_on_corrupt PASSED [ 83%]
+tests/test_hotel_service.py::test_modificar_hotel_updates_fields PASSED  [ 88%]
+tests/test_hotel_service.py::test_modificar_hotel_returns_false_when_missing PASSED [ 94%]
+tests/test_hotel_service.py::test_modificar_hotel_returns_false_on_corrupt PASSED [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.12.7-final-0 _______________
+
+Name           Stmts   Miss  Cover   Missing
+--------------------------------------------
+src/hotel.py      22      0   100%
+--------------------------------------------
+TOTAL             22      0   100%
+============================== 18 passed in 0.11s ==============================
+
+[TEST] hotel_service.py
+------------------------------------------------------------
+============================= test session starts ==============================
+platform darwin -- Python 3.12.7, pytest-9.0.2, pluggy-1.6.0 -- /opt/anaconda3/envs/A6.2/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/carlosisaacsagrerocampos/Library/CloudStorage/OneDrive-ScitumS.AdeC.V/Informacion Personal/Maestría/4to Trimestre/TC4017 - Pruebas de software y aseguramiento de la calidad/Repo/TC4017/a01796826_a6_2
+configfile: pyproject.toml
+plugins: anyio-4.12.1, cov-7.0.0
+collecting ... collected 18 items
+
+tests/test_hotel.py::test_a_dict_serializes_fields PASSED                [  5%]
+tests/test_hotel.py::test_desde_dict_creates_hotel[payload0-True] PASSED [ 11%]
+tests/test_hotel.py::test_desde_dict_creates_hotel[payload1-True] PASSED [ 16%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload0] PASSED [ 22%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload1] PASSED [ 27%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload2] PASSED [ 33%]
+tests/test_hotel.py::test_desde_dict_invalid_total_habitaciones[payload0] PASSED [ 38%]
+tests/test_hotel.py::test_desde_dict_invalid_total_habitaciones[payload1] PASSED [ 44%]
+tests/test_hotel_service.py::test_crear_hotel_persists_data PASSED       [ 50%]
+tests/test_hotel_service.py::test_eliminar_hotel_marks_inactive PASSED   [ 55%]
+tests/test_hotel_service.py::test_eliminar_hotel_returns_false_when_missing PASSED [ 61%]
+tests/test_hotel_service.py::test_eliminar_hotel_returns_false_on_corrupt PASSED [ 66%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_hotel PASSED     [ 72%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_none_when_missing PASSED [ 77%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_none_on_corrupt PASSED [ 83%]
+tests/test_hotel_service.py::test_modificar_hotel_updates_fields PASSED  [ 88%]
+tests/test_hotel_service.py::test_modificar_hotel_returns_false_when_missing PASSED [ 94%]
+tests/test_hotel_service.py::test_modificar_hotel_returns_false_on_corrupt PASSED [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.12.7-final-0 _______________
+
+Name                   Stmts   Miss  Cover   Missing
+----------------------------------------------------
+src/hotel_service.py      62      0   100%
+----------------------------------------------------
+TOTAL                     62      0   100%
+============================== 18 passed in 0.07s ==============================
+
+

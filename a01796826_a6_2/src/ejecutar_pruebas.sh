@@ -1,10 +1,21 @@
 #!/bin/bash
 set -euo pipefail
 
-FECHA=$(date +%Y%m%d_%H%M%S)
+FECHA=$(date +%d/%m/%Y)
 DIR_REPORTES="test_reports"
-REPORTE="$DIR_REPORTES/test_report_$FECHA.txt"
+REPORTE="$DIR_REPORTES/test_report_log.txt"
 
-mkdir -p "$DIR_REPORTES"
 
-pytest --cov=src.hotel --cov-report=term-missing -v | tee "$REPORTE"
+echo "============================================================" >> "$REPORTE"
+echo "Reporte de pruebas - $FECHA" >> "$REPORTE"
+echo "============================================================" >> "$REPORTE"
+echo "" >> "$REPORTE"
+echo "[TEST] hotel.py" >> "$REPORTE"
+echo "------------------------------------------------------------" >> "$REPORTE"
+pytest --cov=src.hotel --cov-report=term-missing -v 2>&1 | tee -a "$REPORTE"
+echo "" >> "$REPORTE"
+echo "[TEST] hotel_service.py" >> "$REPORTE"
+echo "------------------------------------------------------------" >> "$REPORTE"
+pytest --cov=src.hotel_service --cov-report=term-missing -v 2>&1 | tee -a "$REPORTE"
+echo "" >> "$REPORTE"
+echo "" >> "$REPORTE"

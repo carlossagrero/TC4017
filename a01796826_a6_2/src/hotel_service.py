@@ -1,11 +1,4 @@
 # hotel_service.py
-#
-# Req 1: Implementación de los métodos
-# Req 2 (Hotels):
-# Req 5:errores
-# Req 6: PEP8
-# Req 7:Que cunpla con pylint y con flake8
-#
 
 from __future__ import annotations
 
@@ -39,25 +32,15 @@ class HotelService:
     def _cargar(self) -> Dict[str, Dict[str, Dict[str, Any]]]:
         """
         Carga estructura completa desde el archivo.
-
-        Req 5:
-        - Si el archivo esta corrupto, AlmacenJson imprime error
-          y devuelve estructura valida vacia.
         """
         return self.almacen.cargar()
 
     def _guardar(self, datos: Dict[str, Dict[str, Dict[str, Any]]]) -> None:
         """
         Guarda estructura completa en el archivo.
-
-        Req 2:
-        - Persistencia de datos.
         """
         self.almacen.guardar(datos)
 
-    # =====================================================
-    # Req 2.1.a  Create Hotel
-    # =====================================================
     def crear_hotel(
         self,
         nombre: str,
@@ -66,9 +49,6 @@ class HotelService:
     ) -> Hotel:
         """
         Crea un nuevo hotel y lo guarda en el archivo.
-
-        Req 2.1.a:
-        - Implementa Create Hotel.
         """
         datos = self._cargar()
         datos.setdefault("hoteles", {})
@@ -86,19 +66,9 @@ class HotelService:
 
         return hotel
 
-    # =====================================================
-    # Req 2.1.b  Delete Hotel
-    # =====================================================
     def eliminar_hotel(self, id_hotel: str) -> bool:
         """
         Realiza borrado logico (activo=False).
-
-        Req 2.1.b:
-        - Implementa Delete Hotel.
-
-        Req 5:
-        - Si el hotel esta corrupto en archivo,
-          se imprime error y la ejecucion continua.
         """
         datos = self._cargar()
         hoteles = datos.setdefault("hoteles", {})
@@ -126,19 +96,9 @@ class HotelService:
 
         return True
 
-    # =====================================================
-    # Req 2.1.c  Display Hotel information
-    # =====================================================
     def mostrar_hotel(self, id_hotel: str) -> Optional[Hotel]:
         """
         Devuelve la informacion de un hotel.
-
-        Req 2.1.c:
-        - Implementa Display Hotel information.
-
-        Req 5:
-        - Si los datos estan corruptos,
-          imprime error y retorna None.
         """
         datos = self._cargar()
         hoteles = datos.setdefault("hoteles", {})
@@ -153,9 +113,6 @@ class HotelService:
             imprimir_error(f"Hotel invalido en archivo: {error}")
             return None
 
-    # =====================================================
-    # Req 2.1.d  Modify Hotel Information
-    # =====================================================
     def modificar_hotel(
         self,
         id_hotel: str,
@@ -165,13 +122,6 @@ class HotelService:
     ) -> bool:
         """
         Modifica la informacion de un hotel existente.
-
-        Req 2.1.d:
-        - Implementa Modify Hotel Information.
-
-        Req 5:
-        - Si el registro esta corrupto,
-          imprime error y retorna False.
         """
         datos = self._cargar()
         hoteles = datos.setdefault("hoteles", {})
