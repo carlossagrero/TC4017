@@ -5,24 +5,8 @@
 # ===============================
 # CUMPLIMIENTO DE REQUISITOS
 # ===============================
-#
-# Req 2:
-# - Implementa persistencia en archivos para Hotels, Customers y Reservations
-#   mediante los metodos cargar() y guardar().
-#
-# Req 5:
-# - Maneja archivo invalido o datos corruptos:
-#   * Captura errores de lectura/escritura
-#   * Captura JSONDecodeError si el archivo no es JSON valido
-#   * Imprime errores en consola
-#   * Devuelve estructura vacia valida para que el programa continue
-#
-# Req 6:
-# - Cumple PEP8 (imports ordenados, nombres claros, tipado).
-#
-# Req 7:
-# - Codigo simple, sin imports sin uso, con docstrings y typing
-#   para minimizar warnings en flake8 y pylint.
+
+# Req 2, req 5, req 6 y req 7
 #
 
 from __future__ import annotations
