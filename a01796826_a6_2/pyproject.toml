@@ -16,7 +16,7 @@ dev = [
 ]
 
 [tool.poetry]
-packages = [{ include = "a01796826_a6", from = "src" }]
+packages = [{ include = "src", from = "." }]
 
 [tool.semantic_release]
 branch = "main"

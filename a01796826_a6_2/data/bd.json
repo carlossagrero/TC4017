@@ -1,0 +1,137 @@
+{
+  "hoteles": {
+    "h001": {
+      "id_hotel": "h001",
+      "nombre": "Hotel Central",
+      "ciudad": "CDMX",
+      "total_habitaciones": 50,
+      "activo": true
+    },
+    "h002": {
+      "id_hotel": "h002",
+      "nombre": "Hotel Vista Norte",
+      "ciudad": "Monterrey",
+      "total_habitaciones": 40,
+      "activo": true
+    },
+    "h003": {
+      "id_hotel": "h003",
+      "nombre": "Hotel Playa Azul",
+      "ciudad": "Cancun",
+      "total_habitaciones": 60,
+      "activo": true
+    },
+    "h004": {
+      "id_hotel": "h004",
+      "nombre": "Hotel Real del Sur",
+      "ciudad": "Puebla",
+      "total_habitaciones": 35,
+      "activo": true
+    },
+    "h005": {
+      "id_hotel": "h005",
+      "nombre": "Hotel Luna Dorada",
+      "ciudad": "Guadalajara",
+      "total_habitaciones": 45,
+      "activo": true
+    },
+    "h006": {
+      "id_hotel": "h006",
+      "nombre": "Hotel Sierra Verde",
+      "ciudad": "Toluca",
+      "total_habitaciones": 25,
+      "activo": true
+    },
+    "h007": {
+      "id_hotel": "h007",
+      "nombre": "Hotel Sol Naciente",
+      "ciudad": "Merida",
+      "total_habitaciones": 30,
+      "activo": true
+    },
+    "h008": {
+      "id_hotel": "h008",
+      "nombre": "Hotel Plaza Oriente",
+      "ciudad": "Tijuana",
+      "total_habitaciones": 55,
+      "activo": true
+    },
+    "h009": {
+      "id_hotel": "h009",
+      "nombre": "Hotel Camino Real",
+      "ciudad": "Queretaro",
+      "total_habitaciones": 42,
+      "activo": true
+    },
+    "h010": {
+      "id_hotel": "h010",
+      "nombre": "Hotel Brisa Marina",
+      "ciudad": "Veracruz",
+      "total_habitaciones": 48,
+      "activo": true
+    }
+  },
+  "customers": {
+    "c001": {
+      "id_customer": "c001",
+      "nombre": "Carlos Ramirez",
+      "email": "carlos.ramirez@example.com",
+      "activo": true
+    },
+    "c002": {
+      "id_customer": "c002",
+      "nombre": "Ana Lopez",
+      "email": "ana.lopez@example.com",
+      "activo": true
+    },
+    "c003": {
+      "id_customer": "c003",
+      "nombre": "Luis Hernandez",
+      "email": "luis.hernandez@example.com",
+      "activo": true
+    },
+    "c004": {
+      "id_customer": "c004",
+      "nombre": "Maria Gonzalez",
+      "email": "maria.gonzalez@example.com",
+      "activo": true
+    },
+    "c005": {
+      "id_customer": "c005",
+      "nombre": "Jorge Martinez",
+      "email": "jorge.martinez@example.com",
+      "activo": true
+    },
+    "c006": {
+      "id_customer": "c006",
+      "nombre": "Sofia Torres",
+      "email": "sofia.torres@example.com",
+      "activo": true
+    },
+    "c007": {
+      "id_customer": "c007",
+      "nombre": "Ricardo Diaz",
+      "email": "ricardo.diaz@example.com",
+      "activo": true
+    },
+    "c008": {
+      "id_customer": "c008",
+      "nombre": "Laura Castillo",
+      "email": "laura.castillo@example.com",
+      "activo": true
+    },
+    "c009": {
+      "id_customer": "c009",
+      "nombre": "Pedro Sanchez",
+      "email": "pedro.sanchez@example.com",
+      "activo": true
+    },
+    "c010": {
+      "id_customer": "c010",
+      "nombre": "Diana Flores",
+      "email": "diana.flores@example.com",
+      "activo": true
+    }
+  },
+  "reservations": {}
+}

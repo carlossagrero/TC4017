@@ -1,7 +1,7 @@
 # hotel.py
 # Req 1: Clase Hotel definida aqui.
 # Req 2: Decidí hacer una implementación usando dataclasses y métodos
-# para convertir objetos en diccionarios y viceversa, para facilitar la persistencia en JSON.
+# que conviertan objetos en diccionarios y viceversa, para facilitar la persistencia en JSON.
 # Req 5: Validacion en desde_dict para detectar datos invalidos (se usa en administrador, que continua ejecucion).
 # Req 6: Estilo PEP8 (nombres, largos de linea razonables, imports ordenados).
 # Req 7: Sin patrones tipicos que generen warnings (docstrings, typing, no variables sin uso).
@@ -9,7 +9,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Any, Dict
+from typing import Any, Dict 
 
 
 @dataclass(frozen=True)
