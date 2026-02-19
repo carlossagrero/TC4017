@@ -649,3 +649,243 @@ src/customer.py      20      0   100%
 TOTAL                20      0   100%
 ============================== 27 passed in 0.07s ==============================
 
+============================================================
+Reporte de pruebas - 19/02/2026
+============================================================
+
+[TEST] hotel.py
+------------------------------------------------------------
+============================= test session starts ==============================
+platform darwin -- Python 3.12.7, pytest-9.0.2, pluggy-1.6.0 -- /opt/anaconda3/envs/A6.2/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/carlosisaacsagrerocampos/Library/CloudStorage/OneDrive-ScitumS.AdeC.V/Informacion Personal/Maestría/4to Trimestre/TC4017 - Pruebas de software y aseguramiento de la calidad/Repo/TC4017/a01796826_a6_2
+configfile: pyproject.toml
+plugins: anyio-4.12.1, cov-7.0.0
+collecting ... collected 38 items
+
+tests/test_customer.py::test_a_dict_serializes_fields PASSED             [  2%]
+tests/test_customer.py::test_desde_dict_creates_customer[payload0-True] PASSED [  5%]
+tests/test_customer.py::test_desde_dict_creates_customer[payload1-True] PASSED [  7%]
+tests/test_customer.py::test_desde_dict_missing_required_keys[payload0] PASSED [ 10%]
+tests/test_customer.py::test_desde_dict_missing_required_keys[payload1] PASSED [ 13%]
+tests/test_customer.py::test_desde_dict_missing_required_keys[payload2] PASSED [ 15%]
+tests/test_customer.py::test_desde_dict_invalid_email[payload0] PASSED   [ 18%]
+tests/test_customer.py::test_desde_dict_invalid_email[payload1] PASSED   [ 21%]
+tests/test_customer.py::test_desde_dict_invalid_email[payload2] PASSED   [ 23%]
+tests/test_customer_service.py::test_crear_customer_persists_data PASSED [ 26%]
+tests/test_customer_service.py::test_eliminar_customer_marks_inactive PASSED [ 28%]
+tests/test_customer_service.py::test_eliminar_customer_returns_false_when_missing PASSED [ 31%]
+tests/test_customer_service.py::test_eliminar_customer_returns_false_on_corrupt PASSED [ 34%]
+tests/test_customer_service.py::test_mostrar_customer_returns_customer PASSED [ 36%]
+tests/test_customer_service.py::test_mostrar_customer_returns_none_when_missing PASSED [ 39%]
+tests/test_customer_service.py::test_mostrar_customer_returns_none_on_corrupt PASSED [ 42%]
+tests/test_customer_service.py::test_modificar_customer_updates_fields PASSED [ 44%]
+tests/test_customer_service.py::test_modificar_customer_returns_false_when_missing PASSED [ 47%]
+tests/test_customer_service.py::test_modificar_customer_returns_false_on_corrupt PASSED [ 50%]
+tests/test_customer_service.py::test_modificar_customer_returns_false_on_invalid_email PASSED [ 52%]
+tests/test_hotel.py::test_a_dict_serializes_fields PASSED                [ 55%]
+tests/test_hotel.py::test_desde_dict_creates_hotel[payload0-True] PASSED [ 57%]
+tests/test_hotel.py::test_desde_dict_creates_hotel[payload1-True] PASSED [ 60%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload0] PASSED [ 63%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload1] PASSED [ 65%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload2] PASSED [ 68%]
+tests/test_hotel.py::test_desde_dict_invalid_total_habitaciones[payload0] PASSED [ 71%]
+tests/test_hotel.py::test_desde_dict_invalid_total_habitaciones[payload1] PASSED [ 73%]
+tests/test_hotel_service.py::test_crear_hotel_persists_data PASSED       [ 76%]
+tests/test_hotel_service.py::test_eliminar_hotel_marks_inactive PASSED   [ 78%]
+tests/test_hotel_service.py::test_eliminar_hotel_returns_false_when_missing PASSED [ 81%]
+tests/test_hotel_service.py::test_eliminar_hotel_returns_false_on_corrupt PASSED [ 84%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_hotel PASSED     [ 86%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_none_when_missing PASSED [ 89%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_none_on_corrupt PASSED [ 92%]
+tests/test_hotel_service.py::test_modificar_hotel_updates_fields PASSED  [ 94%]
+tests/test_hotel_service.py::test_modificar_hotel_returns_false_when_missing PASSED [ 97%]
+tests/test_hotel_service.py::test_modificar_hotel_returns_false_on_corrupt PASSED [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.12.7-final-0 _______________
+
+Name           Stmts   Miss  Cover   Missing
+--------------------------------------------
+src/hotel.py      22      0   100%
+--------------------------------------------
+TOTAL             22      0   100%
+============================== 38 passed in 0.14s ==============================
+
+[TEST] hotel_service.py
+------------------------------------------------------------
+============================= test session starts ==============================
+platform darwin -- Python 3.12.7, pytest-9.0.2, pluggy-1.6.0 -- /opt/anaconda3/envs/A6.2/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/carlosisaacsagrerocampos/Library/CloudStorage/OneDrive-ScitumS.AdeC.V/Informacion Personal/Maestría/4to Trimestre/TC4017 - Pruebas de software y aseguramiento de la calidad/Repo/TC4017/a01796826_a6_2
+configfile: pyproject.toml
+plugins: anyio-4.12.1, cov-7.0.0
+collecting ... collected 38 items
+
+tests/test_customer.py::test_a_dict_serializes_fields PASSED             [  2%]
+tests/test_customer.py::test_desde_dict_creates_customer[payload0-True] PASSED [  5%]
+tests/test_customer.py::test_desde_dict_creates_customer[payload1-True] PASSED [  7%]
+tests/test_customer.py::test_desde_dict_missing_required_keys[payload0] PASSED [ 10%]
+tests/test_customer.py::test_desde_dict_missing_required_keys[payload1] PASSED [ 13%]
+tests/test_customer.py::test_desde_dict_missing_required_keys[payload2] PASSED [ 15%]
+tests/test_customer.py::test_desde_dict_invalid_email[payload0] PASSED   [ 18%]
+tests/test_customer.py::test_desde_dict_invalid_email[payload1] PASSED   [ 21%]
+tests/test_customer.py::test_desde_dict_invalid_email[payload2] PASSED   [ 23%]
+tests/test_customer_service.py::test_crear_customer_persists_data PASSED [ 26%]
+tests/test_customer_service.py::test_eliminar_customer_marks_inactive PASSED [ 28%]
+tests/test_customer_service.py::test_eliminar_customer_returns_false_when_missing PASSED [ 31%]
+tests/test_customer_service.py::test_eliminar_customer_returns_false_on_corrupt PASSED [ 34%]
+tests/test_customer_service.py::test_mostrar_customer_returns_customer PASSED [ 36%]
+tests/test_customer_service.py::test_mostrar_customer_returns_none_when_missing PASSED [ 39%]
+tests/test_customer_service.py::test_mostrar_customer_returns_none_on_corrupt PASSED [ 42%]
+tests/test_customer_service.py::test_modificar_customer_updates_fields PASSED [ 44%]
+tests/test_customer_service.py::test_modificar_customer_returns_false_when_missing PASSED [ 47%]
+tests/test_customer_service.py::test_modificar_customer_returns_false_on_corrupt PASSED [ 50%]
+tests/test_customer_service.py::test_modificar_customer_returns_false_on_invalid_email PASSED [ 52%]
+tests/test_hotel.py::test_a_dict_serializes_fields PASSED                [ 55%]
+tests/test_hotel.py::test_desde_dict_creates_hotel[payload0-True] PASSED [ 57%]
+tests/test_hotel.py::test_desde_dict_creates_hotel[payload1-True] PASSED [ 60%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload0] PASSED [ 63%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload1] PASSED [ 65%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload2] PASSED [ 68%]
+tests/test_hotel.py::test_desde_dict_invalid_total_habitaciones[payload0] PASSED [ 71%]
+tests/test_hotel.py::test_desde_dict_invalid_total_habitaciones[payload1] PASSED [ 73%]
+tests/test_hotel_service.py::test_crear_hotel_persists_data PASSED       [ 76%]
+tests/test_hotel_service.py::test_eliminar_hotel_marks_inactive PASSED   [ 78%]
+tests/test_hotel_service.py::test_eliminar_hotel_returns_false_when_missing PASSED [ 81%]
+tests/test_hotel_service.py::test_eliminar_hotel_returns_false_on_corrupt PASSED [ 84%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_hotel PASSED     [ 86%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_none_when_missing PASSED [ 89%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_none_on_corrupt PASSED [ 92%]
+tests/test_hotel_service.py::test_modificar_hotel_updates_fields PASSED  [ 94%]
+tests/test_hotel_service.py::test_modificar_hotel_returns_false_when_missing PASSED [ 97%]
+tests/test_hotel_service.py::test_modificar_hotel_returns_false_on_corrupt PASSED [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.12.7-final-0 _______________
+
+Name                   Stmts   Miss  Cover   Missing
+----------------------------------------------------
+src/hotel_service.py      62      0   100%
+----------------------------------------------------
+TOTAL                     62      0   100%
+============================== 38 passed in 0.10s ==============================
+
+[TEST] customer.py
+------------------------------------------------------------
+============================= test session starts ==============================
+platform darwin -- Python 3.12.7, pytest-9.0.2, pluggy-1.6.0 -- /opt/anaconda3/envs/A6.2/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/carlosisaacsagrerocampos/Library/CloudStorage/OneDrive-ScitumS.AdeC.V/Informacion Personal/Maestría/4to Trimestre/TC4017 - Pruebas de software y aseguramiento de la calidad/Repo/TC4017/a01796826_a6_2
+configfile: pyproject.toml
+plugins: anyio-4.12.1, cov-7.0.0
+collecting ... collected 38 items
+
+tests/test_customer.py::test_a_dict_serializes_fields PASSED             [  2%]
+tests/test_customer.py::test_desde_dict_creates_customer[payload0-True] PASSED [  5%]
+tests/test_customer.py::test_desde_dict_creates_customer[payload1-True] PASSED [  7%]
+tests/test_customer.py::test_desde_dict_missing_required_keys[payload0] PASSED [ 10%]
+tests/test_customer.py::test_desde_dict_missing_required_keys[payload1] PASSED [ 13%]
+tests/test_customer.py::test_desde_dict_missing_required_keys[payload2] PASSED [ 15%]
+tests/test_customer.py::test_desde_dict_invalid_email[payload0] PASSED   [ 18%]
+tests/test_customer.py::test_desde_dict_invalid_email[payload1] PASSED   [ 21%]
+tests/test_customer.py::test_desde_dict_invalid_email[payload2] PASSED   [ 23%]
+tests/test_customer_service.py::test_crear_customer_persists_data PASSED [ 26%]
+tests/test_customer_service.py::test_eliminar_customer_marks_inactive PASSED [ 28%]
+tests/test_customer_service.py::test_eliminar_customer_returns_false_when_missing PASSED [ 31%]
+tests/test_customer_service.py::test_eliminar_customer_returns_false_on_corrupt PASSED [ 34%]
+tests/test_customer_service.py::test_mostrar_customer_returns_customer PASSED [ 36%]
+tests/test_customer_service.py::test_mostrar_customer_returns_none_when_missing PASSED [ 39%]
+tests/test_customer_service.py::test_mostrar_customer_returns_none_on_corrupt PASSED [ 42%]
+tests/test_customer_service.py::test_modificar_customer_updates_fields PASSED [ 44%]
+tests/test_customer_service.py::test_modificar_customer_returns_false_when_missing PASSED [ 47%]
+tests/test_customer_service.py::test_modificar_customer_returns_false_on_corrupt PASSED [ 50%]
+tests/test_customer_service.py::test_modificar_customer_returns_false_on_invalid_email PASSED [ 52%]
+tests/test_hotel.py::test_a_dict_serializes_fields PASSED                [ 55%]
+tests/test_hotel.py::test_desde_dict_creates_hotel[payload0-True] PASSED [ 57%]
+tests/test_hotel.py::test_desde_dict_creates_hotel[payload1-True] PASSED [ 60%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload0] PASSED [ 63%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload1] PASSED [ 65%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload2] PASSED [ 68%]
+tests/test_hotel.py::test_desde_dict_invalid_total_habitaciones[payload0] PASSED [ 71%]
+tests/test_hotel.py::test_desde_dict_invalid_total_habitaciones[payload1] PASSED [ 73%]
+tests/test_hotel_service.py::test_crear_hotel_persists_data PASSED       [ 76%]
+tests/test_hotel_service.py::test_eliminar_hotel_marks_inactive PASSED   [ 78%]
+tests/test_hotel_service.py::test_eliminar_hotel_returns_false_when_missing PASSED [ 81%]
+tests/test_hotel_service.py::test_eliminar_hotel_returns_false_on_corrupt PASSED [ 84%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_hotel PASSED     [ 86%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_none_when_missing PASSED [ 89%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_none_on_corrupt PASSED [ 92%]
+tests/test_hotel_service.py::test_modificar_hotel_updates_fields PASSED  [ 94%]
+tests/test_hotel_service.py::test_modificar_hotel_returns_false_when_missing PASSED [ 97%]
+tests/test_hotel_service.py::test_modificar_hotel_returns_false_on_corrupt PASSED [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.12.7-final-0 _______________
+
+Name              Stmts   Miss  Cover   Missing
+-----------------------------------------------
+src/customer.py      20      0   100%
+-----------------------------------------------
+TOTAL                20      0   100%
+============================== 38 passed in 0.09s ==============================
+
+[TEST] customer_service.py
+------------------------------------------------------------
+============================= test session starts ==============================
+platform darwin -- Python 3.12.7, pytest-9.0.2, pluggy-1.6.0 -- /opt/anaconda3/envs/A6.2/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/carlosisaacsagrerocampos/Library/CloudStorage/OneDrive-ScitumS.AdeC.V/Informacion Personal/Maestría/4to Trimestre/TC4017 - Pruebas de software y aseguramiento de la calidad/Repo/TC4017/a01796826_a6_2
+configfile: pyproject.toml
+plugins: anyio-4.12.1, cov-7.0.0
+collecting ... collected 38 items
+
+tests/test_customer.py::test_a_dict_serializes_fields PASSED             [  2%]
+tests/test_customer.py::test_desde_dict_creates_customer[payload0-True] PASSED [  5%]
+tests/test_customer.py::test_desde_dict_creates_customer[payload1-True] PASSED [  7%]
+tests/test_customer.py::test_desde_dict_missing_required_keys[payload0] PASSED [ 10%]
+tests/test_customer.py::test_desde_dict_missing_required_keys[payload1] PASSED [ 13%]
+tests/test_customer.py::test_desde_dict_missing_required_keys[payload2] PASSED [ 15%]
+tests/test_customer.py::test_desde_dict_invalid_email[payload0] PASSED   [ 18%]
+tests/test_customer.py::test_desde_dict_invalid_email[payload1] PASSED   [ 21%]
+tests/test_customer.py::test_desde_dict_invalid_email[payload2] PASSED   [ 23%]
+tests/test_customer_service.py::test_crear_customer_persists_data PASSED [ 26%]
+tests/test_customer_service.py::test_eliminar_customer_marks_inactive PASSED [ 28%]
+tests/test_customer_service.py::test_eliminar_customer_returns_false_when_missing PASSED [ 31%]
+tests/test_customer_service.py::test_eliminar_customer_returns_false_on_corrupt PASSED [ 34%]
+tests/test_customer_service.py::test_mostrar_customer_returns_customer PASSED [ 36%]
+tests/test_customer_service.py::test_mostrar_customer_returns_none_when_missing PASSED [ 39%]
+tests/test_customer_service.py::test_mostrar_customer_returns_none_on_corrupt PASSED [ 42%]
+tests/test_customer_service.py::test_modificar_customer_updates_fields PASSED [ 44%]
+tests/test_customer_service.py::test_modificar_customer_returns_false_when_missing PASSED [ 47%]
+tests/test_customer_service.py::test_modificar_customer_returns_false_on_corrupt PASSED [ 50%]
+tests/test_customer_service.py::test_modificar_customer_returns_false_on_invalid_email PASSED [ 52%]
+tests/test_hotel.py::test_a_dict_serializes_fields PASSED                [ 55%]
+tests/test_hotel.py::test_desde_dict_creates_hotel[payload0-True] PASSED [ 57%]
+tests/test_hotel.py::test_desde_dict_creates_hotel[payload1-True] PASSED [ 60%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload0] PASSED [ 63%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload1] PASSED [ 65%]
+tests/test_hotel.py::test_desde_dict_missing_required_keys[payload2] PASSED [ 68%]
+tests/test_hotel.py::test_desde_dict_invalid_total_habitaciones[payload0] PASSED [ 71%]
+tests/test_hotel.py::test_desde_dict_invalid_total_habitaciones[payload1] PASSED [ 73%]
+tests/test_hotel_service.py::test_crear_hotel_persists_data PASSED       [ 76%]
+tests/test_hotel_service.py::test_eliminar_hotel_marks_inactive PASSED   [ 78%]
+tests/test_hotel_service.py::test_eliminar_hotel_returns_false_when_missing PASSED [ 81%]
+tests/test_hotel_service.py::test_eliminar_hotel_returns_false_on_corrupt PASSED [ 84%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_hotel PASSED     [ 86%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_none_when_missing PASSED [ 89%]
+tests/test_hotel_service.py::test_mostrar_hotel_returns_none_on_corrupt PASSED [ 92%]
+tests/test_hotel_service.py::test_modificar_hotel_updates_fields PASSED  [ 94%]
+tests/test_hotel_service.py::test_modificar_hotel_returns_false_when_missing PASSED [ 97%]
+tests/test_hotel_service.py::test_modificar_hotel_returns_false_on_corrupt PASSED [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.12.7-final-0 _______________
+
+Name                      Stmts   Miss  Cover   Missing
+-------------------------------------------------------
+src/customer_service.py      66      0   100%
+-------------------------------------------------------
+TOTAL                        66      0   100%
+============================== 38 passed in 0.10s ==============================
+

@@ -12,8 +12,8 @@ from __future__ import annotations
 from typing import Any, Dict, Optional
 from uuid import uuid4
 
-from almacen_json import AlmacenJson, imprimir_error
-from customer import Customer
+from .almacen_json import AlmacenJson, imprimir_error
+from .customer import Customer
 
 
 def generar_id() -> str:

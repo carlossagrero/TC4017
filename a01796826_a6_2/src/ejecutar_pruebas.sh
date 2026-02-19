@@ -24,3 +24,8 @@ echo "[TEST] customer.py" >> "$REPORTE"
 echo "------------------------------------------------------------" >> "$REPORTE"
 pytest --cov=src.customer --cov-report=term-missing -v 2>&1 | tee -a "$REPORTE"
 echo "" >> "$REPORTE"
+
+echo "[TEST] customer_service.py" >> "$REPORTE"
+echo "------------------------------------------------------------" >> "$REPORTE"
+pytest --cov=src.customer_service --cov-report=term-missing -v 2>&1 | tee -a "$REPORTE"
+echo "" >> "$REPORTE"
