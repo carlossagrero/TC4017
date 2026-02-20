@@ -2,6 +2,57 @@
 
 <!-- version list -->
 
+## v0.4.0 (2026-02-20)
+
+### Features
+
+- Clase Resevation con sus atributos
+  ([`1e96f12`](https://github.com/carlossagrero/TC4017/commit/1e96f12c4c4b1bebdf4e1f159559a898be9472d3))
+
+- Interfaz gráfica, no pedida pero ayuda a simular el uso de la app
+  ([`31afed0`](https://github.com/carlossagrero/TC4017/commit/31afed0933964d9f61ab96a7062530faf5a01e28))
+
+### Refactoring
+
+- Corrige advertencias de pylint
+  ([`2a251ed`](https://github.com/carlossagrero/TC4017/commit/2a251edc158cc7c829cd03ce9117b8f2d4e7c7e0))
+
+- Se corrigen errores y advertencias reportadas por flake8 y todas las pruebas passed en pruebas
+  unitarias
+  ([`c1905ed`](https://github.com/carlossagrero/TC4017/commit/c1905ed8b6dc82256e0d823dab49d04653d866af))
+
+### Testing
+
+- Archivo de configuración que indica que código no hace sentido forme parte de una evaluación de
+  cobertura
+  ([`0a293e9`](https://github.com/carlossagrero/TC4017/commit/0a293e968aa92ab50e7900be9bd037adbdb2c7b9))
+
+- Prueba unitaria, no solictada, el objetivo no es que salga al 100% la covertura solo quería probar
+  como se veía si se agrurpaa todo en una prueba, pero esto ya no sería muy unitario
+  ([`a78f156`](https://github.com/carlossagrero/TC4017/commit/a78f156aba543ceb549111b511c69398c1c7d517))
+
+- Pruebas de test_service.py satisfactorias
+  ([`6d88e53`](https://github.com/carlossagrero/TC4017/commit/6d88e5316a0dc183b84297c9c1ee44e460db3435))
+
+- Pruebas ejecutadas correctamente de customer_services.py
+  ([`6e41c82`](https://github.com/carlossagrero/TC4017/commit/6e41c82da3e9a84701d17975a2a8e04718c12016))
+
+- Pruebas exitosas de constumer.py y actualizaci+on de bash
+  ([`0daf496`](https://github.com/carlossagrero/TC4017/commit/0daf496d43dddd0f3c70bdac8fc6e30315c3f49b))
+
+- Pruebas unitarias de customer.py
+  ([`54c0269`](https://github.com/carlossagrero/TC4017/commit/54c02699395c4fbfdb43a4230ff610256a0708e3))
+
+- Resultado de pruebas
+  ([`add97cb`](https://github.com/carlossagrero/TC4017/commit/add97cb10520d412fd843b20eef9ba6a5d43d326))
+
+- Se adecuó script para ejor visualmete la salida en consola
+  ([`437e3d6`](https://github.com/carlossagrero/TC4017/commit/437e3d6c865443db46e30a35440619cdf85a2a23))
+
+- Se creo y probo Reservation satisfactoriamente
+  ([`f92952c`](https://github.com/carlossagrero/TC4017/commit/f92952c03a56c4e214c0d14dcbf5de61e0963147))
+
+
 ## v0.3.0 (2026-02-19)
 
 ### Features
