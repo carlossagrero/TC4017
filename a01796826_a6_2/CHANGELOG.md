@@ -2,6 +2,27 @@
 
 <!-- version list -->
 
+## v1.0.0 (2026-02-20)
+
+### Chores
+
+- Cambios en archivos
+  ([`ebd4aff`](https://github.com/carlossagrero/TC4017/commit/ebd4affcc7bc4cd6c6312d17299c0fe73c63c6ca))
+
+- Se actualizo .gitignore
+  ([`61cfd9d`](https://github.com/carlossagrero/TC4017/commit/61cfd9dd2108d5189079c262192fd00d2c9303d1))
+
+### Documentation
+
+- Documentación del proyecto
+  ([`8a95596`](https://github.com/carlossagrero/TC4017/commit/8a95596cd4a2f11068c035157614e20acd3ba123))
+
+### Features
+
+- Versión estable 1.0.0
+  ([`68d8908`](https://github.com/carlossagrero/TC4017/commit/68d8908fbfce293e7062a573beccb7a235dd33cb))
+
+
 ## v0.5.0 (2026-02-20)
 
 ### Features

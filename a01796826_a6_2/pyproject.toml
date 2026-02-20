@@ -1,6 +1,6 @@
 [project]
 name = "a01796826-a6_2"
-version = "0.4.0"
+version = "1.0.0"
 description = "Aplicación para que simulará ser un hotel"
 readme = "README.md"
 requires-python = "==3.12.7"
