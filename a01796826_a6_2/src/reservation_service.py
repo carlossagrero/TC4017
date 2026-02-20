@@ -49,7 +49,11 @@ class ReservationService:
     # =====================================================
     # Crear reservacion
     # =====================================================
-    def crear_reservation(self, id_customer: str, id_hotel: str) -> Optional[Reservation]:
+    def crear_reservation(
+        self,
+        id_customer: str,
+        id_hotel: str,
+    ) -> Optional[Reservation]:
         """
         Crea una nueva reservacion vinculando un customer con un hotel.
         Retorna la reservacion creada o None si hay error.
@@ -66,7 +70,9 @@ class ReservationService:
         # Validar que el hotel existe
         hoteles = datos.get("hoteles", {})
         if id_hotel not in hoteles:
-            imprimir_error(f"Hotel {id_hotel} no existe")
+            imprimir_error(
+                f"Hotel {id_hotel} no existe"
+            )
             return None
 
         reservation = Reservation(
@@ -76,7 +82,9 @@ class ReservationService:
             activo=True,
         )
 
-        datos["reservations"][reservation.id_reservation] = reservation.a_dict()
+        datos["reservations"][reservation.id_reservation] = (
+            reservation.a_dict()
+        )
         self._guardar(datos)
 
         return reservation
@@ -108,7 +116,9 @@ class ReservationService:
             activo=False,
         )
 
-        reservations[id_reservation] = reservation_cancelada.a_dict()
+        reservations[id_reservation] = (
+            reservation_cancelada.a_dict()
+        )
         self._guardar(datos)
 
         return True
@@ -116,7 +126,10 @@ class ReservationService:
     # =====================================================
     # Mostrar info de reservacion
     # =====================================================
-    def mostrar_reservation(self, id_reservation: str) -> Optional[Reservation]:
+    def mostrar_reservation(
+        self,
+        id_reservation: str,
+    ) -> Optional[Reservation]:
         """
         Devuelve la informacion de una reservacion.
         """

@@ -103,8 +103,11 @@ class HotelManagementApp:
         widgets = self.widgets["customers"]
 
         # === SECCIÓN CREAR ===
-        ttk.Label(frame, text="CREAR NUEVO CLIENTE", font=("Arial", 11, "bold")).grid(
-            row=0, column=0, columnspan=2, sticky=tk.W, pady=(0, 10))
+        ttk.Label(
+            frame,
+            text="CREAR NUEVO CLIENTE",
+            font=("Arial", 11, "bold"),
+        ).grid(row=0, column=0, columnspan=2, sticky=tk.W, pady=(0, 10))
 
         ttk.Label(frame, text="Nombre:", font=("Arial", 10)).grid(
             row=1, column=0, sticky=tk.W, pady=5)
@@ -118,48 +121,80 @@ class HotelManagementApp:
 
         button_frame_crear = ttk.Frame(frame)
         button_frame_crear.grid(row=3, column=0, columnspan=2, pady=10)
-        ttk.Button(button_frame_crear, text="Crear Cliente", command=self._crear_customer).pack(
-            side=tk.LEFT, padx=5)
-        ttk.Button(button_frame_crear, text="Limpiar", command=self._limpiar_customers).pack(
-            side=tk.LEFT, padx=5)
+        ttk.Button(
+            button_frame_crear,
+            text="Crear Cliente",
+            command=self._crear_customer,
+        ).pack(side=tk.LEFT, padx=5)
+        ttk.Button(
+            button_frame_crear,
+            text="Limpiar",
+            command=self._limpiar_customers,
+        ).pack(side=tk.LEFT, padx=5)
 
         # === SECCIÓN BUSCAR/MODIFICAR/ELIMINAR ===
         ttk.Separator(frame, orient=tk.HORIZONTAL).grid(
             row=4, column=0, columnspan=2, sticky="ew", pady=15)
-        ttk.Label(frame, text="BUSCAR / MODIFICAR / ELIMINAR", font=("Arial", 11, "bold")).grid(
-            row=5, column=0, columnspan=2, sticky=tk.W, pady=(0, 10))
+        ttk.Label(
+            frame,
+            text="BUSCAR / MODIFICAR / ELIMINAR",
+            font=("Arial", 11, "bold"),
+        ).grid(row=5, column=0, columnspan=2, sticky=tk.W, pady=(0, 10))
 
         ttk.Label(frame, text="ID Cliente:", font=("Arial", 10)).grid(
             row=6, column=0, sticky=tk.W, pady=5)
         widgets["entry_id"] = ttk.Entry(frame, width=30)
         widgets["entry_id"].grid(row=6, column=1, pady=5, padx=5)
 
-        ttk.Label(frame, text="Nuevo Nombre (opcional):", font=("Arial", 10)).grid(
-            row=7, column=0, sticky=tk.W, pady=5)
+        ttk.Label(
+            frame,
+            text="Nuevo Nombre (opcional):",
+            font=("Arial", 10),
+        ).grid(row=7, column=0, sticky=tk.W, pady=5)
         widgets["entry_nombre_mod"] = ttk.Entry(frame, width=30)
         widgets["entry_nombre_mod"].grid(row=7, column=1, pady=5, padx=5)
 
-        ttk.Label(frame, text="Nuevo Email (opcional):", font=("Arial", 10)).grid(
-            row=8, column=0, sticky=tk.W, pady=5)
+        ttk.Label(
+            frame,
+            text="Nuevo Email (opcional):",
+            font=("Arial", 10),
+        ).grid(row=8, column=0, sticky=tk.W, pady=5)
         widgets["entry_email_mod"] = ttk.Entry(frame, width=30)
         widgets["entry_email_mod"].grid(row=8, column=1, pady=5, padx=5)
 
         button_frame = ttk.Frame(frame)
         button_frame.grid(row=9, column=0, columnspan=2, pady=10)
 
-        ttk.Button(button_frame, text="Buscar", command=self._buscar_customer).pack(
-            side=tk.LEFT, padx=5)
-        ttk.Button(button_frame, text="Modificar", command=self._modificar_customer).pack(
-            side=tk.LEFT, padx=5)
-        ttk.Button(button_frame, text="Eliminar", command=self._eliminar_customer).pack(
-            side=tk.LEFT, padx=5)
+        ttk.Button(
+            button_frame,
+            text="Buscar",
+            command=self._buscar_customer,
+        ).pack(side=tk.LEFT, padx=5)
+        ttk.Button(
+            button_frame,
+            text="Modificar",
+            command=self._modificar_customer,
+        ).pack(side=tk.LEFT, padx=5)
+        ttk.Button(
+            button_frame,
+            text="Eliminar",
+            command=self._eliminar_customer,
+        ).pack(side=tk.LEFT, padx=5)
 
         # Área de resultados
-        ttk.Label(frame, text="Resultado:", font=("Arial", 10, "bold")).grid(
-            row=10, column=0, columnspan=2, sticky=tk.W, pady=(15, 5))
+        ttk.Label(
+            frame,
+            text="Resultado:",
+            font=("Arial", 10, "bold"),
+        ).grid(row=10, column=0, columnspan=2, sticky=tk.W, pady=(15, 5))
         widgets["text_result"] = scrolledtext.ScrolledText(
             frame, width=70, height=10, state=tk.DISABLED)
-        widgets["text_result"].grid(row=11, column=0, columnspan=2, sticky="nsew")
+        widgets["text_result"].grid(
+            row=11,
+            column=0,
+            columnspan=2,
+            sticky="nsew",
+        )
 
     def _crear_tab_hotels(self, tab: ttk.Frame) -> None:
         """
@@ -174,8 +209,11 @@ class HotelManagementApp:
         widgets = self.widgets["hotels"]
 
         # === SECCIÓN CREAR ===
-        ttk.Label(frame, text="CREAR NUEVO HOTEL", font=("Arial", 11, "bold")).grid(
-            row=0, column=0, columnspan=2, sticky=tk.W, pady=(0, 10))
+        ttk.Label(
+            frame,
+            text="CREAR NUEVO HOTEL",
+            font=("Arial", 11, "bold"),
+        ).grid(row=0, column=0, columnspan=2, sticky=tk.W, pady=(0, 10))
 
         ttk.Label(frame, text="Nombre:", font=("Arial", 10)).grid(
             row=1, column=0, sticky=tk.W, pady=5)
@@ -187,55 +225,90 @@ class HotelManagementApp:
         widgets["entry_ciudad"] = ttk.Entry(frame, width=30)
         widgets["entry_ciudad"].grid(row=2, column=1, pady=5, padx=5)
 
-        ttk.Label(frame, text="Total Habitaciones:", font=("Arial", 10)).grid(
-            row=3, column=0, sticky=tk.W, pady=5)
+        ttk.Label(
+            frame,
+            text="Total Habitaciones:",
+            font=("Arial", 10),
+        ).grid(row=3, column=0, sticky=tk.W, pady=5)
         widgets["entry_habitaciones"] = ttk.Entry(frame, width=30)
         widgets["entry_habitaciones"].grid(row=3, column=1, pady=5, padx=5)
 
         button_frame_crear = ttk.Frame(frame)
         button_frame_crear.grid(row=4, column=0, columnspan=2, pady=10)
-        ttk.Button(button_frame_crear, text="Crear Hotel", command=self._crear_hotel).pack(
-            side=tk.LEFT, padx=5)
-        ttk.Button(button_frame_crear, text="Limpiar", command=self._limpiar_hotels).pack(
-            side=tk.LEFT, padx=5)
+        ttk.Button(
+            button_frame_crear,
+            text="Crear Hotel",
+            command=self._crear_hotel,
+        ).pack(side=tk.LEFT, padx=5)
+        ttk.Button(
+            button_frame_crear,
+            text="Limpiar",
+            command=self._limpiar_hotels,
+        ).pack(side=tk.LEFT, padx=5)
 
         # === SECCIÓN BUSCAR/MODIFICAR/ELIMINAR ===
         ttk.Separator(frame, orient=tk.HORIZONTAL).grid(
             row=5, column=0, columnspan=2, sticky="ew", pady=15)
-        ttk.Label(frame, text="BUSCAR / MODIFICAR / ELIMINAR", font=("Arial", 11, "bold")).grid(
-            row=6, column=0, columnspan=2, sticky=tk.W, pady=(0, 10))
+        ttk.Label(
+            frame,
+            text="BUSCAR / MODIFICAR / ELIMINAR",
+            font=("Arial", 11, "bold"),
+        ).grid(row=6, column=0, columnspan=2, sticky=tk.W, pady=(0, 10))
 
         ttk.Label(frame, text="ID Hotel:", font=("Arial", 10)).grid(
             row=7, column=0, sticky=tk.W, pady=5)
         widgets["entry_id"] = ttk.Entry(frame, width=30)
         widgets["entry_id"].grid(row=7, column=1, pady=5, padx=5)
 
-        ttk.Label(frame, text="Nuevo Nombre (opcional):", font=("Arial", 10)).grid(
-            row=8, column=0, sticky=tk.W, pady=5)
+        ttk.Label(
+            frame,
+            text="Nuevo Nombre (opcional):",
+            font=("Arial", 10),
+        ).grid(row=8, column=0, sticky=tk.W, pady=5)
         widgets["entry_nombre_mod"] = ttk.Entry(frame, width=30)
         widgets["entry_nombre_mod"].grid(row=8, column=1, pady=5, padx=5)
 
-        ttk.Label(frame, text="Nueva Ciudad (opcional):", font=("Arial", 10)).grid(
-            row=9, column=0, sticky=tk.W, pady=5)
+        ttk.Label(
+            frame,
+            text="Nueva Ciudad (opcional):",
+            font=("Arial", 10),
+        ).grid(row=9, column=0, sticky=tk.W, pady=5)
         widgets["entry_ciudad_mod"] = ttk.Entry(frame, width=30)
         widgets["entry_ciudad_mod"].grid(row=9, column=1, pady=5, padx=5)
 
         button_frame = ttk.Frame(frame)
         button_frame.grid(row=10, column=0, columnspan=2, pady=10)
 
-        ttk.Button(button_frame, text="Buscar", command=self._buscar_hotel).pack(
-            side=tk.LEFT, padx=5)
-        ttk.Button(button_frame, text="Modificar", command=self._modificar_hotel).pack(
-            side=tk.LEFT, padx=5)
-        ttk.Button(button_frame, text="Eliminar", command=self._eliminar_hotel).pack(
-            side=tk.LEFT, padx=5)
+        ttk.Button(
+            button_frame,
+            text="Buscar",
+            command=self._buscar_hotel,
+        ).pack(side=tk.LEFT, padx=5)
+        ttk.Button(
+            button_frame,
+            text="Modificar",
+            command=self._modificar_hotel,
+        ).pack(side=tk.LEFT, padx=5)
+        ttk.Button(
+            button_frame,
+            text="Eliminar",
+            command=self._eliminar_hotel,
+        ).pack(side=tk.LEFT, padx=5)
 
         # Área de resultados
-        ttk.Label(frame, text="Resultado:", font=("Arial", 10, "bold")).grid(
-            row=11, column=0, columnspan=2, sticky=tk.W, pady=(15, 5))
+        ttk.Label(
+            frame,
+            text="Resultado:",
+            font=("Arial", 10, "bold"),
+        ).grid(row=11, column=0, columnspan=2, sticky=tk.W, pady=(15, 5))
         widgets["text_result"] = scrolledtext.ScrolledText(
             frame, width=70, height=10, state=tk.DISABLED)
-        widgets["text_result"].grid(row=12, column=0, columnspan=2, sticky="nsew")
+        widgets["text_result"].grid(
+            row=12,
+            column=0,
+            columnspan=2,
+            sticky="nsew",
+        )
 
     def _crear_tab_reservations(self, tab: ttk.Frame) -> None:
         """
@@ -250,8 +323,11 @@ class HotelManagementApp:
         widgets = self.widgets["reservations"]
 
         # === SECCIÓN CREAR ===
-        ttk.Label(frame, text="CREAR NUEVA RESERVACIÓN", font=("Arial", 11, "bold")).grid(
-            row=0, column=0, columnspan=2, sticky=tk.W, pady=(0, 10))
+        ttk.Label(
+            frame,
+            text="CREAR NUEVA RESERVACIÓN",
+            font=("Arial", 11, "bold"),
+        ).grid(row=0, column=0, columnspan=2, sticky=tk.W, pady=(0, 10))
 
         ttk.Label(frame, text="ID Cliente:", font=("Arial", 10)).grid(
             row=1, column=0, sticky=tk.W, pady=5)
@@ -266,17 +342,24 @@ class HotelManagementApp:
         button_frame_crear = ttk.Frame(frame)
         button_frame_crear.grid(row=3, column=0, columnspan=2, pady=10)
         ttk.Button(
-            button_frame_crear, text="Crear Reservación",
-            command=self._crear_reservation).pack(
-            side=tk.LEFT, padx=5)
-        ttk.Button(button_frame_crear, text="Limpiar", command=self._limpiar_reservations).pack(
-            side=tk.LEFT, padx=5)
+            button_frame_crear,
+            text="Crear Reservación",
+            command=self._crear_reservation,
+        ).pack(side=tk.LEFT, padx=5)
+        ttk.Button(
+            button_frame_crear,
+            text="Limpiar",
+            command=self._limpiar_reservations,
+        ).pack(side=tk.LEFT, padx=5)
 
         # === SECCIÓN VER/CANCELAR ===
         ttk.Separator(frame, orient=tk.HORIZONTAL).grid(
             row=4, column=0, columnspan=2, sticky="ew", pady=15)
-        ttk.Label(frame, text="VER / CANCELAR", font=("Arial", 11, "bold")).grid(
-            row=5, column=0, columnspan=2, sticky=tk.W, pady=(0, 10))
+        ttk.Label(
+            frame,
+            text="VER / CANCELAR",
+            font=("Arial", 11, "bold"),
+        ).grid(row=5, column=0, columnspan=2, sticky=tk.W, pady=(0, 10))
 
         ttk.Label(frame, text="ID Reservación:", font=("Arial", 10)).grid(
             row=6, column=0, sticky=tk.W, pady=5)
@@ -286,17 +369,31 @@ class HotelManagementApp:
         button_frame = ttk.Frame(frame)
         button_frame.grid(row=7, column=0, columnspan=2, pady=10)
 
-        ttk.Button(button_frame, text="Ver", command=self._buscar_reservation).pack(
-            side=tk.LEFT, padx=5)
-        ttk.Button(button_frame, text="Cancelar", command=self._cancelar_reservation).pack(
-            side=tk.LEFT, padx=5)
+        ttk.Button(
+            button_frame,
+            text="Ver",
+            command=self._buscar_reservation,
+        ).pack(side=tk.LEFT, padx=5)
+        ttk.Button(
+            button_frame,
+            text="Cancelar",
+            command=self._cancelar_reservation,
+        ).pack(side=tk.LEFT, padx=5)
 
         # Área de resultados
-        ttk.Label(frame, text="Resultado:", font=("Arial", 10, "bold")).grid(
-            row=8, column=0, columnspan=2, sticky=tk.W, pady=(15, 5))
+        ttk.Label(
+            frame,
+            text="Resultado:",
+            font=("Arial", 10, "bold"),
+        ).grid(row=8, column=0, columnspan=2, sticky=tk.W, pady=(15, 5))
         widgets["text_result"] = scrolledtext.ScrolledText(
             frame, width=70, height=10, state=tk.DISABLED)
-        widgets["text_result"].grid(row=9, column=0, columnspan=2, sticky="nsew")
+        widgets["text_result"].grid(
+            row=9,
+            column=0,
+            columnspan=2,
+            sticky="nsew",
+        )
 
     # ===== OPERACIONES CLIENTES =====
     def _crear_customer(self) -> None:
@@ -308,7 +405,10 @@ class HotelManagementApp:
         email = widgets["entry_email"].get().strip()
 
         if not nombre or not email:
-            messagebox.showerror("Error", "Por favor complete nombre y email")
+            messagebox.showerror(
+                "Error",
+                "Por favor complete nombre y email",
+            )
             return
 
         try:
@@ -322,7 +422,10 @@ class HotelManagementApp:
             )
             self._limpiar_customers()
         except (ValueError, KeyError, TypeError) as e:
-            messagebox.showerror("Error", f"Error al crear cliente: {str(e)}")
+            messagebox.showerror(
+                "Error",
+                f"Error al crear cliente: {str(e)}",
+            )
 
     def _buscar_customer(self) -> None:
         """
@@ -332,7 +435,10 @@ class HotelManagementApp:
         customer_id = widgets["entry_id"].get().strip()
 
         if not customer_id:
-            messagebox.showerror("Error", "Ingrese un ID de cliente")
+            messagebox.showerror(
+                "Error",
+                "Ingrese un ID de cliente",
+            )
             return
 
         try:
@@ -347,7 +453,10 @@ class HotelManagementApp:
             else:
                 self._mostrar_resultado_customer("✗ Cliente no encontrado")
         except (ValueError, KeyError, TypeError) as e:
-            messagebox.showerror("Error", f"Error al buscar cliente: {str(e)}")
+            messagebox.showerror(
+                "Error",
+                f"Error al buscar cliente: {str(e)}",
+            )
 
     def _modificar_customer(self) -> None:
         """
@@ -359,11 +468,17 @@ class HotelManagementApp:
         email = widgets["entry_email_mod"].get().strip()
 
         if not customer_id:
-            messagebox.showerror("Error", "Ingrese un ID de cliente")
+            messagebox.showerror(
+                "Error",
+                "Ingrese un ID de cliente",
+            )
             return
 
         if not nombre and not email:
-            messagebox.showerror("Error", "Ingrese al menos nombre o email para modificar")
+            messagebox.showerror(
+                "Error",
+                "Ingrese al menos nombre o email para modificar",
+            )
             return
 
         try:
@@ -373,12 +488,19 @@ class HotelManagementApp:
                 email if email else None
             )
             if success:
-                self._mostrar_resultado_customer("✓ Cliente modificado exitosamente")
+                self._mostrar_resultado_customer(
+                    "✓ Cliente modificado exitosamente"
+                )
                 self._limpiar_customers()
             else:
-                self._mostrar_resultado_customer("✗ No se pudo modificar el cliente")
+                self._mostrar_resultado_customer(
+                    "✗ No se pudo modificar el cliente"
+                )
         except (ValueError, KeyError, TypeError) as e:
-            messagebox.showerror("Error", f"Error al modificar cliente: {str(e)}")
+            messagebox.showerror(
+                "Error",
+                f"Error al modificar cliente: {str(e)}",
+            )
 
     def _eliminar_customer(self) -> None:
         """
@@ -388,19 +510,27 @@ class HotelManagementApp:
         customer_id = widgets["entry_id"].get().strip()
 
         if not customer_id:
-            messagebox.showerror("Error", "Ingrese un ID de cliente")
+            messagebox.showerror(
+                "Error",
+                "Ingrese un ID de cliente",
+            )
             return
 
         if messagebox.askyesno("Confirmar", "¿Desea eliminar este cliente?"):
             try:
                 success = self.customer_service.eliminar_customer(customer_id)
                 if success:
-                    self._mostrar_resultado_customer("✓ Cliente eliminado exitosamente")
+                    self._mostrar_resultado_customer(
+                        "✓ Cliente eliminado exitosamente"
+                    )
                     self._limpiar_customers()
                 else:
                     self._mostrar_resultado_customer("✗ Cliente no encontrado")
             except (ValueError, KeyError, TypeError) as e:
-                messagebox.showerror("Error", f"Error al eliminar cliente: {str(e)}")
+                messagebox.showerror(
+                    "Error",
+                    f"Error al eliminar cliente: {str(e)}",
+                )
 
     def _limpiar_customers(self) -> None:
         """
@@ -434,16 +564,26 @@ class HotelManagementApp:
         habitaciones = widgets["entry_habitaciones"].get().strip()
 
         if not nombre or not ciudad or not habitaciones:
-            messagebox.showerror("Error", "Complete todos los campos")
+            messagebox.showerror(
+                "Error",
+                "Complete todos los campos",
+            )
             return
 
         try:
             habitaciones_int = int(habitaciones)
             if habitaciones_int <= 0:
-                messagebox.showerror("Error", "Habitaciones debe ser un número positivo")
+                messagebox.showerror(
+                    "Error",
+                    "Habitaciones debe ser un número positivo",
+                )
                 return
 
-            hotel = self.hotel_service.crear_hotel(nombre, ciudad, habitaciones_int)
+            hotel = self.hotel_service.crear_hotel(
+                nombre,
+                ciudad,
+                habitaciones_int,
+            )
             self._mostrar_resultado_hotel(
                 f"✓ Hotel creado exitosamente\n"
                 f"ID: {hotel.id_hotel}\n"
@@ -454,9 +594,15 @@ class HotelManagementApp:
             )
             self._limpiar_hotels()
         except ValueError:
-            messagebox.showerror("Error", "Habitaciones debe ser un número entero")
+            messagebox.showerror(
+                "Error",
+                "Habitaciones debe ser un número entero",
+            )
         except (KeyError, TypeError) as e:
-            messagebox.showerror("Error", f"Error al crear hotel: {str(e)}")
+            messagebox.showerror(
+                "Error",
+                f"Error al crear hotel: {str(e)}",
+            )
 
     def _buscar_hotel(self) -> None:
         """
@@ -466,7 +612,10 @@ class HotelManagementApp:
         hotel_id = widgets["entry_id"].get().strip()
 
         if not hotel_id:
-            messagebox.showerror("Error", "Ingrese un ID de hotel")
+            messagebox.showerror(
+                "Error",
+                "Ingrese un ID de hotel",
+            )
             return
 
         try:
@@ -482,7 +631,10 @@ class HotelManagementApp:
             else:
                 self._mostrar_resultado_hotel("✗ Hotel no encontrado")
         except (ValueError, KeyError, TypeError) as e:
-            messagebox.showerror("Error", f"Error al buscar hotel: {str(e)}")
+            messagebox.showerror(
+                "Error",
+                f"Error al buscar hotel: {str(e)}",
+            )
 
     def _modificar_hotel(self) -> None:
         """
@@ -494,11 +646,17 @@ class HotelManagementApp:
         ciudad = widgets["entry_ciudad_mod"].get().strip()
 
         if not hotel_id:
-            messagebox.showerror("Error", "Ingrese un ID de hotel")
+            messagebox.showerror(
+                "Error",
+                "Ingrese un ID de hotel",
+            )
             return
 
         if not nombre and not ciudad:
-            messagebox.showerror("Error", "Ingrese al menos un campo para modificar")
+            messagebox.showerror(
+                "Error",
+                "Ingrese al menos un campo para modificar",
+            )
             return
 
         try:
@@ -509,14 +667,24 @@ class HotelManagementApp:
                 None
             )
             if success:
-                self._mostrar_resultado_hotel("✓ Hotel modificado exitosamente")
+                self._mostrar_resultado_hotel(
+                    "✓ Hotel modificado exitosamente"
+                )
                 self._limpiar_hotels()
             else:
-                self._mostrar_resultado_hotel("✗ No se pudo modificar el hotel")
+                self._mostrar_resultado_hotel(
+                    "✗ No se pudo modificar el hotel"
+                )
         except ValueError:
-            messagebox.showerror("Error", "Habitaciones debe ser un número entero")
+            messagebox.showerror(
+                "Error",
+                "Habitaciones debe ser un número entero",
+            )
         except (KeyError, TypeError) as e:
-            messagebox.showerror("Error", f"Error al modificar hotel: {str(e)}")
+            messagebox.showerror(
+                "Error",
+                f"Error al modificar hotel: {str(e)}",
+            )
 
     def _eliminar_hotel(self) -> None:
         """
@@ -526,19 +694,27 @@ class HotelManagementApp:
         hotel_id = widgets["entry_id"].get().strip()
 
         if not hotel_id:
-            messagebox.showerror("Error", "Ingrese un ID de hotel")
+            messagebox.showerror(
+                "Error",
+                "Ingrese un ID de hotel",
+            )
             return
 
         if messagebox.askyesno("Confirmar", "¿Desea eliminar este hotel?"):
             try:
                 success = self.hotel_service.eliminar_hotel(hotel_id)
                 if success:
-                    self._mostrar_resultado_hotel("✓ Hotel eliminado exitosamente")
+                    self._mostrar_resultado_hotel(
+                        "✓ Hotel eliminado exitosamente"
+                    )
                     self._limpiar_hotels()
                 else:
                     self._mostrar_resultado_hotel("✗ Hotel no encontrado")
             except (ValueError, KeyError, TypeError) as e:
-                messagebox.showerror("Error", f"Error al eliminar hotel: {str(e)}")
+                messagebox.showerror(
+                    "Error",
+                    f"Error al eliminar hotel: {str(e)}",
+                )
 
     def _limpiar_hotels(self) -> None:
         """
@@ -572,11 +748,17 @@ class HotelManagementApp:
         hotel_id = widgets["entry_hotel_id"].get().strip()
 
         if not customer_id or not hotel_id:
-            messagebox.showerror("Error", "Ingrese ID de cliente e hotel")
+            messagebox.showerror(
+                "Error",
+                "Ingrese ID de cliente e hotel",
+            )
             return
 
         try:
-            reservation = self.reservation_service.crear_reservation(customer_id, hotel_id)
+            reservation = self.reservation_service.crear_reservation(
+                customer_id,
+                hotel_id,
+            )
             if reservation:
                 self._mostrar_resultado_reservation(
                     f"✓ Reservación creada exitosamente\n"
@@ -587,9 +769,14 @@ class HotelManagementApp:
                 )
                 self._limpiar_reservations()
             else:
-                self._mostrar_resultado_reservation("✗ No se pudo crear la reservación")
+                self._mostrar_resultado_reservation(
+                    "✗ No se pudo crear la reservación"
+                )
         except (ValueError, KeyError, TypeError) as e:
-            messagebox.showerror("Error", f"Error al crear reservación: {str(e)}")
+            messagebox.showerror(
+                "Error",
+                f"Error al crear reservación: {str(e)}",
+            )
 
     def _buscar_reservation(self) -> None:
         """
@@ -599,25 +786,44 @@ class HotelManagementApp:
         reservation_id = widgets["entry_id"].get().strip()
 
         if not reservation_id:
-            messagebox.showerror("Error", "Ingrese un ID de reservación")
+            messagebox.showerror(
+                "Error",
+                "Ingrese un ID de reservación",
+            )
             return
 
         try:
-            reservation = self.reservation_service.mostrar_reservation(reservation_id)
+            reservation = self.reservation_service.mostrar_reservation(
+                reservation_id
+            )
             if reservation:
-                customer = self.customer_service.mostrar_customer(reservation.id_customer)
-                hotel = self.hotel_service.mostrar_hotel(reservation.id_hotel)
+                customer = self.customer_service.mostrar_customer(
+                    reservation.id_customer
+                )
+                hotel = self.hotel_service.mostrar_hotel(
+                    reservation.id_hotel
+                )
 
                 resultado = f"ID: {reservation.id_reservation}\n"
-                resultado += f"Cliente: {customer.nombre if customer else 'No encontrado'}\n"
-                resultado += f"Hotel: {hotel.nombre if hotel else 'No encontrado'}\n"
+                resultado += (
+                    "Cliente: "
+                    f"{customer.nombre if customer else 'No encontrado'}\n"
+                )
+                resultado += (
+                    f"Hotel: {hotel.nombre if hotel else 'No encontrado'}\n"
+                )
                 resultado += f"Activa: {reservation.activo}"
 
                 self._mostrar_resultado_reservation(resultado)
             else:
-                self._mostrar_resultado_reservation("✗ Reservación no encontrada")
+                self._mostrar_resultado_reservation(
+                    "✗ Reservación no encontrada"
+                )
         except (ValueError, KeyError, TypeError) as e:
-            messagebox.showerror("Error", f"Error al buscar reservación: {str(e)}")
+            messagebox.showerror(
+                "Error",
+                f"Error al buscar reservación: {str(e)}",
+            )
 
     def _cancelar_reservation(self) -> None:
         """
@@ -627,19 +833,34 @@ class HotelManagementApp:
         reservation_id = widgets["entry_id"].get().strip()
 
         if not reservation_id:
-            messagebox.showerror("Error", "Ingrese un ID de reservación")
+            messagebox.showerror(
+                "Error",
+                "Ingrese un ID de reservación",
+            )
             return
 
-        if messagebox.askyesno("Confirmar", "¿Desea cancelar esta reservación?"):
+        if messagebox.askyesno(
+            "Confirmar",
+            "¿Desea cancelar esta reservación?",
+        ):
             try:
-                success = self.reservation_service.cancelar_reservation(reservation_id)
+                success = self.reservation_service.cancelar_reservation(
+                    reservation_id
+                )
                 if success:
-                    self._mostrar_resultado_reservation("✓ Reservación cancelada exitosamente")
+                    self._mostrar_resultado_reservation(
+                        "✓ Reservación cancelada exitosamente"
+                    )
                     self._limpiar_reservations()
                 else:
-                    self._mostrar_resultado_reservation("✗ Reservación no encontrada")
+                    self._mostrar_resultado_reservation(
+                        "✗ Reservación no encontrada"
+                    )
             except (ValueError, KeyError, TypeError) as e:
-                messagebox.showerror("Error", f"Error al cancelar: {str(e)}")
+                messagebox.showerror(
+                    "Error",
+                    f"Error al cancelar: {str(e)}",
+                )
 
     def _limpiar_reservations(self) -> None:
         """

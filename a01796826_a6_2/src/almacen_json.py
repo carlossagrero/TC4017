@@ -58,8 +58,10 @@ class AlmacenJson:
 
         Req 5:
         - Si el archivo no existe, devuelve estructura vacia valida.
-        - Si el archivo esta corrupto, imprime error y devuelve estructura vacia.
-        - Si la estructura es invalida, imprime error y normaliza a dict vacios.
+                - Si el archivo esta corrupto, imprime error y devuelve
+                    estructura vacia.
+                - Si la estructura es invalida, imprime error y normaliza
+                    a dict vacios.
 
         Retorna:
             Un dict con llaves:
@@ -68,18 +70,30 @@ class AlmacenJson:
             - reservations
         """
         if not os.path.exists(self.ruta_archivo):
-            return {"hoteles": {}, "customers": {}, "reservations": {}}
+            return {
+                "hoteles": {},
+                "customers": {},
+                "reservations": {},
+            }
 
         try:
             with open(self.ruta_archivo, "r", encoding="utf-8") as archivo:
                 datos = json.load(archivo)
         except (OSError, JSONDecodeError) as error:
             imprimir_error(f"Archivo invalido o no legible: {error}")
-            return {"hoteles": {}, "customers": {}, "reservations": {}}
+            return {
+                "hoteles": {},
+                "customers": {},
+                "reservations": {},
+            }
 
         if not isinstance(datos, dict):
             imprimir_error("Estructura invalida: el JSON raiz no es un dict")
-            return {"hoteles": {}, "customers": {}, "reservations": {}}
+            return {
+                "hoteles": {},
+                "customers": {},
+                "reservations": {},
+            }
 
         hoteles = datos.get("hoteles", {})
         customers = datos.get("customers", {})
@@ -97,7 +111,11 @@ class AlmacenJson:
             imprimir_error("Estructura invalida: 'reservations' no es un dict")
             reservations = {}
 
-        return {"hoteles": hoteles, "customers": customers, "reservations": reservations}
+        return {
+            "hoteles": hoteles,
+            "customers": customers,
+            "reservations": reservations,
+        }
 
     def guardar(self, datos: Dict[str, Dict[str, Dict[str, Any]]]) -> None:
         """

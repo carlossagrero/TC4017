@@ -73,7 +73,8 @@ class CustomerService:
     # =====================================================
     def eliminar_customer(self, id_customer: str) -> bool:
         """
-        Elimina (borrado lógico) no en el archivo un customer marcandolo como inactivo.
+        Elimina (borrado lógico) un customer en el archivo
+        marcandolo como inactivo.
         """
         datos = self._cargar()
         customers = datos.setdefault("customers", {})
