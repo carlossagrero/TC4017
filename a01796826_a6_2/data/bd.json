@@ -69,6 +69,13 @@
       "ciudad": "Veracruz",
       "total_habitaciones": 48,
       "activo": true
+    },
+    "b962d764-4b55-4622-ad51-52350cb736ec": {
+      "id_hotel": "b962d764-4b55-4622-ad51-52350cb736ec",
+      "nombre": "Resort Suites",
+      "ciudad": "CDMX",
+      "total_habitaciones": 10,
+      "activo": true
     }
   },
   "customers": {
@@ -131,7 +138,26 @@
       "nombre": "Diana Flores",
       "email": "diana.flores@example.com",
       "activo": true
+    },
+    "7fd78ed1-0338-492f-8d1d-543622b20f66": {
+      "id_customer": "7fd78ed1-0338-492f-8d1d-543622b20f66",
+      "nombre": "Isaac",
+      "email": "isaac@tec.mx",
+      "activo": true
+    },
+    "ac2e16d0-b514-4cfc-b4ea-e2f7d33d6f70": {
+      "id_customer": "ac2e16d0-b514-4cfc-b4ea-e2f7d33d6f70",
+      "nombre": "Carlos",
+      "email": "carlos@mail.com",
+      "activo": false
     }
   },
-  "reservations": {}
+  "reservations": {
+    "fe3053b1-fe76-446e-abee-9fa293a25b5e": {
+      "id_reservation": "fe3053b1-fe76-446e-abee-9fa293a25b5e",
+      "id_customer": "ac2e16d0-b514-4cfc-b4ea-e2f7d33d6f70",
+      "id_hotel": "b962d764-4b55-4622-ad51-52350cb736ec",
+      "activo": false
+    }
+  }
 }

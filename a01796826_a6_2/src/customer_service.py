@@ -1,4 +1,4 @@
-# customer_service.py
+"""Module for hotel reservation system."""
 #
 # Implementa la lógica de Customers  en una clase CustomerService,
 #

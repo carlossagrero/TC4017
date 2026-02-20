@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Script para ejecutar la aplicación de escritorio del sistema de hoteles
-# Ubicación: src/ejecutar_app.sh
+
 
 # Ir al directorio padre (raíz del proyecto)
 cd "$(dirname "$0")/.."

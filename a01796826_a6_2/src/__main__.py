@@ -1,4 +1,4 @@
-# __main__.py
+"""Module for hotel reservation system."""
 #
 # Permite ejecutar la aplicación como módulo: python -m src.app_desktop
 

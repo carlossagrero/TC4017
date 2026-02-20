@@ -1,4 +1,4 @@
-# reservation_service.py
+"""Module for hotel reservation system."""
 #
 # Implementa la lógica de Reservations para crear, cancelar y,
 # aunque no pedida en los requerimeintos, mostrar info de una reservacion.

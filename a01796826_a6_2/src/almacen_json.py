@@ -1,4 +1,4 @@
-# almacen_json.py
+"""Module for hotel reservation system."""
 #
 # Clase AlmacenJson para persistencia en archivos JSON.
 #

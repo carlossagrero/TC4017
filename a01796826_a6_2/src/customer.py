@@ -1,4 +1,4 @@
-# customer.py
+"""Module for hotel reservation system."""
 #
 # ===============================
 # CUMPLIMIENTO DE REQUISITOS

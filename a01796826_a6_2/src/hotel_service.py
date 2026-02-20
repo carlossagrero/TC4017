@@ -1,4 +1,4 @@
-# hotel_service.py
+"""Module for hotel reservation system."""
 
 from __future__ import annotations
 
