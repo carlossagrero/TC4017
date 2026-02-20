@@ -376,5 +376,5 @@ Proyecto académico para TC4017 - Pruebas de software y aseguramiento de la cali
 Para preguntas o sugerencias sobre el proyecto, contactar al desarrollador.
 
 **Última actualización:** 2026-02-20  
-**Versión:** 0.4.0  
+**Versión:** 1.0.0  
 **Estado:** ✅ Completo y probado
