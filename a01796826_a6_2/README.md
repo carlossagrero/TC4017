@@ -1,6 +1,6 @@
 # 🏨 Sistema de Gestión de Hoteles
 
-Un sistema completo de gestión de hoteles, clientes y reservaciones con interfaz de escritorio (Tkinter) y API de servicios. Incluye validación de datos, persistencia en JSON y suite completa de pruebas unitarias e integración.
+Sistema completo de gestión de hoteles, clientes y reservaciones. Incluye validación de datos, persistencia en JSON y suite completa de pruebas unitarias e integración.
 
 ## 🎯 Características Principales
 
