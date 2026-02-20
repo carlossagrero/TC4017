@@ -34,3 +34,8 @@ echo "[TEST] reservation.py" >> "$REPORTE"
 echo "------------------------------------------------------------" >> "$REPORTE"
 pytest --cov=src.reservation --cov-report=term-missing -v 2>&1 | tee -a "$REPORTE"
 echo "" >> "$REPORTE"
+
+echo "[TEST] reservation_service.py" >> "$REPORTE"
+echo "------------------------------------------------------------" >> "$REPORTE"
+pytest --cov=src.reservation_service --cov-report=term-missing -v 2>&1 | tee -a "$REPORTE"
+echo "" >> "$REPORTE"
